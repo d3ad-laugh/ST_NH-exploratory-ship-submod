@@ -1,0 +1,45 @@
+ship_design = {
+    name = "Constitution III"
+    ship_size = fed_hero_ship_neo_constitution
+    section = {
+        template = "fed_hero_ship_neo_constitution_stern_1"
+        slot = "stern"
+        component = { slot = "SMALL_GUN_01" template = "SMALL_PULSE_PHASER_3" }
+        component = { slot = "MEDIUM_GUN_01" template = "MEDIUM_SHUTTLECRAFT_PHASER_3" }
+        component = { slot = "TORPEDO_01" template = "TORPEDO_C_PHOTON_TORPEDO_6" }
+        component = { slot = "SMALL_GUN_02" template = "SMALL_PULSE_PHASER_3" }
+        component = { slot = "MEDIUM_GUN_02" template = "MEDIUM_SHUTTLECRAFT_PHASER_3" }
+        component = { slot = "TORPEDO_02" template = "TORPEDO_C_PHOTON_TORPEDO_6" }
+        component = { slot = "SMALL_GUN_03" template = "SMALL_PULSE_PHASER_3" }
+        component = { slot = "MEDIUM_GUN_03" template = "MEDIUM_SHUTTLECRAFT_PHASER_3" }
+        component = { slot = "TORPEDO_03" template = "TORPEDO_C_PHOTON_TORPEDO_6" }
+        component = { slot = "SMALL_GUN_04" template = "SMALL_PULSE_PHASER_3" }
+    }
+    section = {
+        template = "fed_hero_ship_neo_constitution_mid_5"
+        slot = "mid"
+        component = { slot = "SMALL_UTILITY_1" template = "utility_small_generator_3" }
+        component = { slot = "SMALL_UTILITY_2" template = "utility_small_hard_5" }
+        component = { slot = "SMALL_UTILITY_3" template = "utility_small_hard_3" }
+        component = { slot = "SMALL_UTILITY_4" template = "utility_small_engineering_station_3" }
+        component = { slot = "SMALL_UTILITY_5" template = "utility_small_hard_3" }
+        component = { slot = "MEDIUM_UTILITY_1" template = "utility_medium_tactical_station_2" }
+        component = { slot = "MEDIUM_UTILITY_2" template = "utility_medium_eps_2" }
+        component = { slot = "LARGE_UTILITY_1" template = "utility_large_afterburner_3" }
+        component = { slot = "LARGE_UTILITY_2" template = "utility_large_deflector_3" }
+        component = { slot = "LARGE_UTILITY_3" template = "utility_large_lab_engineering_3" }
+        component = { slot = "AUX_UTILITY_1" template = "utility_aux_crew_4" }
+        component = { slot = "AUX_UTILITY_2" template = "utility_aux_repair_2" }
+    }
+    required_component = "required_data_fed_exploration_cruiser_neo_constitution_1"
+    required_component = "required_crew"
+    required_component = "required_warp"
+    required_component = "required_computer"
+    required_component = "required_fleet_hero"
+    required_component = "required_defense"
+    required_component = "required_thruster"
+    required_component = "required_hull"
+    required_component = "required_science"
+    required_component = "flagship_module"
+    required_component = "required_science_specialisation"
+}
