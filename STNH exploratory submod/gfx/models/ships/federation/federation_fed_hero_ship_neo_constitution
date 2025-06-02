@@ -1,0 +1,17 @@
+#PDG_ASSET
+entity = {
+	name = "federation_fed_hero_ship_neo_constitution_entity"
+	pdxmesh = "fed_explorer_neo_constitution_mesh"
+	scale = 0.80
+	locator = {	name = "strike_craft_locator_01" rotation = { 0 0 0 } }
+	locator = {	name = "strike_craft_locator_02" rotation = { 0 0 0 } }
+	locator = {	name = "strike_craft_locator_03" rotation = { 0 0 0 } }
+	locator = {	name = "strike_craft_locator_04" rotation = { 0 0 0 } }
+	locator = {	name = "strike_craft_locator_05" rotation = { 0 0 0 } }
+	locator = {	name = "strike_craft_locator_06" rotation = { 0 0 0 } }
+	locator = { name = "part1" position = { 0 0 0 } }
+	locator = { name = "root" position = { 0 0 0 } }
+	default_state = "idle"
+	state = { name = "idle" state_time = 3
+	}	
+}

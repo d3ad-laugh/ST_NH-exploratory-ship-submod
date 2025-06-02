@@ -1,0 +1,7147 @@
+### Individual crew components
+
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_frigate_saladin_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_saladin_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 200 }
+	   upkeep = {  sr_crew = 2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1     }
+	size_restriction = { fed_frigate_saladin }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_frigate_challenger_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_challenger_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 300 }
+	   upkeep = {  sr_crew = 3 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.1     }
+	size_restriction = { fed_frigate_challenger }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_frigate_challenger_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_challenger_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 380 }
+	   upkeep = {  sr_crew = 3.8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_frigate_challenger }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_frigate_challenger_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_challenger_fed_3"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 460 }
+	   upkeep = {  sr_crew = 4.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_frigate_challenger }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+ key = "required_crew_fed_frigate_discovery_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_frigate_discovery_fed_1"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 300 }
+	upkeep = {  sr_crew = 3 }
+ }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 600 ship_hull_mult = 0.1     }
+ size_restriction = { fed_frigate_discovery }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### MACO
+utility_component_template = {
+ key = "required_crew_fed_frigate_discovery_fed_2"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_frigate_discovery_fed_2"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 380 }
+	upkeep = {  sr_crew = 3.8 }
+ }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 500 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+ size_restriction = { fed_frigate_discovery }
+ ai_weight = {
+	weight = 100
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_frigate_discovery_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_frigate_discovery_fed_3"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 460 }
+	upkeep = {  sr_crew = 4.6 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+ size_restriction = { fed_frigate_discovery }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+ 
+
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_frigate_california_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_california_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 300 }
+	   upkeep = {  sr_crew = 3 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.1     }
+	size_restriction = { fed_frigate_california }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_frigate_california_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_california_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 380 }
+	   upkeep = {  sr_crew = 3.8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_frigate_california }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_frigate_california_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_california_fed_3"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 460 }
+	   upkeep = {  sr_crew = 4.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_frigate_california }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_frigate_galen_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_galen_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 300 }
+	   upkeep = {  sr_crew = 3 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.1     }
+	size_restriction = { fed_frigate_galen }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_frigate_galen_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_galen_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 380 }
+	   upkeep = {  sr_crew = 3.8 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1     }
+	size_restriction = { fed_frigate_galen }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Holographic Crew
+ utility_component_template = {
+	key = "required_crew_fed_frigate_galen_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_frigate_galen_fed_3"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 460 }
+	   upkeep = {  sr_crew = 4.6 }
+	}
+	prerequisites = { tech_physics_holo_4 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { fed_frigate_galen }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_scout_freedom_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_freedom_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 48 }
+	   upkeep = {  sr_crew = 0.8 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.10 }
+	size_restriction = { fed_scout_freedom }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_scout_freedom_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_freedom_fed_2"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 64 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.10 ship_weapon_damage = 0.05 }
+	size_restriction = { fed_scout_freedom }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_malachowski_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_malachowski_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.05 ship_armor_mult = 0.05    }
+	size_restriction = { fed_scout_malachowski }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_malachowski_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_malachowski_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 120 }
+	   upkeep = {  sr_crew = 1.2 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_malachowski }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_daedalus_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_daedalus_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 120 }
+	   upkeep = {  sr_crew = 1.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_scout_daedalus }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_daedalus_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_daedalus_fed_3"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 140 }
+	   upkeep = {  sr_crew = 1.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1     }
+	size_restriction = { fed_scout_daedalus }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_oberth_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_oberth_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 140 }
+	   upkeep = {  sr_crew = 1.4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_oberth }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_oberth_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_oberth_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_oberth }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Human Crew
+utility_component_template = {
+ key = "required_crew_fed_scout_akyazi_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_scout_akyazi_fed_1"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 160 }
+	upkeep = {  sr_crew = 1.6 }
+ }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+ size_restriction = { fed_scout_akyazi }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_scout_akyazi_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_scout_akyazi_fed_3"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 200 }
+	upkeep = {  sr_crew = 2 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 300 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+ size_restriction = { fed_scout_akyazi }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_freedom_tng_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_freedom_tng_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 200 }
+	   upkeep = {  sr_crew = 2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1     }
+	size_restriction = { fed_scout_freedom_tng }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_freedom_tng_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_freedom_tng_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   upkeep = {  sr_crew = 1.98 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_freedom_tng }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Hospital Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_olympic_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_olympic_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_olympic }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_olympic_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_olympic_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 260 }
+	   upkeep = {  sr_crew = 2.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_olympic }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_nova_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_nova_fed_3"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1600 }
+	   upkeep = {  sr_crew = 16 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_nova }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_nova_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_nova_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1020 }
+	   upkeep = {  sr_crew = 10.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 2300 ship_hull_mult = 0.2 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { fed_scout_nova }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Cadet Crew
+utility_component_template = {
+	key = "required_crew_fed_scout_protostar_fed_5"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_protostar_fed_5"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 0 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_scout_protostar fed_hero_ship_protostar }
+	ai_weight = {
+	   weight = 250
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_protostar_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_protostar_fed_3"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	size_restriction = { fed_scout_protostar fed_hero_ship_protostar }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_scout_protostar_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_scout_protostar_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 260 }
+	   upkeep = {  sr_crew = 2.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.2 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { fed_scout_protostar fed_hero_ship_protostar }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_light_cruiser_intrepid_type_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_intrepid_type_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 80 }
+	   upkeep = {  sr_crew = 0.8 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_intrepid_type }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_intrepid_type_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_intrepid_type_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_light_cruiser_intrepid_type }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_kelvin_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_kelvin_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 800 }
+	   upkeep = {  sr_crew = 8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 800 ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_kelvin }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_kelvin_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_kelvin_fed_2"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 840 }
+	   upkeep = {  sr_crew = 8.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_light_cruiser_kelvin }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_centaur_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_centaur_fed_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 320 }
+	   upkeep = {  sr_crew = 3.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_centaur }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_centaur_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_centaur_fed_3"
+	icon_frame = 1
+	power = -25
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 440 }
+	   upkeep = {  sr_crew = 4.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_light_cruiser_centaur }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_curry_type_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_curry_type_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 300 }
+	   upkeep = {  sr_crew = 3 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_curry_type }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_curry_type_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_curry_type_fed_3"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_light_cruiser_curry_type }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_niagara_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_niagara_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 540 }
+	   upkeep = {  sr_crew = 5.4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_niagara }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_niagara_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_niagara_fed_3"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 560 }
+	   upkeep = {  sr_crew = 5.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_light_cruiser_niagara }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_steamrunner_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_steamrunner_fed_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 200 }
+	   upkeep = {  sr_crew = 2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_steamrunner }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_steamrunner_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_steamrunner_fed_2"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 320 }
+	   upkeep = {  sr_crew = 3.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_light_cruiser_steamrunner }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_steamrunner_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_steamrunner_fed_3"
+	icon_frame = 1
+	power = -25
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 440 }
+	   upkeep = {  sr_crew = 4.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_light_cruiser_steamrunner }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_saber_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_saber_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_saber }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_saber_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_saber_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 60 }
+	   upkeep = {  sr_crew = 0.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_light_cruiser_saber }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+
+
+   
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_light_cruiser_parliament_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_parliament_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 360 }
+	   upkeep = {  sr_crew = 3.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1     }
+	size_restriction = { fed_light_cruiser_parliament }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_parliament_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_parliament_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_light_cruiser_parliament }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_parliament_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_parliament_fed_3"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 460 }
+	   upkeep = {  sr_crew = 4.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_light_cruiser_parliament }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_light_cruiser_reliant_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_reliant_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 300 }
+	   upkeep = {  sr_crew = 3 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300      }
+	size_restriction = { fed_light_cruiser_reliant }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_reliant_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_reliant_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 320 }
+	   upkeep = {  sr_crew = 3.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_light_cruiser_reliant }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_light_cruiser_reliant_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_light_cruiser_reliant_fed_3"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 340 }
+	   upkeep = {  sr_crew = 3.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 0 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_light_cruiser_reliant }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_nx_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_nx_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_explorer_nx }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_explorer_nx_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_nx_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 120 }
+	   upkeep = {  sr_crew = 1.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_explorer_nx }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_yorktown_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_yorktown_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_cruiser_yorktown }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_yorktown_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_yorktown_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 140 }
+	   upkeep = {  sr_crew = 1.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_heavy_cruiser_yorktown }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_miranda_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_miranda_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_explorer_miranda }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_miranda_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_miranda_fed_3"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 60 }
+	   upkeep = {  sr_crew = 0.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_explorer_miranda }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_new_orleans_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_new_orleans_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 500 }
+	   upkeep = {  sr_crew = 5 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 700 ship_hull_mult = 0.1     }
+	size_restriction = { fed_explorer_new_orleans }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_new_orleans_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_new_orleans_fed_3"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 680 }
+	   upkeep = {  sr_crew = 6.8 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 800 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_explorer_new_orleans }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_cheyenne_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_cheyenne_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 500 }
+	   upkeep = {  sr_crew = 5 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 700 ship_hull_mult = 0.05 ship_speed_mult = 0.1    }
+	size_restriction = { fed_explorer_cheyenne }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_cheyenne_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_cheyenne_fed_3"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 680 }
+	   upkeep = {  sr_crew = 6.8 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 800 ship_hull_mult = 0.1 ship_speed_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_explorer_cheyenne }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_intrepid_class_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_intrepid_class_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_explorer_intrepid_class }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_explorer_intrepid_class_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_intrepid_class_fed_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 320 }
+	   upkeep = {  sr_crew = 3.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_explorer_intrepid_class }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_intrepid_class_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_intrepid_class_fed_3"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 440 }
+	   upkeep = {  sr_crew = 4.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_explorer_intrepid_class }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_century_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_century_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_explorer_century fed_explorer_lamarr }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_explorer_century_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_century_fed_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 320 }
+	   upkeep = {  sr_crew = 3.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_explorer_century fed_explorer_lamarr }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_century_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_century_fed_3"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 440 }
+	   upkeep = {  sr_crew = 4.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_explorer_century fed_explorer_lamarr }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_pathfinder_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_pathfinder_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_explorer_pathfinder }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_explorer_pathfinder_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_pathfinder_fed_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 360 }
+	   upkeep = {  sr_crew = 3.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_explorer_pathfinder }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_pathfinder_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_pathfinder_fed_3"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 460 }
+	   upkeep = {  sr_crew = 4.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_explorer_pathfinder }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_gagarin_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_gagarin_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1     }
+	size_restriction = { fed_explorer_gagarin }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Section 31 Squad
+ utility_component_template = {
+	key = "required_crew_fed_explorer_gagarin_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_gagarin_fed_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_explorer_gagarin }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_explorer_gagarin_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_explorer_gagarin_fed_3"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 460 }
+	   upkeep = {  sr_crew = 4.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_explorer_gagarin }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Multi-Year Mission Crew
+utility_component_template = {
+ key = "required_crew_fed_explorer_dauntless_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_explorer_dauntless_fed_1"
+ icon_frame = 1
+ power = -15
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 160 }
+	upkeep = {  sr_crew = 1.6 }
+ }
+ component_set = "required_crew"
+ modifier = {  ship_hull_mult = 0.1     }
+ size_restriction = { fed_explorer_dauntless }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### MACO
+utility_component_template = {
+ key = "required_crew_fed_explorer_dauntless_fed_2"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_explorer_dauntless_fed_2"
+ icon_frame = 1
+ power = -15
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 320 }
+	upkeep = {  sr_crew = 3.2 }
+ }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+ size_restriction = { fed_explorer_dauntless }
+ ai_weight = {
+	weight = 100
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_explorer_dauntless_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_explorer_dauntless_fed_3"
+ icon_frame = 1
+ power = -20
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 440 }
+	upkeep = {  sr_crew = 4.4 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+ size_restriction = { fed_explorer_dauntless }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+ ### Andorian Crew
+utility_component_template = {
+ key = "required_crew_fed_mmv_loknar_fed_2"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_mmv_loknar_fed_2"
+ icon_frame = 1
+ power = -20
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 120 }
+	upkeep = {  sr_crew = 1.2 }
+ }
+ component_set = "required_crew"
+ modifier = {  ship_hull_mult = 0.1     }
+ size_restriction = { fed_mmv_loknar }
+ ai_weight = {
+	weight = 100
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_mmv_loknar_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_mmv_loknar_fed_3"
+ icon_frame = 1
+ power = -25
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 400 }
+	upkeep = {  sr_crew = 4 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+ size_restriction = { fed_mmv_loknar }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_mmv_farragut_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_farragut_fed_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 140 }
+	   upkeep = {  sr_crew = 1.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_evasion_add = 5     }
+	size_restriction = { fed_mmv_farragut }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_mmv_farragut_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_farragut_fed_2"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 280 }
+	   upkeep = {  sr_crew = 2.8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 0 ship_evasion_add = 7     }
+	size_restriction = { fed_mmv_farragut }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_farragut_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_farragut_fed_3"
+	icon_frame = 1
+	power = -25
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 320 }
+	   upkeep = {  sr_crew = 3.2 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_evasion_add = 10 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_mmv_farragut }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_walker_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_walker_fed_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_mmv_walker }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_mmv_walker_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_walker_fed_2"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 420 }
+	   upkeep = {  sr_crew = 4.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_mmv_walker }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_walker_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_walker_fed_3"
+	icon_frame = 1
+	power = -25
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 540 }
+	   upkeep = {  sr_crew = 5.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_mmv_walker }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_mmv_radiant_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_radiant_fed_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 200 }
+	   upkeep = {  sr_crew = 2 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_mmv_radiant }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_mmv_radiant_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_radiant_fed_2"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 300 }
+	   upkeep = {  sr_crew = 3 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_mmv_radiant }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_radiant_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_radiant_fed_3"
+	icon_frame = 1
+	power = -25
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	size_restriction = { fed_mmv_radiant }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_constellation_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_constellation_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_mmv_constellation }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_constellation_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_constellation_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 80 }
+	   upkeep = {  sr_crew = 0.8 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_mmv_constellation }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_nebula_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_nebula_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_cruiser_nebula }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_nebula_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_nebula_fed_2"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1200 }
+	   upkeep = {  sr_crew = 12 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_heavy_cruiser_nebula }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_sutherland_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_sutherland_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 860 }
+	   upkeep = {  sr_crew = 8.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_cruiser_sutherland }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_sutherland_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_sutherland_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_heavy_cruiser_sutherland }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_akira_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_akira_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 500 }
+	   upkeep = {  sr_crew = 5 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1     }
+	size_restriction = { fed_mmv_akira }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_mmv_akira_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_akira_fed_2"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 720 }
+	   upkeep = {  sr_crew = 7.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_mmv_akira }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_akira_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_akira_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_mmv_akira }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_adv_heavy_cruiser_inquiry_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_adv_heavy_cruiser_inquiry_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 800 }
+	   upkeep = {  sr_crew = 8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 800 ship_hull_mult = 0.2 ship_weapon_damage = 0.1    }
+	size_restriction = { fed_adv_heavy_cruiser_inquiry }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_adv_heavy_cruiser_inquiry_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_adv_heavy_cruiser_inquiry_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 960 }
+	   upkeep = {  sr_crew = 9.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1200 ship_hull_mult = 0.2 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { fed_adv_heavy_cruiser_inquiry }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_achilles_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_achilles_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 860 }
+	   upkeep = {  sr_crew = 8.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_cruiser_achilles }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_achilles_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_achilles_fed_3"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1320 }
+	   upkeep = {  sr_crew = 13.2 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 700 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_heavy_cruiser_achilles }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_norway_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_norway_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 200 }
+	   upkeep = {  sr_crew = 2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_mmv_norway }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_mmv_norway_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_norway_fed_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 340 }
+	   upkeep = {  sr_crew = 3.4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_mmv_norway }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_mmv_sagan_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_sagan_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 660 }
+	   upkeep = {  sr_crew = 6.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900 ship_hull_mult = 0.1     }
+	size_restriction = { fed_mmv_sagan }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_sagan_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_sagan_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1200 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_mmv_sagan }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+utility_component_template = {
+ key = "required_crew_fed_heavy_cruiser_proxima_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_proxima_fed_1"
+ icon_frame = 1
+ power = -20
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 160 }
+	upkeep = {  sr_crew = 1.6 }
+ }
+ component_set = "required_crew"
+ modifier = {  ship_hull_mult = 0.1     }
+ size_restriction = { fed_heavy_cruiser_proxima }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_heavy_cruiser_proxima_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_proxima_fed_3"
+ icon_frame = 1
+ power = -25
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 240 }
+	upkeep = {  sr_crew = 2.4 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+ size_restriction = { fed_heavy_cruiser_proxima }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Multi-Year Mission Crew
+utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_shangri_la_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_shangri_la_fed_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 180 }
+	   upkeep = {  sr_crew = 1.8 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_evasion_mult = 0.05 }
+	size_restriction = { fed_heavy_cruiser_shangri_la }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_shangri_la_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_shangri_la_fed_3"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_evasion_mult = 0.15    }
+	size_restriction = { fed_heavy_cruiser_shangri_la }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_constitution_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_constitution_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   upkeep = {  sr_crew = 2.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_cruiser_constitution fed_flagship_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_constitution_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_constitution_fed_3"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 440 }
+	   upkeep = {  sr_crew = 4.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_heavy_cruiser_constitution fed_flagship_constitution }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_springfield_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_springfield_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   upkeep = {  sr_crew = 2.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_mmv_springfield }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_mmv_springfield_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_mmv_springfield_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 440 }
+	   upkeep = {  sr_crew = 4.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_mmv_springfield }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_sovereign_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_sovereign_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 860 }
+	   upkeep = {  sr_crew = 8.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 }
+	size_restriction = { fed_heavy_cruiser_sovereign fed_flagship_sovereign }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_sovereign_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_sovereign_fed_3"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1320 }
+	   upkeep = {  sr_crew = 13.2 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 700 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_heavy_cruiser_sovereign fed_flagship_sovereign }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_crossfield_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_crossfield_fed_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 140 }
+	   upkeep = {  sr_crew = 1.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_advanced_cruiser_crossfield fed_hero_ship_crossfield }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Section 31 Squad
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_crossfield_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_crossfield_fed_2"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 180 }
+	   upkeep = {  sr_crew = 1.8 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_advanced_cruiser_crossfield fed_hero_ship_crossfield }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complement Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_crossfield_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_crossfield_fed_3"
+	icon_frame = 1
+	power = -25
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 240 }
+	   upkeep = {  sr_crew = 2.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_advanced_cruiser_crossfield fed_hero_ship_crossfield }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_excelsior_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_excelsior_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 700 ship_hull_mult = 0.1     }
+	size_restriction = { fed_advanced_cruiser_excelsior fed_flagship_excelsior }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_excelsior_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_excelsior_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1100 }
+	   upkeep = {  sr_crew = 11 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 800 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_advanced_cruiser_excelsior fed_flagship_excelsior }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_obena_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_obena_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1     }
+	size_restriction = { fed_advanced_cruiser_obena }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_obena_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_obena_fed_3"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1140 }
+	   upkeep = {  sr_crew = 11.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1300 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_advanced_cruiser_obena }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_duderstadt_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_duderstadt_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300      }
+	size_restriction = { fed_advanced_cruiser_duderstadt }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_duderstadt_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_duderstadt_fed_3"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1060 }
+	   upkeep = {  sr_crew = 10.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1100 ship_hull_mult = 0.15 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_advanced_cruiser_duderstadt }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_vesta_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_vesta_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1     }
+	size_restriction = { fed_advanced_cruiser_vesta }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_advanced_cruiser_vesta_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_advanced_cruiser_vesta_fed_3"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1200 }
+	   upkeep = {  sr_crew = 12 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1400 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_advanced_cruiser_vesta }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_command_cruiser_odyssey_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_command_cruiser_odyssey_fed_1"
+	icon_frame = 1
+	power = -90
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 800 }
+	   upkeep = {  sr_crew = 8 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_command_cruiser_odyssey fed_flagship_odyssey }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_command_cruiser_odyssey_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_command_cruiser_odyssey_fed_3"
+	icon_frame = 1
+	power = -105
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1200 }
+	   upkeep = {  sr_crew = 12 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_command_cruiser_odyssey fed_flagship_odyssey }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+ key = "required_crew_fed_command_cruiser_excalibur_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_command_cruiser_excalibur_fed_1"
+ icon_frame = 1
+ power = -90
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 860 }
+	upkeep = {  sr_crew = 8.6 }
+ }
+ component_set = "required_crew"
+ modifier = {  ship_hull_mult = 0.1     }
+ size_restriction = { fed_command_cruiser_excalibur fed_flagship_excalibur }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_command_cruiser_excalibur_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_command_cruiser_excalibur_fed_3"
+ icon_frame = 1
+ power = -105
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 1300 }
+	upkeep = {  sr_crew = 13 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 500 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+ size_restriction = { fed_command_cruiser_excalibur fed_flagship_excalibur }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_federation_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_federation_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 600 }
+	   upkeep = {  sr_crew = 6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_exploration_cruiser_federation }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_federation_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_federation_fed_3"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_exploration_cruiser_federation }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_ambassador_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_ambassador_fed_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 700 }
+	   upkeep = {  sr_crew = 7 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.1     }
+	size_restriction = { fed_exploration_cruiser_ambassador fed_flagship_ambassador }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_ambassador_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_ambassador_fed_3"
+	icon_frame = 1
+	power = -60
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1160 }
+	   upkeep = {  sr_crew = 11.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_exploration_cruiser_ambassador fed_flagship_ambassador }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_galaxy_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_galaxy_fed_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1020 }
+	   upkeep = {  sr_crew = 10.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.1     }
+	size_restriction = { fed_exploration_cruiser_galaxy fed_flagship_galaxy }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_galaxy_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_galaxy_fed_3"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1600 }
+	   upkeep = {  sr_crew = 16 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_exploration_cruiser_galaxy fed_flagship_galaxy }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_luna_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_luna_fed_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1020 }
+	   upkeep = {  sr_crew = 10.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.2 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { fed_exploration_cruiser_luna }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_luna_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_luna_fed_3"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1600 }
+	   upkeep = {  sr_crew = 16 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.3 ship_armor_mult = 0.3 ship_shield_mult = 0.3   }
+	size_restriction = { fed_exploration_cruiser_luna }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_neo_constitution_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_neo_constitution_fed_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1020 }
+	   upkeep = {  sr_crew = 10.2 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_hull_mult = 0.2 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_neo_constitution_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_neo_constitution_fed_3"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1600 }
+	   upkeep = {  sr_crew = 16 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.3 ship_armor_mult = 0.3 ship_shield_mult = 0.3   }
+	size_restriction = { fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_ross_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_ross_fed_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1060 }
+	   upkeep = {  sr_crew = 10.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.2 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { fed_exploration_cruiser_ross }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_exploration_cruiser_ross_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_exploration_cruiser_ross_fed_3"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1700 }
+	   upkeep = {  sr_crew = 17 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900 ship_hull_mult = 0.3 ship_armor_mult = 0.3 ship_shield_mult = 0.3   }
+	size_restriction = { fed_exploration_cruiser_ross }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_escort_defiant_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_escort_defiant_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 60 }
+	   upkeep = {  sr_crew = 0.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_escort_defiant fed_escort_ship_defiant }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_heavy_escort_defiant_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_escort_defiant_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_heavy_escort_defiant fed_escort_ship_defiant }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_escort_prometheus_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_escort_prometheus_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 180 }
+	   upkeep = {  sr_crew = 1.8 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_escort_prometheus }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_heavy_escort_prometheus_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_escort_prometheus_fed_2"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 240 }
+	   upkeep = {  sr_crew = 2.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_heavy_escort_prometheus }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_escort_texas_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_escort_texas_fed_3"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 60 }
+	   upkeep = {  sr_crew = 0.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.3 ship_armor_mult = 0.3 ship_shield_mult = 0.3   }
+	size_restriction = { fed_heavy_escort_texas fed_hero_ship_texas }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### AI Automation
+ utility_component_template = {
+	key = "required_crew_fed_heavy_escort_texas_fed_4"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_escort_texas_fed_4"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	prerequisites = { tech_engineering_texas }
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.25 ship_fire_rate_mult = 0.05 ship_accuracy_add = 15 ship_evasion_add = 5  }
+	size_restriction = { fed_heavy_escort_texas fed_hero_ship_texas }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Human Crew
+ utility_component_template = {
+	key = "required_crew_fed_dreadnought_vengeance_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_dreadnought_vengeance_fed_1"
+	icon_frame = 1
+	power = -90
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_dreadnought_vengeance }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_dreadnought_vengeance_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_dreadnought_vengeance_fed_2"
+	icon_frame = 1
+	power = -90
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1500 }
+	   upkeep = {  sr_crew = 15 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1000 ship_hull_mult = 0.1 ship_weapon_damage = 0.05    }
+	size_restriction = { fed_dreadnought_vengeance }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Multi-Year Mission Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_kelvin_constitution_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_kelvin_constitution_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1500 }
+	   upkeep = {  sr_crew = 15 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 2900 ship_hull_mult = 0.1     }
+	size_restriction = { fed_heavy_cruiser_kelvin_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_heavy_cruiser_kelvin_constitution_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_kelvin_constitution_fed_3"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1500 }
+	   upkeep = {  sr_crew = 15 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 2900 ship_hull_mult = 0.25     }
+	size_restriction = { fed_heavy_cruiser_kelvin_constitution }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_carrier_sarajevo_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_sarajevo_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 30 }
+	   upkeep = {  sr_crew = 0.3 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1     }
+	size_restriction = { fed_carrier_sarajevo }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_carrier_sarajevo_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_sarajevo_fed_2"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_weapon_damage = 0.05 }
+	size_restriction = { fed_carrier_sarajevo }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_carrier_minuteman_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_minuteman_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.15     }
+	size_restriction = { fed_carrier_minuteman }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_carrier_minuteman_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_minuteman_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.15     }
+	size_restriction = { fed_carrier_minuteman }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Marine Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_engle_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_engle_fed_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 260 }
+	   upkeep = {  sr_crew = 2.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 200 ship_hull_mult = 0.17     }
+	size_restriction = { fed_carrier_engle }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_engle_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_engle_fed_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 300 }
+	   upkeep = {  sr_crew = 3 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = 0.2     }
+	size_restriction = { fed_carrier_engle }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Marine Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_ptolomy_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_ptolomy_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2     }
+	size_restriction = { fed_carrier_ptolomy }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_ptolomy_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_ptolomy_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 460 }
+	   upkeep = {  sr_crew = 4.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2     }
+	size_restriction = { fed_carrier_ptolomy }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Marine Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_sydney_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_sydney_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 100 ship_hull_mult = 0.25     }
+	size_restriction = { fed_carrier_sydney }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_sydney_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_sydney_fed_3"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 500 }
+	   upkeep = {  sr_crew = 5 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 400 ship_hull_mult = 0.25     }
+	size_restriction = { fed_carrier_sydney }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Marine Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_iwo_jima_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_iwo_jima_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 800 }
+	   upkeep = {  sr_crew = 8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1100 ship_hull_mult = 0.3     }
+	size_restriction = { fed_carrier_iwo_jima }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_iwo_jima_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_iwo_jima_fed_3"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1400 ship_hull_mult = 0.3     }
+	size_restriction = { fed_carrier_iwo_jima }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Marine Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_samson_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_samson_fed_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 800 }
+	   upkeep = {  sr_crew = 8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 800 ship_hull_mult = 0.3     }
+	size_restriction = { fed_carrier_samson }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Interspecies Crew
+ utility_component_template = {
+	key = "required_crew_fed_carrier_samson_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_carrier_samson_fed_3"
+	icon_frame = 1
+	power = -45
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1100 ship_hull_mult = 0.3     }
+	size_restriction = { fed_carrier_samson }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Fighter Pilot Crew
+utility_component_template = {
+ key = "required_crew_fed_mobile_carrier_typhon_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_mobile_carrier_typhon_fed_1"
+ icon_frame = 1
+ power = -30
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 1100 }
+	upkeep = {  sr_crew = 11 }
+ }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 1900 ship_hull_mult = 0.1     }
+ size_restriction = { fed_mobile_carrier_typhon }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_mobile_carrier_typhon_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_mobile_carrier_typhon_fed_3"
+ icon_frame = 1
+ power = -35
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 1500 }
+	upkeep = {  sr_crew = 15 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 2900 ship_hull_mult = 0.1     }
+ size_restriction = { fed_mobile_carrier_typhon }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}  
+
+### Human Crew
+utility_component_template = {
+ key = "required_crew_fed_heavy_cruiser_polaris_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_polaris_fed_1"
+ icon_frame = 1
+ power = -50
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 900 }
+	upkeep = {  sr_crew = 9 }
+ }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 700      }
+ size_restriction = { fed_heavy_cruiser_polaris fed_flagship_polaris }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Interspecies Crew
+utility_component_template = {
+ key = "required_crew_fed_heavy_cruiser_polaris_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_heavy_cruiser_polaris_fed_3"
+ icon_frame = 1
+ power = -60
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 1400 }
+	upkeep = {  sr_crew = 14 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = { ship_hull_add = 1000 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+ size_restriction = { fed_heavy_cruiser_polaris fed_flagship_polaris }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Human Crew
+utility_component_template = {
+	key = "required_crew_fed_stealth_escort_nimrod_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_stealth_escort_nimrod_fed_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 140 }
+	   upkeep = {  sr_crew = 1.4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_mult = 0.1 ship_weapon_damage = 0.05     }
+	size_restriction = { fed_stealth_escort_nimrod }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Section 31 Squad
+ utility_component_template = {
+	key = "required_crew_fed_stealth_escort_nimrod_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_stealth_escort_nimrod_fed_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 180 }
+	   upkeep = {  sr_crew = 1.8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1    }
+	size_restriction = { fed_stealth_escort_nimrod }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Synth Drones
+ utility_component_template = {
+	key = "required_crew_fed_stealth_escort_deimos_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_stealth_escort_deimos_fed_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 180 }
+	   upkeep = {  sr_crew = 1.8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_mult = 0.1 ship_weapon_damage = 0.05 ship_evasion_mult = 0.05 }
+	size_restriction = { fed_stealth_escort_deimos }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Section 31 Squad
+ utility_component_template = {
+	key = "required_crew_fed_stealth_escort_deimos_fed_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_stealth_escort_deimos_fed_2"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 260 }
+	   upkeep = {  sr_crew = 2.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1 ship_evasion_mult = 0.075 }
+	size_restriction = { fed_stealth_escort_deimos }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_shuttle_shuttlepod_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_shuttle_shuttlepod_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_shuttle_shuttlepod }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_shuttle_class_c_shuttle_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_shuttle_class_c_shuttle_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.3 ship_weapon_damage = 0.07    }
+	size_restriction = { fed_shuttle_class_c_shuttle }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_shuttle_class_f_shuttle_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_shuttle_class_f_shuttle_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_shuttle_class_f_shuttle }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_shuttle_type_7_shuttle_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_shuttle_type_7_shuttle_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.3 ship_weapon_damage = 0.07    }
+	size_restriction = { fed_shuttle_type_7_shuttle }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Runabout Crew
+ utility_component_template = {
+	key = "required_crew_fed_runabout_danube_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_runabout_danube_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_runabout_danube }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tactical Unit
+ utility_component_template = {
+	key = "required_crew_fed_runabout_danube_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_runabout_danube_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.3 ship_weapon_damage = 0.07    }
+	size_restriction = { fed_runabout_danube }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Runabout Crew
+ utility_component_template = {
+	key = "required_crew_fed_runabout_venture_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_runabout_venture_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_runabout_venture }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tactical Unit
+ utility_component_template = {
+	key = "required_crew_fed_runabout_venture_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_runabout_venture_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.5 ship_weapon_damage = 0.07    }
+	size_restriction = { fed_runabout_venture }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Fighter Crew
+utility_component_template = {
+ key = "required_crew_fed_attack_wing_nx_beta_fed_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_attack_wing_nx_beta_fed_1"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 20 }
+	upkeep = {  sr_crew = 0.2 }
+ }
+ component_set = "required_crew"
+ modifier = {  ship_hull_mult = 0.05 ship_weapon_damage = 0.10    }
+ size_restriction = { fed_attack_wing_nx_beta }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Elite Crew
+utility_component_template = {
+ key = "required_crew_fed_attack_wing_nx_beta_fed_3"
+ size = small
+ icon = "GFX_ship_part_required_crew_fed_attack_wing_nx_beta_fed_3"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 20 }
+	upkeep = {  sr_crew = 0.2 }
+ }
+ prerequisites = { tech_society_the_372 }
+ component_set = "required_crew"
+ modifier = {  ship_hull_mult = 0.25 ship_weapon_damage = 0.03    }
+ size_restriction = { fed_attack_wing_nx_beta }
+ ai_weight = {
+	weight = 150
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_attack_wing_galileo_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_attack_wing_galileo_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.10 ship_weapon_damage = 0.14    }
+	size_restriction = { fed_attack_wing_galileo }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Elite Crew
+ utility_component_template = {
+	key = "required_crew_fed_attack_wing_galileo_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_attack_wing_galileo_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.5 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_attack_wing_galileo }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_attack_wing_peregrine_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_attack_wing_peregrine_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_attack_wing_peregrine }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Elite Crew
+ utility_component_template = {
+	key = "required_crew_fed_attack_wing_peregrine_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_attack_wing_peregrine_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.3 ship_weapon_damage = 0.07    }
+	size_restriction = { fed_attack_wing_peregrine }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_attack_wing_gryphon_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_attack_wing_gryphon_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_attack_wing_gryphon }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Elite Crew
+ utility_component_template = {
+	key = "required_crew_fed_attack_wing_gryphon_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_attack_wing_gryphon_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.3 ship_weapon_damage = 0.07    }
+	size_restriction = { fed_attack_wing_gryphon }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_fed_shuttle_aquarius_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_shuttle_aquarius_fed_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.2 ship_weapon_damage = 0.06    }
+	size_restriction = { fed_shuttle_aquarius }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Elite Crew
+ utility_component_template = {
+	key = "required_crew_fed_shuttle_aquarius_fed_3"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_shuttle_aquarius_fed_3"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.3 ship_weapon_damage = 0.07    }
+	size_restriction = { fed_shuttle_aquarius }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_nx_maco_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_nx_maco_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_hero_ship_nx }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Diplomatic Corp
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_nx_diplo_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_nx_diplo_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   produces = { unity = 10 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_nx }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Astrometrics Deatchment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_nx_physics_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_nx_physics_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   produces = { physics_research = 25 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_nx }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Xenobiology Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_nx_society_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_nx_society_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   produces = { society_research = 25 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_nx }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Engineering Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_nx_engineering_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_nx_engineering_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   produces = { engineering_research = 25 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_nx }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_constitution_maco_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_constitution_maco_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   upkeep = {  sr_crew = 2.42 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_hero_ship_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Diplomatic Corp
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_constitution_diplo_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_constitution_diplo_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   produces = { unity = 20 }
+	   upkeep = {  sr_crew = 2.42 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Astrometrics Deatchment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_constitution_physics_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_constitution_physics_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   produces = { physics_research = 50 }
+	   upkeep = {  sr_crew = 2.42 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Xenobiology Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_constitution_society_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_constitution_society_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   produces = { society_research = 50 }
+	   upkeep = {  sr_crew = 2.42 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Engineering Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_constitution_engineering_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_constitution_engineering_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 220 }
+	   produces = { engineering_research = 50 }
+	   upkeep = {  sr_crew = 2.42 }
+	}
+	component_set = "required_crew"
+	size_restriction = { fed_hero_ship_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_excelsior_maco_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_excelsior_maco_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 9.12 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_hero_ship_excelsior }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Diplomatic Corp
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_excelsior_diplo_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_excelsior_diplo_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   produces = { unity = 35 }
+	   upkeep = {  sr_crew = 9.12 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900      }
+	size_restriction = { fed_hero_ship_excelsior }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Astrometrics Deatchment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_excelsior_physics_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_excelsior_physics_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   produces = { physics_research = 75 }
+	   upkeep = {  sr_crew = 9.12 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900      }
+	size_restriction = { fed_hero_ship_excelsior }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Xenobiology Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_excelsior_society_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_excelsior_society_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   produces = { society_research = 75 }
+	   upkeep = {  sr_crew = 9.12 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900      }
+	size_restriction = { fed_hero_ship_excelsior }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Engineering Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_excelsior_engineering_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_excelsior_engineering_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   produces = { engineering_research = 75 }
+	   upkeep = {  sr_crew = 9.12 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 900      }
+	size_restriction = { fed_hero_ship_excelsior }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_ambassador_maco_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_ambassador_maco_1"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 960 }
+	   upkeep = {  sr_crew = 12.48 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1000 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_hero_ship_ambassador }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Diplomatic Corp
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_ambassador_diplo_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_ambassador_diplo_1"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 960 }
+	   produces = { unity = 50 }
+	   upkeep = {  sr_crew = 12.48 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1000      }
+	size_restriction = { fed_hero_ship_ambassador }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Astrometrics Deatchment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_ambassador_physics_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_ambassador_physics_1"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 960 }
+	   produces = { physics_research = 100 }
+	   upkeep = {  sr_crew = 12.48 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1000      }
+	size_restriction = { fed_hero_ship_ambassador }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Xenobiology Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_ambassador_society_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_ambassador_society_1"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 960 }
+	   produces = { society_research = 100 }
+	   upkeep = {  sr_crew = 12.48 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1000      }
+	size_restriction = { fed_hero_ship_ambassador }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Engineering Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_ambassador_engineering_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_ambassador_engineering_1"
+	icon_frame = 1
+	power = -80
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 960 }
+	   produces = { engineering_research = 100 }
+	   upkeep = {  sr_crew = 12.48 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1000      }
+	size_restriction = { fed_hero_ship_ambassador }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_galaxy_maco_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_galaxy_maco_1"
+	icon_frame = 1
+	power = -120
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1240 }
+	   upkeep = {  sr_crew = 17.36 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1200 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_hero_ship_galaxy }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Diplomatic Corp
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_galaxy_diplo_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_galaxy_diplo_1"
+	icon_frame = 1
+	power = -120
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1240 }
+	   produces = { unity = 60 }
+	   upkeep = {  sr_crew = 17.36 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1200      }
+	size_restriction = { fed_hero_ship_galaxy }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Astrometrics Deatchment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_galaxy_physics_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_galaxy_physics_1"
+	icon_frame = 1
+	power = -120
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1240 }
+	   produces = { physics_research = 125 }
+	   upkeep = {  sr_crew = 17.36 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1200      }
+	size_restriction = { fed_hero_ship_galaxy }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Xenobiology Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_galaxy_society_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_galaxy_society_1"
+	icon_frame = 1
+	power = -120
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1240 }
+	   produces = { society_research = 125 }
+	   upkeep = {  sr_crew = 17.36 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1200      }
+	size_restriction = { fed_hero_ship_galaxy }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Engineering Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_galaxy_engineering_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_galaxy_engineering_1"
+	icon_frame = 1
+	power = -120
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1240 }
+	   produces = { engineering_research = 125 }
+	   upkeep = {  sr_crew = 17.36 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1200      }
+	size_restriction = { fed_hero_ship_galaxy }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### MACO
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_sovereign_maco_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_sovereign_maco_1"
+	icon_frame = 1
+	power = -100
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1260 }
+	   upkeep = {  sr_crew = 18.9 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1900 ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Diplomatic Corp
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_sovereign_diplo_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_sovereign_diplo_1"
+	icon_frame = 1
+	power = -100
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1260 }
+	   produces = { unity = 75 }
+	   upkeep = {  sr_crew = 18.9 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1900      }
+	size_restriction = { fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Astrometrics Deatchment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_sovereign_physics_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_sovereign_physics_1"
+	icon_frame = 1
+	power = -100
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1260 }
+	   produces = { physics_research = 150 }
+	   upkeep = {  sr_crew = 18.9 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1900      }
+	size_restriction = { fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Xenobiology Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_sovereign_society_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_sovereign_society_1"
+	icon_frame = 1
+	power = -100
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1260 }
+	   produces = { society_research = 150 }
+	   upkeep = {  sr_crew = 18.9 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1900      }
+	size_restriction = { fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Engineering Detachment
+ utility_component_template = {
+	key = "required_crew_fed_hero_ship_sovereign_engineering_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_fed_hero_ship_sovereign_engineering_1"
+	icon_frame = 1
+	power = -100
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1260 }
+	   produces = { engineering_research = 150 }
+	   upkeep = {  sr_crew = 18.9 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1900      }
+	size_restriction = { fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klingon Crew
+ utility_component_template = {
+	key = "required_crew_kdf_gunboat_borghel_a_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_gunboat_borghel_a_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_gunboat_borghel_a }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klingon Crew
+ utility_component_template = {
+	key = "required_crew_kdf_gunboat_brel_a_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_gunboat_brel_a_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_gunboat_brel_a }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klingon Crew
+ utility_component_template = {
+	key = "required_crew_kdf_bop_borghel_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_bop_borghel_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_bop_borghel }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klingon Crew
+ utility_component_template = {
+	key = "required_crew_kdf_bop_blasrika_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_bop_blasrika_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_bop_blasrika }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klingon Crew
+ utility_component_template = {
+	key = "required_crew_kdf_bop_homcha_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_bop_homcha_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_bop_homcha }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klingon Crew
+ utility_component_template = {
+	key = "required_crew_kdf_bop_brel_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_bop_brel_kdf_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_bop_brel }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klingon Crew
+ utility_component_template = {
+	key = "required_crew_kdf_bop_pagh_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_bop_pagh_kdf_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_bop_pagh }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_battlecruiser_d7_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_battlecruiser_d7_kdf_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 440 }
+	   upkeep = {  sr_crew = 4.4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_battlecruiser_d7 kdf_hero_ship_d7 }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Order of the Bat'Leth
+ utility_component_template = {
+	key = "required_crew_kdf_battlecruiser_d7_kdf_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_battlecruiser_d7_kdf_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 560 }
+	   upkeep = {  sr_crew = 5.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 700 ship_weapon_damage = 0.1 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_battlecruiser_d7 kdf_hero_ship_d7 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_battlecruiser_ktinga_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_battlecruiser_ktinga_kdf_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 800 }
+	   upkeep = {  sr_crew = 8 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1300 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_battlecruiser_ktinga }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Order of the Bat'Leth
+ utility_component_template = {
+	key = "required_crew_kdf_battlecruiser_ktinga_kdf_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_battlecruiser_ktinga_kdf_2"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 940 }
+	   upkeep = {  sr_crew = 9.4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1700 ship_weapon_damage = 0.1 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_battlecruiser_ktinga }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_battlecruiser_jach_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_battlecruiser_jach_kdf_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 400 }
+	   upkeep = {  sr_crew = 4 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 500 ship_weapon_damage = 0.05 ship_hull_mult = -0.05    }
+	size_restriction = { kdf_battlecruiser_jach }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_battlecruiser_norgh_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_battlecruiser_norgh_kdf_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1360 }
+	   upkeep = {  sr_crew = 13.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 2500 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_battlecruiser_norgh }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_battlecruiser_vorcha_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_battlecruiser_vorcha_kdf_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1900 }
+	   upkeep = {  sr_crew = 19 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 3600 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_battlecruiser_vorcha }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_warship_jejha_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_warship_jejha_kdf_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 1800 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_warship_jejha }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_warship_neghvar_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_warship_neghvar_kdf_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 2500 }
+	   upkeep = {  sr_crew = 25 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 4200 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_warship_neghvar kdf_hero_ship_chtang }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_flagship_jehjhong_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_flagship_jehjhong_kdf_1"
+	icon_frame = 1
+	power = -90
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 3000 }
+	   upkeep = {  sr_crew = 30 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 4800 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_flagship_jehjhong }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+ utility_component_template = {
+	key = "required_crew_kdf_strike_ship_feklhr_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_strike_ship_feklhr_kdf_1"
+	icon_frame = 1
+	power = -20
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1500 }
+	   upkeep = {  sr_crew = 15 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 3100 ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_strike_ship_feklhr }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_kdf_shuttle_kivra_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_shuttle_kivra_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_shuttle_kivra }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_kdf_attack_wing_daqtagh_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_attack_wing_daqtagh_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_attack_wing_daqtagh }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_kdf_attack_wing_bop_wing_kdf_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_kdf_attack_wing_bop_wing_kdf_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_weapon_damage = 0.05 ship_hull_mult = -0.1    }
+	size_restriction = { kdf_attack_wing_bop_wing }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_battleship_gallant_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_battleship_gallant_rom_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 700 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_battleship_gallant }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_battleship_gallant_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_battleship_gallant_rom_2"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 300 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_battleship_gallant }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_warbird_valdore_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_warbird_valdore_rom_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 700 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_warbird_valdore }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_warbird_valdore_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_warbird_valdore_rom_2"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1160 }
+	   upkeep = {  sr_crew = 11.6 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.3  }
+	modifier = { ship_hull_add = 800 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_warbird_valdore }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_warbird_vreedex_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_warbird_vreedex_rom_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 1000 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_warbird_vreedex }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_battleship_dderidex_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_battleship_dderidex_rom_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1500 }
+	   upkeep = {  sr_crew = 15 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 1700 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_battleship_dderidex }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_battleship_dderidex_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_battleship_dderidex_rom_2"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1820 }
+	   upkeep = {  sr_crew = 18.2 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.3  }
+	modifier = { ship_hull_add = 1800 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_battleship_dderidex }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_battleship_dkazanak_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_battleship_dkazanak_rom_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.25  }
+	modifier = { ship_hull_add = 500 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_battleship_dkazanak }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_battleship_dkazanak_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_battleship_dkazanak_rom_2"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1400 }
+	   upkeep = {  sr_crew = 14 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.35  }
+	modifier = { ship_hull_add = 800 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_battleship_dkazanak }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_sword_scimitar_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_sword_scimitar_rom_1"
+	icon_frame = 1
+	power = -90
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 2000 }
+	   upkeep = {  sr_crew = 20 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 2300 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_sword_scimitar }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_shrike_cruiser_decius_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_shrike_cruiser_decius_rom_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 600 }
+	   upkeep = {  sr_crew = 6 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.3  }
+	modifier = { ship_hull_add = 600 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_shrike_cruiser_decius }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_shrike_cruiser_decius_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_shrike_cruiser_decius_rom_2"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 700 }
+	   upkeep = {  sr_crew = 7 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.4  }
+	modifier = { ship_hull_add = 900 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_shrike_cruiser_decius }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_shrike_cruiser_vasteme_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_shrike_cruiser_vasteme_rom_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 700 }
+	   upkeep = {  sr_crew = 7 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.25  }
+	modifier = {  ship_hull_mult = -0.2 ship_shield_mult = 0.2    }
+	size_restriction = { rom_shrike_cruiser_vasteme }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_shrike_cruiser_vasteme_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_shrike_cruiser_vasteme_rom_2"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 800 }
+	   upkeep = {  sr_crew = 8 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.3  }
+	modifier = {  ship_hull_mult = -0.3 ship_shield_mult = 0.3    }
+	size_restriction = { rom_shrike_cruiser_vasteme }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+	
+ 
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_shrike_cruiser_khanakh_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_shrike_cruiser_khanakh_rom_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 700 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_shrike_cruiser_khanakh }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_shrike_cruiser_khanakh_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_shrike_cruiser_khanakh_rom_2"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 1000 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_shrike_cruiser_khanakh }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_rom_shuttle_tajen_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_shuttle_tajen_rom_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.05  }
+	modifier = {  ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_shuttle_tajen }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Fighter Crew
+utility_component_template = {
+ key = "required_crew_rom_shuttle_snakehead_rom_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_rom_shuttle_snakehead_rom_1"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 20 }
+	upkeep = {  sr_crew = 0.2 }
+ }
+ component_set = "required_crew"
+ ship_modifier = { ship_shield_damage_mult = 0.05  }
+ modifier = {  ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+ size_restriction = { rom_shuttle_snakehead }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+### Tal Shiar Crew
+utility_component_template = {
+ key = "required_crew_rom_shuttle_snakehead_rom_2"
+ size = small
+ icon = "GFX_ship_part_required_crew_rom_shuttle_snakehead_rom_2"
+ icon_frame = 1
+ power = -5
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 40 }
+	upkeep = {  sr_crew = 0.4 }
+ }
+ component_set = "required_crew"
+ ship_modifier = { ship_shield_damage_mult = 0.15  }
+ modifier = {  ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+ size_restriction = { rom_shuttle_snakehead }
+ ai_weight = {
+	weight = 100
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_rom_attack_wing_shalimar_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_attack_wing_shalimar_rom_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 20 }
+	   upkeep = {  sr_crew = 0.2 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.05  }
+	modifier = {  ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_attack_wing_shalimar }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fighter Crew
+ utility_component_template = {
+	key = "required_crew_rom_attack_wing_scorpion_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_attack_wing_scorpion_rom_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 40 }
+	   upkeep = {  sr_crew = 0.4 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.05  }
+	modifier = {  ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_attack_wing_scorpion }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Reman Guard
+ utility_component_template = {
+	key = "required_crew_rom_sword_scimitar_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_sword_scimitar_rom_2"
+	icon_frame = 1
+	power = -105
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 2420 }
+	   upkeep = {  sr_crew = 24.2 }
+	}
+	prerequisites = { tech_society_21652 }
+	component_set = "required_crew"
+	ship_modifier = { ship_accuracy_add = 6  }
+	modifier = { ship_hull_add = 2400 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_sword_scimitar }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Remote Drone
+ utility_component_template = {
+	key = "required_crew_rom_interceptor_arrenhe_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_interceptor_arrenhe_rom_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 100 }
+	   upkeep = {  sr_crew = 1 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_evasion_add = 20  }
+	modifier = {  ship_hull_mult = -0.2 ship_shield_mult = 0.2    }
+	size_restriction = { rom_interceptor_arrenhe }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+}
+
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_interceptor_arrenhe_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_interceptor_arrenhe_rom_2"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 160 }
+	   upkeep = {  sr_crew = 1.6 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.3  }
+	modifier = { ship_hull_add = 100 ship_hull_mult = -0.3 ship_shield_mult = 0.3    }
+	size_restriction = { rom_interceptor_arrenhe }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_hero_ship_mimicus_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_hero_ship_mimicus_rom_1"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 900 }
+	   upkeep = {  sr_crew = 9 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 2100 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_hero_ship_mimicus }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_hero_ship_mimicus_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_hero_ship_mimicus_rom_2"
+	icon_frame = 1
+	power = -5
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 2300 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_hero_ship_mimicus }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_hero_ship_falchion_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_hero_ship_falchion_rom_1"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 2000 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_hero_ship_falchion }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_hero_ship_falchion_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_hero_ship_falchion_rom_2"
+	icon_frame = 1
+	power = -15
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 2000 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_hero_ship_falchion }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Full Complement
+ utility_component_template = {
+	key = "required_crew_rom_hero_ship_tulwas_rom_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_hero_ship_tulwas_rom_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 1000 ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { rom_hero_ship_tulwas }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Tal Shiar Crew
+ utility_component_template = {
+	key = "required_crew_rom_hero_ship_tulwas_rom_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_rom_hero_ship_tulwas_rom_2"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1000 }
+	   upkeep = {  sr_crew = 10 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 1000 ship_hull_mult = -0.1 ship_shield_mult = 0.1 }
+	size_restriction = { rom_hero_ship_tulwas }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Warriors
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_cruiser_und_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_cruiser_und_1"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 500 }
+	   upkeep = {  sr_crew = 5 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 400 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_cruiser }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Infiltration Troops
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_cruiser_und_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_cruiser_und_2"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 9.12 }
+	}
+	prerequisites = { tech_society_undine_infiltration }
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.35  }
+	modifier = { ship_hull_add = 1000 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_cruiser }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Warriors
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_battleship_und_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_battleship_und_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 660 }
+	   upkeep = {  sr_crew = 6.6 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = {  ship_hull_mult = -0.1 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_battleship }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Infiltration Troops
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_battleship_und_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_battleship_und_2"
+	icon_frame = 1
+	power = -160
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 860 }
+	   upkeep = {  sr_crew = 10.32 }
+	}
+	prerequisites = { tech_society_undine_infiltration }
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.35  }
+	modifier = { ship_hull_add = 100 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_battleship }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Warriors
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_warship_und_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_warship_und_1"
+	icon_frame = 1
+	power = -10
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 760 }
+	   upkeep = {  sr_crew = 7.6 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 1500 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_warship }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Infiltration Troops
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_warship_und_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_warship_und_2"
+	icon_frame = 1
+	power = -30
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 960 }
+	   upkeep = {  sr_crew = 11.52 }
+	}
+	prerequisites = { tech_society_undine_infiltration }
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.35  }
+	modifier = { ship_hull_add = 2000 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_warship }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Warriors
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_vanquisher_und_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_vanquisher_und_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 860 }
+	   upkeep = {  sr_crew = 8.6 }
+	}
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.2  }
+	modifier = { ship_hull_add = 600 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_vanquisher }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Infiltration Troops
+ utility_component_template = {
+	key = "required_crew_undine_01_bio_vanquisher_und_2"
+	size = small
+	icon = "GFX_ship_part_required_crew_undine_01_bio_vanquisher_und_2"
+	icon_frame = 1
+	power = -120
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1060 }
+	   upkeep = {  sr_crew = 12.72 }
+	}
+	prerequisites = { tech_society_undine_infiltration }
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.35  }
+	modifier = { ship_hull_add = 1100 ship_shield_mult = 0.1    }
+	size_restriction = { undine_01_bio_vanquisher }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Xindi Special Forces
+ utility_component_template = {
+	key = "required_crew_xindi_planet_killer_degra_xin_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_xindi_planet_killer_degra_xin_1"
+	icon_frame = 1
+	power = -90
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 500 }
+	   upkeep = {  sr_crew = 5 }
+	}
+	prerequisites = { tech_society_17025 }
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 ship_armor_mult = 0.1 ship_shield_mult = 0.1   }
+	size_restriction = { xindi_planet_killer_degra }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+### A crew out of time
+utility_component_template = {
+ key = "required_crew_time_ship_annorax_kre_1"
+ size = small
+ icon = "GFX_ship_part_required_crew_time_ship_annorax_kre_1"
+ icon_frame = 1
+ power = -155
+ resources = {
+	category = ship_components
+	cost = {  sr_crew = 2000 }
+	upkeep = {  sr_crew = 20 }
+ }
+ prerequisites = { tech_engineering_annoraxian }
+ component_set = "required_crew"
+ ship_modifier = { ship_shield_damage_mult = 0.15  }
+ modifier = { ship_hull_add = 1000 ship_hull_mult = 0.2 ship_armor_mult = 0.05    }
+ size_restriction = { time_ship_annorax }
+ ai_weight = {
+	weight = 50
+	modifier = {
+	   factor = 0.0
+	   resource_stockpile_compare = { resource = alloys value < 100 }
+	}
+ }
+}
+### Son'a Elite
+utility_component_template = {
+	key = "required_crew_sona_collector_ahdar_son_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_sona_collector_ahdar_son_1"
+	icon_frame = 1
+	power = -155
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1500 }
+	   upkeep = {  sr_crew = 15 }
+	}
+	prerequisites = { tech_engineering_sona }
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.35  }
+	modifier = { ship_hull_add = 700 ship_hull_mult = 0.15 ship_armor_mult = 0.05    }
+	size_restriction = { sona_collector_ahdar }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Obsidian Order Operatives
+utility_component_template = {
+	key = "required_crew_cardassian_01_war_cruiser_ekoor_card_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_cardassian_01_war_cruiser_ekoor_card_1"
+	icon_frame = 1
+	power = -50
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 420 }
+	   upkeep = {  sr_crew = 4.2 }
+	}
+	prerequisites = { tech_engineering_ekoor }
+	component_set = "required_crew"
+	ship_modifier = { ship_shield_damage_mult = 0.4  }
+	modifier = {  ship_hull_mult = 0.16 ship_armor_mult = 0.06    }
+	size_restriction = { cardassian_01_war_cruiser_ekoor }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Full Complmenet
+   utility_component_template = {
+      key = "required_crew_kdf_ship_of_the_dead_duj_heg_kdf_1"
+      size = small
+      icon = "GFX_ship_part_required_crew_kdf_ship_of_the_dead_duj_heg_kdf_1"
+      icon_frame = 1
+      power = -90
+      resources = {
+         category = ship_components
+         cost = {  sr_crew = 4000 }
+         upkeep = {  sr_crew = 40 }
+      }
+      component_set = "required_crew"
+      modifier = { ship_hull_add = 7300 ship_weapon_damage = 0.06 ship_hull_mult = -0.2    }
+      size_restriction = { kdf_ship_of_the_dead_duj_heg }
+      ai_weight = {
+         weight = 50
+         modifier = {
+            factor = 0.0
+            resource_stockpile_compare = { resource = alloys value < 100 }
+         }
+      }
+   }
+
+### Station Crew Type-20  - station ships only
+utility_component_template = {
+	key = "REQUIRED_CREW_STATION_1_O"
+	size = small
+	icon = "GFX_ship_part_required_crew_station_1"
+	icon_frame = 1
+	power = -155
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 2518 }
+	   upkeep = {  sr_crew = 25.18 }
+	}
+	size_restriction = { research_starbase deep_space_starbase }
+	ship_modifier = { ship_accuracy_add = 3   }
+	modifier = { ship_shield_mult = 0.3     }
+	prerequisites = { "tech_starbase_3" }
+	component_set = "required_crew"
+	ai_weight = {
+	   weight = 1
+	}
+ }
+
+### Station Crew
+ utility_component_template = {
+	key = "required_crew_deep_space_starbase_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_deep_space_starbase_fed_1"
+	icon_frame = 1
+	power = -155
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 5000 }
+	   upkeep = {  sr_crew = 50 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 7700 ship_hull_mult = 0.26     }
+	size_restriction = { research_starbase deep_space_starbase }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Elite Station Crew
+ utility_component_template = {
+	key = "required_crew_nor_starbase_nor_fed_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_nor_starbase_nor_fed_1"
+	icon_frame = 1
+	power = -155
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 6500 }
+	   upkeep = {  sr_crew = 65 }
+	}
+	prerequisites = { tech_society_the_372 }
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 11500 ship_hull_mult = 0.26     }
+	size_restriction = { nor_starbase_nor }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+ ### Cardassian Elites - Letau
+ utility_component_template = {
+	key = "required_crew_cardassian_01_war_cruiser_letau_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_cardassian_01_war_cruiser_letau_1"
+	icon_frame = 1
+	power = -65
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 1060 }
+	   upkeep = {  sr_crew = 10.6 }
+	}
+	component_set = "required_crew"
+	modifier = { ship_hull_add = 600 ship_hull_mult = 0.2 ship_armor_mult = 0.2 ship_shield_mult = 0.2   }
+	size_restriction = { cardassian_01_war_cruiser_letau }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Cardassian Elites - Kimal
+ utility_component_template = {
+	key = "required_crew_cardassian_01_cruiser_kimal_1"
+	size = small
+	icon = "GFX_ship_part_required_crew_cardassian_01_cruiser_kimal_1"
+	icon_frame = 1
+	power = -35
+	resources = {
+	   category = ship_components
+	   cost = {  sr_crew = 550 }
+	   upkeep = {  sr_crew = 5.6 }
+	}
+	component_set = "required_crew"
+	modifier = {  ship_hull_mult = 0.1 }
+	size_restriction = { cardassian_01_cruiser_kimal }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }

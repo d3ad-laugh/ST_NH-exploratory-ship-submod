@@ -1,0 +1,3884 @@
+### Fighters
+
+
+### Small Transorbital Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -10
+   resources = {
+      category = ship_components
+      cost = { alloys = 20 }
+      upkeep = { alloys = 0.1 sr_crew = 0.2 }
+   }
+   upgrades_to = HANGAR_STANDARD_2_SMALL
+   count = 5
+   regeneration_per_day = 0.11
+   launch_time = 1.95
+   damage = { min = 3 max = 8 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.8
+   tracking = 0.33
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.53
+   speed = 280
+   rotation_speed = 0.32
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_strike_craft_1 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_standard_hangar_1
+   component_set = hangar_standard_1_small
+}
+
+### Transorbital Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_1_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 60 }
+      upkeep = { alloys = 0.3 sr_crew = 0.6 }
+   }
+   upgrades_to = HANGAR_STANDARD_2_MEDIUM
+   count = 15
+   regeneration_per_day = 0.11
+   launch_time = 1.95
+   damage = { min = 3 max = 8 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.8
+   tracking = 0.33
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.53
+   speed = 280
+   rotation_speed = 0.32
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_strike_craft_1 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_standard_hangar_1
+   component_set = hangar_standard_1_medium
+}
+
+### Large Transorbital Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_1_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -50
+   resources = {
+      category = ship_components
+      cost = { alloys = 100 }
+      upkeep = { alloys = 0.5 sr_crew = 1 }
+   }
+   upgrades_to = HANGAR_STANDARD_2_LARGE
+   count = 25
+   regeneration_per_day = 0.11
+   launch_time = 1.95
+   damage = { min = 3 max = 8 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.8
+   tracking = 0.33
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.53
+   speed = 280
+   rotation_speed = 0.32
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_strike_craft_1 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_standard_hangar_1
+   component_set = hangar_standard_1_large
+}
+
+### Small Deep-Space Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_2_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 40 }
+      upkeep = { alloys = 0.2 sr_crew = 0.4 }
+   }
+   upgrades_to = HANGAR_STANDARD_3_SMALL
+   count = 5
+   regeneration_per_day = 0.14
+   launch_time = 1.8
+   damage = { min = 4 max = 17 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.86
+   tracking = 0.42
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.62
+   speed = 350
+   rotation_speed = 0.38
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1258 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_standard_hangar_2
+   component_set = hangar_standard_2_small
+}
+
+### Deep-Space Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_2_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -60
+   resources = {
+      category = ship_components
+      cost = { alloys = 120 }
+      upkeep = { alloys = 0.6 sr_crew = 1.2 }
+   }
+   upgrades_to = HANGAR_STANDARD_3_MEDIUM
+   count = 15
+   regeneration_per_day = 0.14
+   launch_time = 1.8
+   damage = { min = 4 max = 17 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.86
+   tracking = 0.42
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.62
+   speed = 350
+   rotation_speed = 0.38
+   acceleration = 1
+   ship_behavior = bombers_behavior
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1258 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_standard_hangar_2
+   component_set = hangar_standard_2_medium
+}
+
+### Large Deep-Space Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_2_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -100
+   resources = {
+      category = ship_components
+      cost = { alloys = 200 }
+      upkeep = { alloys = 1 sr_crew = 2 }
+   }
+   upgrades_to = HANGAR_STANDARD_3_LARGE
+   count = 25
+   regeneration_per_day = 0.14
+   launch_time = 1.8
+   damage = { min = 4 max = 17 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.86
+   tracking = 0.42
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.62
+   speed = 350
+   rotation_speed = 0.38
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1258 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_standard_hangar_2
+   component_set = hangar_standard_2_large
+}
+
+### Small Space Superiority Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_3_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 55 }
+      upkeep = { alloys = 0.28 sr_crew = 0.55 }
+   }
+   upgrades_to = HANGAR_STANDARD_4_SMALL
+   count = 5
+   regeneration_per_day = 0.16
+   launch_time = 1.7
+   damage = { min = 5 max = 24 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.9
+   tracking = 0.48
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.68
+   speed = 400
+   rotation_speed = 0.42
+   acceleration = 1
+   ship_behavior = bombers_behavior
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1259 }
+   size_restriction = { fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_standard_hangar_3
+   component_set = hangar_standard_3_small
+}
+
+### Space Superiority Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_3_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -80
+   resources = {
+      category = ship_components
+      cost = { alloys = 160 }
+      upkeep = { alloys = 0.8 sr_crew = 1.6 }
+   }
+   upgrades_to = HANGAR_STANDARD_4_MEDIUM
+   count = 15
+   regeneration_per_day = 0.16
+   launch_time = 1.7
+   damage = { min = 5 max = 24 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.9
+   tracking = 0.48
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.68
+   speed = 400
+   rotation_speed = 0.42
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1259 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_standard_hangar_3
+   component_set = hangar_standard_3_medium
+}
+
+### Large Space Superiority Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_3_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -140
+   resources = {
+      category = ship_components
+      cost = { alloys = 270 }
+      upkeep = { alloys = 1.35 sr_crew = 2.7 }
+   }
+   upgrades_to = HANGAR_STANDARD_4_LARGE
+   count = 25
+   regeneration_per_day = 0.16
+   launch_time = 1.7
+   damage = { min = 5 max = 24 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.9
+   tracking = 0.48
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.68
+   speed = 400
+   rotation_speed = 0.42
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1259 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_standard_hangar_3
+   component_set = hangar_standard_3_large
+}
+
+### Small Elite Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_4_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.38 sr_crew = 0.75 }
+   }
+   count = 5
+   regeneration_per_day = 0.19
+   launch_time = 1.55
+   damage = { min = 7 max = 33 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.96
+   tracking = 0.57
+   health = 45
+   armor = 30
+   shield = 20
+   evasion = 0.77
+   speed = 480
+   rotation_speed = 0.48
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1260 }
+   size_restriction = { fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_standard_hangar_4
+   component_set = hangar_standard_4_small
+}
+
+### Elite Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_4_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -110
+   resources = {
+      category = ship_components
+      cost = { alloys = 220 }
+      upkeep = { alloys = 1.1 sr_crew = 2.2 }
+   }
+   count = 15
+   regeneration_per_day = 0.19
+   launch_time = 1.55
+   damage = { min = 7 max = 33 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.96
+   tracking = 0.57
+   health = 45
+   armor = 30
+   shield = 20
+   evasion = 0.77
+   speed = 480
+   rotation_speed = 0.48
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1260 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon }
+   icon = GFX_ship_part_LARGE_standard_hangar_4
+   component_set = hangar_standard_4_medium
+}
+
+### Large Elite Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_STANDARD_4_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -190
+   resources = {
+      category = ship_components
+      cost = { alloys = 370 }
+      upkeep = { alloys = 1.85 sr_crew = 3.7 }
+   }
+   count = 25
+   regeneration_per_day = 0.19
+   launch_time = 1.55
+   damage = { min = 7 max = 33 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.96
+   tracking = 0.57
+   health = 45
+   armor = 30
+   shield = 20
+   evasion = 0.77
+   speed = 480
+   rotation_speed = 0.48
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_dark_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1260 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_standard_hangar_4
+   component_set = hangar_standard_4_large
+}
+
+### Small NX Shuttlepod Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_1_SMALL
+   size = LARGE
+   entity = "shuttlepod_fighter_entity"
+   power = -10
+   resources = {
+      category = ship_components
+      cost = { alloys = 20 }
+      upkeep = { alloys = 0.1 sr_crew = 0.2 }
+   }
+   upgrades_to = HANGAR_FEDERATION_2_SMALL
+   count = 5
+   regeneration_per_day = 0.11
+   launch_time = 1.95
+   damage = { min = 3 max = 8 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.8
+   tracking = 0.33
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.53
+   speed = 280
+   rotation_speed = 0.32
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1302 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_federation_hangar_1
+   component_set = hangar_federation_1_small
+}
+
+### NX Shuttlepod Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_1_MEDIUM
+   size = LARGE
+   entity = "shuttlepod_fighter_entity"
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 60 }
+      upkeep = { alloys = 0.3 sr_crew = 0.6 }
+   }
+   upgrades_to = HANGAR_FEDERATION_2_MEDIUM
+   count = 15
+   regeneration_per_day = 0.11
+   launch_time = 1.95
+   damage = { min = 3 max = 8 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.8
+   tracking = 0.33
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.53
+   speed = 280
+   rotation_speed = 0.32
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1302 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_federation_hangar_1
+   component_set = hangar_federation_1_medium
+}
+
+### Large NX Shuttlepod Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_1_LARGE
+   size = LARGE
+   entity = "shuttlepod_fighter_entity"
+   power = -50
+   resources = {
+      category = ship_components
+      cost = { alloys = 100 }
+      upkeep = { alloys = 0.5 sr_crew = 1 }
+   }
+   upgrades_to = HANGAR_FEDERATION_2_LARGE
+   count = 25
+   regeneration_per_day = 0.11
+   launch_time = 1.95
+   damage = { min = 3 max = 8 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.8
+   tracking = 0.33
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.53
+   speed = 280
+   rotation_speed = 0.32
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1302 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_federation_hangar_1
+   component_set = hangar_federation_1_large
+}
+
+### Small Lander Pod Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_POD_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 40 }
+      upkeep = { alloys = 0.21 sr_crew = 0.42 }
+   }
+   upgrades_to = HANGAR_FEDERATION_POD_4_SMALL
+   count = 8
+   regeneration_per_day = 0.13
+   launch_time = 1.15
+   damage = { min = 3 max = 11 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.85
+   tracking = 0.405
+   health = 15
+   armor = 5
+   shield = 0
+   evasion = 0.605
+   speed = 340
+   rotation_speed = 0.37
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_22334 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_federation_pod_hangar_1
+   component_set = hangar_federation_pod_1_small
+}
+
+### Lander Pod Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_POD_1_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -60
+   resources = {
+      category = ship_components
+      cost = { alloys = 120 }
+      upkeep = { alloys = 0.63 sr_crew = 1.26 }
+   }
+   upgrades_to = HANGAR_FEDERATION_POD_4_MEDIUM
+   count = 24
+   regeneration_per_day = 0.13
+   launch_time = 1.15
+   damage = { min = 3 max = 11 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.85
+   tracking = 0.405
+   health = 15
+   armor = 5
+   shield = 0
+   evasion = 0.605
+   speed = 340
+   rotation_speed = 0.37
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_22334 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_federation_pod_hangar_1
+   component_set = hangar_federation_pod_1_medium
+}
+
+### Large Lander Pod Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_POD_1_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -100
+   resources = {
+      category = ship_components
+      cost = { alloys = 195 }
+      upkeep = { alloys = 1.03 sr_crew = 2.05 }
+   }
+   upgrades_to = HANGAR_FEDERATION_POD_4_LARGE
+   count = 40
+   regeneration_per_day = 0.13
+   launch_time = 1.15
+   damage = { min = 3 max = 11 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.85
+   tracking = 0.405
+   health = 15
+   armor = 5
+   shield = 0
+   evasion = 0.605
+   speed = 340
+   rotation_speed = 0.37
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_22334 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_federation_pod_hangar_1
+   component_set = hangar_federation_pod_1_large
+}
+
+### Small Class F Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_2_SMALL
+   size = LARGE
+   entity = "tos_fighter_entity"
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 40 }
+      upkeep = { alloys = 0.2 sr_crew = 0.4 }
+   }
+   upgrades_to = HANGAR_FEDERATION_3_SMALL
+   count = 5
+   regeneration_per_day = 0.14
+   launch_time = 1.8
+   damage = { min = 5 max = 20 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.86
+   tracking = 0.42
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.62
+   speed = 350
+   rotation_speed = 0.38
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1303 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_federation_hangar_2
+   component_set = hangar_federation_2_small
+}
+
+### Class F Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_2_MEDIUM
+   size = LARGE
+   entity = "tos_fighter_entity"
+   power = -60
+   resources = {
+      category = ship_components
+      cost = { alloys = 120 }
+      upkeep = { alloys = 0.6 sr_crew = 1.2 }
+   }
+   upgrades_to = HANGAR_FEDERATION_3_MEDIUM
+   count = 15
+   regeneration_per_day = 0.14
+   launch_time = 1.8
+   damage = { min = 5 max = 20 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.86
+   tracking = 0.42
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.62
+   speed = 350
+   rotation_speed = 0.38
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1303 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_federation_hangar_2
+   component_set = hangar_federation_2_medium
+}
+
+### Large Class F Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_2_LARGE
+   size = LARGE
+   entity = "tos_fighter_entity"
+   power = -100
+   resources = {
+      category = ship_components
+      cost = { alloys = 200 }
+      upkeep = { alloys = 1 sr_crew = 2 }
+   }
+   upgrades_to = HANGAR_FEDERATION_3_LARGE
+   count = 25
+   regeneration_per_day = 0.14
+   launch_time = 1.8
+   damage = { min = 5 max = 20 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.86
+   tracking = 0.42
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.62
+   speed = 350
+   rotation_speed = 0.38
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1303 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_federation_hangar_2
+   component_set = hangar_federation_2_large
+}
+
+### Small Type 7 Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_3_SMALL
+   size = LARGE
+   entity = "tng_fighter_entity"
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 60 }
+      upkeep = { alloys = 0.3 sr_crew = 0.6 }
+   }
+   upgrades_to = HANGAR_FEDERATION_5_SMALL
+   count = 5
+   regeneration_per_day = 0.17
+   launch_time = 1.65
+   damage = { min = 6 max = 27 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.92
+   tracking = 0.51
+   health = 40
+   armor = 25
+   shield = 10
+   evasion = 0.71
+   speed = 430
+   rotation_speed = 0.44
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_13551 }
+   size_restriction = { fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_federation_hangar_3
+   component_set = hangar_federation_3_small
+}
+
+### Type 7 Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_3_MEDIUM
+   size = LARGE
+   entity = "tng_fighter_entity"
+   power = -90
+   resources = {
+      category = ship_components
+      cost = { alloys = 180 }
+      upkeep = { alloys = 0.9 sr_crew = 1.8 }
+   }
+   upgrades_to = HANGAR_FEDERATION_5_MEDIUM
+   count = 15
+   regeneration_per_day = 0.17
+   launch_time = 1.65
+   damage = { min = 6 max = 27 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.92
+   tracking = 0.51
+   health = 40
+   armor = 25
+   shield = 10
+   evasion = 0.71
+   speed = 430
+   rotation_speed = 0.44
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_13551 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_federation_hangar_3
+   component_set = hangar_federation_3_medium
+}
+
+### Large Type 7 Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_3_LARGE
+   size = LARGE
+   entity = "tng_fighter_entity"
+   power = -150
+   resources = {
+      category = ship_components
+      cost = { alloys = 300 }
+      upkeep = { alloys = 1.5 sr_crew = 3 }
+   }
+   upgrades_to = HANGAR_FEDERATION_5_LARGE
+   count = 25
+   regeneration_per_day = 0.17
+   launch_time = 1.65
+   damage = { min = 6 max = 27 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.92
+   tracking = 0.51
+   health = 40
+   armor = 25
+   shield = 10
+   evasion = 0.71
+   speed = 430
+   rotation_speed = 0.44
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_13551 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_federation_hangar_3
+   component_set = hangar_federation_3_large
+}
+
+### Small Peregrine Assault Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_POD_4_SMALL
+   size = LARGE
+   entity = "peregrine_fighter_entity"
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 70 }
+      upkeep = { alloys = 0.35 sr_crew = 0.7 }
+   }
+   count = 8
+   regeneration_per_day = 0.15
+   launch_time = 1
+   damage = { min = 4 max = 21 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.94
+   tracking = 0.54
+   health = 25
+   armor = 15
+   shield = 10
+   evasion = 0.74
+   speed = 450
+   rotation_speed = 0.46
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1304 }
+   size_restriction = { fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_federation_pod_hangar_4
+   component_set = hangar_federation_pod_4_small
+   upgrades_to = HANGAR_FEDERATION_DELTA_4_SMALL
+}
+
+### Peregrine Assault Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_POD_4_MEDIUM
+   size = LARGE
+   entity = "peregrine_fighter_entity"
+   power = -100
+   resources = {
+      category = ship_components
+      cost = { alloys = 200 }
+      upkeep = { alloys = 1 sr_crew = 2 }
+   }
+   count = 24
+   regeneration_per_day = 0.15
+   launch_time = 1
+   damage = { min = 4 max = 21 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.94
+   tracking = 0.54
+   health = 25
+   armor = 15
+   shield = 10
+   evasion = 0.74
+   speed = 450
+   rotation_speed = 0.46
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1304 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_federation_pod_hangar_4
+   component_set = hangar_federation_pod_4_medium
+   upgrades_to = HANGAR_FEDERATION_DELTA_4_MEDIUM
+}
+
+### Large Peregrine Assault Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_POD_4_LARGE
+   size = LARGE
+   entity = "peregrine_fighter_entity"
+   power = -170
+   resources = {
+      category = ship_components
+      cost = { alloys = 335 }
+      upkeep = { alloys = 1.68 sr_crew = 3.35 }
+   }
+   count = 40
+   regeneration_per_day = 0.15
+   launch_time = 1
+   damage = { min = 4 max = 21 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.94
+   tracking = 0.54
+   health = 25
+   armor = 15
+   shield = 10
+   evasion = 0.74
+   speed = 450
+   rotation_speed = 0.46
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1304 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_federation_pod_hangar_4
+   component_set = hangar_federation_pod_4_large
+   upgrades_to = HANGAR_FEDERATION_DELTA_4_LARGE
+}
+
+### Small Delta Flyer Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_DELTA_4_SMALL
+   size = LARGE
+   entity = "delta_flyer_fighter_entity"
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.4 sr_crew = 0.79 }
+   }
+   count = 1
+   regeneration_per_day = 0.53
+   launch_time = 7.88
+   damage = { min = 21 max = 105 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 250
+   armor = 185
+   shield = 110
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1305 }
+   size_restriction = { fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_federation_delta_hangar_4
+   component_set = hangar_federation_delta_4_small
+}
+
+### Delta Flyer Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_DELTA_4_MEDIUM
+   size = LARGE
+   entity = "delta_flyer_fighter_entity"
+   power = -120
+   resources = {
+      category = ship_components
+      cost = { alloys = 225 }
+      upkeep = { alloys = 1.19 sr_crew = 2.37 }
+   }
+   count = 3
+   regeneration_per_day = 0.53
+   launch_time = 7.88
+   damage = { min = 21 max = 105 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 250
+   armor = 185
+   shield = 110
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1305 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_federation_delta_hangar_4
+   component_set = hangar_federation_delta_4_medium
+}
+
+### Large Delta Flyer Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_DELTA_4_LARGE
+   size = LARGE
+   entity = "delta_flyer_fighter_entity"
+   power = -190
+   resources = {
+      category = ship_components
+      cost = { alloys = 370 }
+      upkeep = { alloys = 1.95 sr_crew = 3.89 }
+   }
+   count = 5
+   regeneration_per_day = 0.53
+   launch_time = 7.88
+   damage = { min = 21 max = 105 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 250
+   armor = 185
+   shield = 110
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1305 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_federation_delta_hangar_4
+   component_set = hangar_federation_delta_4_large
+}
+
+### Small Runabout Wing
+strike_craft_component_template = {
+   key = "HANGAR_FEDERATION_RUNABOUT_4_SMALL"
+   size = LARGE
+   entity = "runabout_fighter_entity"
+   power = -210
+   resources = {
+      category = ship_components
+      cost = { alloys = 405 }
+      upkeep = { alloys = 2.23 sr_crew = 4.46 }
+   }
+   count = 5
+   regeneration_per_day = 0.55
+   launch_time = 7.75
+   damage = { min = 30 max = 110 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.96
+   tracking = 0.57
+   health = 260
+   armor = 195
+   shield = 130
+   evasion = 0.77
+   speed = 480
+   rotation_speed = 0.48
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = "beam_orange_03"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_13553" }
+   size_restriction = { fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_carrier_sydney fed_advanced_cruiser_obena fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland fed_frigate_galen fed_advanced_cruiser_duderstadt }
+   icon = "GFX_ship_part_LARGE_federation_runabout_hangar_4"
+   component_set = "hangar_federation_runabout_4_small"
+}
+
+### Runabout Wing
+strike_craft_component_template = {
+   key = "HANGAR_FEDERATION_RUNABOUT_4_MEDIUM"
+   size = LARGE
+   entity = "runabout_fighter_entity"
+   power = -210
+   resources = {
+      category = ship_components
+      cost = { alloys = 405 }
+      upkeep = { alloys = 2.23 sr_crew = 4.46 }
+   }
+   count = 5
+   regeneration_per_day = 0.55
+   launch_time = 7.75
+   damage = { min = 30 max = 110 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.96
+   tracking = 0.57
+   health = 260
+   armor = 195
+   shield = 130
+   evasion = 0.77
+   speed = 480
+   rotation_speed = 0.48
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = "beam_orange_03"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_13553" }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_carrier_iwo_jima fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal fed_mmv_sagan fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau fed_carrier_samson fed_explorer_gagarin }
+   icon = "GFX_ship_part_LARGE_federation_runabout_hangar_4"
+   component_set = "hangar_federation_runabout_4_medium"
+}
+
+### Large Runabout Wing
+strike_craft_component_template = {
+   key = "hangar_federation_runabout_4_large"
+   size = LARGE
+   entity = "runabout_fighter_entity"
+   power = -210
+   resources = {
+      category = ship_components
+      cost = { alloys = 405 }
+      upkeep = { alloys = 2.23 sr_crew = 4.46 }
+   }
+   count = 5
+   regeneration_per_day = 0.55
+   launch_time = 7.75
+   damage = { min = 30 max = 110 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.96
+   tracking = 0.57
+   health = 260
+   armor = 195
+   shield = 130
+   evasion = 0.77
+   speed = 480
+   rotation_speed = 0.48
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = "beam_orange_03"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_13553" }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders research_starbase deep_space_starbase nor_starbase_nor starbase_fe_outpost }
+   icon = "GFX_ship_part_LARGE_federation_runabout_hangar_4"
+   component_set = "hangar_federation_runabout_4_large"
+}
+
+### Small SC-Type Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_5_SMALL
+   size = LARGE
+   entity = "yellowstone_fighter_entity"
+   power = -50
+   resources = {
+      category = ship_components
+      cost = { alloys = 100 }
+      upkeep = { alloys = 0.55 sr_crew = 1.1 }
+   }
+   count = 5
+   regeneration_per_day = 0.21
+   launch_time = 1.45
+   damage = { min = 8 max = 39 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 1
+   tracking = 0.63
+   health = 50
+   armor = 40
+   shield = 30
+   evasion = 0.83
+   speed = 530
+   rotation_speed = 0.52
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_13554 }
+   size_restriction = { fed_explorer_intrepid_class fed_explorer_pathfinder fed_explorer_dauntless fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath }
+   icon = GFX_ship_part_LARGE_federation_hangar_5
+   component_set = hangar_federation_5_small
+}
+
+### SC-Type Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_5_MEDIUM
+   size = LARGE
+   entity = "yellowstone_fighter_entity"
+   power = -150
+   resources = {
+      category = ship_components
+      cost = { alloys = 290 }
+      upkeep = { alloys = 1.6 sr_crew = 3.19 }
+   }
+   count = 15
+   regeneration_per_day = 0.21
+   launch_time = 1.45
+   damage = { min = 8 max = 39 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 1
+   tracking = 0.63
+   health = 50
+   armor = 40
+   shield = 30
+   evasion = 0.83
+   speed = 530
+   rotation_speed = 0.52
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_13554 }
+   size_restriction = { fed_mobile_carrier_typhon fed_carrier_iwo_jima fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin }
+   icon = GFX_ship_part_LARGE_federation_hangar_5
+   component_set = hangar_federation_5_medium
+}
+
+### Large SC-Type Shuttlecraft Wing
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_5_LARGE
+   size = LARGE
+   entity = "yellowstone_fighter_entity"
+   power = -240
+   resources = {
+      category = ship_components
+      cost = { alloys = 480 }
+      upkeep = { alloys = 2.64 sr_crew = 5.28 }
+   }
+   count = 25
+   regeneration_per_day = 0.21
+   launch_time = 1.45
+   damage = { min = 8 max = 39 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 1
+   tracking = 0.63
+   health = 50
+   armor = 40
+   shield = 30
+   evasion = 0.83
+   speed = 530
+   rotation_speed = 0.52
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_13554 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_federation_hangar_5
+   component_set = hangar_federation_5_large
+}
+
+### AI Drone Squadron - Unique to AI control ships
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_DRONE_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -80
+   resources = {
+      category = ship_components
+      cost = { alloys = 155 }
+      upkeep = { alloys = 1.48 energy = 2.95 }
+   }
+   count = 10
+   regeneration_per_day = 0.15
+   launch_time = 0.75
+   damage = { min = 4 max = 21 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.98
+   tracking = 0.6
+   health = 20
+   armor = 15
+   shield = 10
+   evasion = 0.8
+   speed = 500
+   rotation_speed = 0.5
+   acceleration = 1
+   ship_behavior = bombers_behavior
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_hero_ships }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_federation_drone_hangar_1
+   component_set = hangar_federation_drone_1_small
+}
+
+### Aquarius Aux Craft - Unique to Odyssey and Sovereign
+strike_craft_component_template = {
+   key = HANGAR_FEDERATION_6_LARGE
+   size = LARGE
+   entity = "aquarius_fighter_entity"
+   power = -80
+   resources = {
+      category = ship_components
+      cost = { alloys = 145 }
+      upkeep = { alloys = 0.8 energy = 1.6 }
+   }
+   count = 1
+   regeneration_per_day = 0.94
+   launch_time = 9.8
+   damage = { min = 34 max = 182 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 1.02
+   tracking = 0.66
+   health = 270
+   armor = 185
+   shield = 190
+   evasion = 0.86
+   speed = 550
+   rotation_speed = 0.54
+   acceleration = 1
+   ship_behavior = bombers_behavior
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_orange_03
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_starfleet_aquarius }
+   size_restriction = { fed_command_cruiser_odyssey fed_flagship_odyssey fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry fed_heavy_cruiser_polaris fed_flagship_polaris fed_carrier_samson fed_command_cruiser_excalibur fed_flagship_excalibur }
+   icon = GFX_ship_part_LARGE_federation_hangar_6
+   component_set = hangar_federation_6_large
+}
+
+### Multi-Vector Alpha - Unique to Prometheus
+strike_craft_component_template = {
+   key = "HANGAR_FEDERATION_MVA_6_SMALL"
+   size = LARGE
+   entity = "federation_mva_alpha_entity"
+   power = -80
+   resources = {
+      category = ship_components
+      cost = { alloys = 145 }
+      upkeep = { alloys = 0.8 energy = 1.6 }
+   }
+   count = 1
+   regeneration_per_day = 0.94
+   launch_time = 9.8
+   damage = { min = 50 max = 190 }
+   cooldown = 2
+   range = 50
+   engagement_range = 500
+   accuracy = 1.02
+   tracking = 0.66
+   health = 500
+   armor = 185
+   shield = 250
+   evasion = 0.86
+   speed = 550
+   rotation_speed = 0.54
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = "beam_orange_03"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_03524" }
+   size_restriction = { fed_heavy_escort_prometheus }
+   icon = "GFX_ship_part_LARGE_federation_mva_hangar_1"
+   component_set = "hangar_federation_mva_6_small"
+}
+
+### Multi-Vector Beta - Unique to Prometheus
+strike_craft_component_template = {
+   key = "HANGAR_FEDERATION_MVA_6_MEDIUM"
+   size = LARGE
+   entity = "federation_mva_beta_entity"
+   power = -80
+   resources = {
+      category = ship_components
+      cost = { alloys = 145 }
+      upkeep = { alloys = 0.8 energy = 1.6 }
+   }
+   count = 1
+   regeneration_per_day = 0.94
+   launch_time = 9.8
+   damage = { min = 50 max = 190 }
+   cooldown = 2
+   range = 50
+   engagement_range = 500
+   accuracy = 1.02
+   tracking = 0.66
+   health = 500
+   armor = 185
+   shield = 250
+   evasion = 0.86
+   speed = 550
+   rotation_speed = 0.54
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = "beam_orange_03"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_03524" }
+   size_restriction = { fed_heavy_escort_prometheus }
+   icon = "GFX_ship_part_LARGE_federation_mva_hangar_2"
+   component_set = "hangar_federation_mva_6_medium"
+}
+
+### Multi-Vector Gamma - Unique to Prometheus
+strike_craft_component_template = {
+   key = "HANGAR_FEDERATION_MVA_6_LARGE"
+   size = LARGE
+   entity = "federation_mva_gamma_entity"
+   power = -80
+   resources = {
+      category = ship_components
+      cost = { alloys = 145 }
+      upkeep = { alloys = 0.8 energy = 1.6 }
+   }
+   count = 1
+   regeneration_per_day = 0.94
+   launch_time = 9.8
+   damage = { min = 50 max = 190 }
+   cooldown = 2
+   range = 50
+   engagement_range = 200
+   accuracy = 1.02
+   tracking = 0.66
+   health = 500
+   armor = 185
+   shield = 250
+   evasion = 0.86
+   speed = 550
+   rotation_speed = 0.54
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = "beam_orange_03"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_03524" }
+   size_restriction = { fed_heavy_escort_prometheus }
+   icon = "GFX_ship_part_LARGE_federation_mva_hangar_3"
+   component_set = "hangar_federation_mva_6_large"
+}
+
+### Small Pursuit Craft Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 25 }
+      upkeep = { alloys = 0.14 sr_crew = 0.27 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_2_SMALL
+   count = 5
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1306 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_1
+   component_set = hangar_cardassian_1_small
+}
+
+### Pursuit Craft Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_1_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.4 sr_crew = 0.79 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_2_MEDIUM
+   count = 15
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1306 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_1
+   component_set = hangar_cardassian_1_medium
+}
+
+### Large Pursuit Craft Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_1_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -70
+   resources = {
+      category = ship_components
+      cost = { alloys = 125 }
+      upkeep = { alloys = 0.66 sr_crew = 1.32 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_2_LARGE
+   count = 25
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1306 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_1
+   component_set = hangar_cardassian_1_large
+}
+
+### Small Vystan Stealth Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_2_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 50 }
+      upkeep = { alloys = 0.27 sr_crew = 0.53 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_3_SMALL
+   count = 5
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1307 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_2
+   component_set = hangar_cardassian_2_small
+}
+
+### Vystan Stealth Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_2_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -70
+   resources = {
+      category = ship_components
+      cost = { alloys = 140 }
+      upkeep = { alloys = 0.74 sr_crew = 1.47 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_3_MEDIUM
+   count = 15
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1307 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_2
+   component_set = hangar_cardassian_2_medium
+}
+
+### Large Vystan Stealth Fighters Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_2_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -120
+   resources = {
+      category = ship_components
+      cost = { alloys = 230 }
+      upkeep = { alloys = 1.21 sr_crew = 2.42 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_3_LARGE
+   count = 25
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1307 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_2
+   component_set = hangar_cardassian_2_large
+}
+
+### Small Hideki Assault Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_3_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 60 }
+      upkeep = { alloys = 0.32 sr_crew = 0.63 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_4_SMALL
+   count = 5
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1308 }
+   size_restriction = { fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_3
+   component_set = hangar_cardassian_3_small
+}
+
+### Hideki Assault Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_3_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -90
+   resources = {
+      category = ship_components
+      cost = { alloys = 180 }
+      upkeep = { alloys = 0.95 sr_crew = 1.89 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_4_MEDIUM
+   count = 15
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1308 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_3
+   component_set = hangar_cardassian_3_medium
+}
+
+### Large Hideki Assault Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_3_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -150
+   resources = {
+      category = ship_components
+      cost = { alloys = 300 }
+      upkeep = { alloys = 1.58 sr_crew = 3.15 }
+   }
+   upgrades_to = HANGAR_CARDASSIAN_4_LARGE
+   count = 25
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1308 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_3
+   component_set = hangar_cardassian_3_large
+}
+
+### Small Advanced Pursuit Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_4_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -50
+   resources = {
+      category = ship_components
+      cost = { alloys = 85 }
+      upkeep = { alloys = 0.45 sr_crew = 0.9 }
+   }
+   count = 5
+   regeneration_per_day = 0.2
+   launch_time = 1.53
+   damage = { min = 7 max = 34 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.97
+   tracking = 0.585
+   health = 45
+   armor = 35
+   shield = 20
+   evasion = 0.785
+   speed = 490
+   rotation_speed = 0.49
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1309 }
+   size_restriction = { fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_4
+   component_set = hangar_cardassian_4_small
+}
+
+### Advanced Pursuit Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_4_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -130
+   resources = {
+      category = ship_components
+      cost = { alloys = 245 }
+      upkeep = { alloys = 1.29 sr_crew = 2.58 }
+   }
+   count = 15
+   regeneration_per_day = 0.2
+   launch_time = 1.53
+   damage = { min = 7 max = 34 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.97
+   tracking = 0.585
+   health = 45
+   armor = 35
+   shield = 20
+   evasion = 0.785
+   speed = 490
+   rotation_speed = 0.49
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1309 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_4
+   component_set = hangar_cardassian_4_medium
+}
+
+### Large Advanced Pursuit Wing
+strike_craft_component_template = {
+   key = HANGAR_CARDASSIAN_4_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -210
+   resources = {
+      category = ship_components
+      cost = { alloys = 405 }
+      upkeep = { alloys = 2.13 sr_crew = 4.26 }
+   }
+   count = 25
+   regeneration_per_day = 0.2
+   launch_time = 1.53
+   damage = { min = 7 max = 34 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.97
+   tracking = 0.585
+   health = 45
+   armor = 35
+   shield = 20
+   evasion = 0.785
+   speed = 490
+   rotation_speed = 0.49
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_yellow_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1309 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_cardassian_hangar_4
+   component_set = hangar_cardassian_4_large
+}
+
+### Small DuQwl Raider Wing
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 25 }
+      upkeep = { alloys = 0.14 sr_crew = 0.27 }
+   }
+   upgrades_to = HANGAR_KLINGON_2_SMALL
+   count = 5
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1310 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_klingon_hangar_1
+   component_set = hangar_klingon_1_small
+}
+
+### DuQwl Raider Wing
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_1_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.4 sr_crew = 0.79 }
+   }
+   upgrades_to = HANGAR_KLINGON_2_MEDIUM
+   count = 15
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1310 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_klingon_hangar_1
+   component_set = hangar_klingon_1_medium
+}
+
+### Large DuQwl Raider Wing
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_1_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -70
+   resources = {
+      category = ship_components
+      cost = { alloys = 125 }
+      upkeep = { alloys = 0.66 sr_crew = 1.32 }
+   }
+   upgrades_to = HANGAR_KLINGON_2_LARGE
+   count = 25
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1310 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_klingon_hangar_1
+   component_set = hangar_klingon_1_large
+}
+
+### Small S'Kul Raider Wing
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_2_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 40 }
+      upkeep = { alloys = 0.21 sr_crew = 0.42 }
+   }
+   upgrades_to = HANGAR_KLINGON_3_SMALL
+   count = 5
+   regeneration_per_day = 0.14
+   launch_time = 1.83
+   damage = { min = 4 max = 16 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.85
+   tracking = 0.405
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.605
+   speed = 340
+   rotation_speed = 0.37
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1311 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_klingon_hangar_2
+   component_set = hangar_klingon_2_small
+}
+
+### S'Kul Raider Wing
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_2_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -60
+   resources = {
+      category = ship_components
+      cost = { alloys = 120 }
+      upkeep = { alloys = 0.63 sr_crew = 1.26 }
+   }
+   upgrades_to = HANGAR_KLINGON_3_MEDIUM
+   count = 15
+   regeneration_per_day = 0.14
+   launch_time = 1.83
+   damage = { min = 4 max = 16 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.85
+   tracking = 0.405
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.605
+   speed = 340
+   rotation_speed = 0.37
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1311 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_klingon_hangar_2
+   component_set = hangar_klingon_2_medium
+}
+
+### Large S'Kul Raider Wing
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_2_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -100
+   resources = {
+      category = ship_components
+      cost = { alloys = 195 }
+      upkeep = { alloys = 1.03 sr_crew = 2.05 }
+   }
+   upgrades_to = HANGAR_KLINGON_3_LARGE
+   count = 25
+   regeneration_per_day = 0.14
+   launch_time = 1.83
+   damage = { min = 4 max = 16 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.85
+   tracking = 0.405
+   health = 30
+   armor = 10
+   shield = 0
+   evasion = 0.605
+   speed = 340
+   rotation_speed = 0.37
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1311 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_klingon_hangar_2
+   component_set = hangar_klingon_2_large
+}
+
+### Fer'Jai Interceptor
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_3_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 55 }
+      upkeep = { alloys = 0.29 sr_crew = 0.58 }
+   }
+   upgrades_to = HANGAR_KLINGON_4_SMALL
+   count = 5
+   regeneration_per_day = 0.16
+   launch_time = 1.73
+   damage = { min = 5 max = 22 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.89
+   tracking = 0.465
+   health = 35
+   armor = 20
+   shield = 5
+   evasion = 0.665
+   speed = 390
+   rotation_speed = 0.41
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1312 }
+   size_restriction = { fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_klingon_hangar_3
+   component_set = hangar_klingon_3_small
+}
+
+### Fer'Jai Interceptor
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_3_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -80
+   resources = {
+      category = ship_components
+      cost = { alloys = 160 }
+      upkeep = { alloys = 0.84 sr_crew = 1.68 }
+   }
+   upgrades_to = HANGAR_KLINGON_4_MEDIUM
+   count = 15
+   regeneration_per_day = 0.16
+   launch_time = 1.73
+   damage = { min = 5 max = 22 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.89
+   tracking = 0.465
+   health = 35
+   armor = 20
+   shield = 5
+   evasion = 0.665
+   speed = 390
+   rotation_speed = 0.41
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1312 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_klingon_hangar_3
+   component_set = hangar_klingon_3_medium
+}
+
+### Fer'Jai Interceptor
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_3_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -140
+   resources = {
+      category = ship_components
+      cost = { alloys = 265 }
+      upkeep = { alloys = 1.4 sr_crew = 2.79 }
+   }
+   upgrades_to = HANGAR_KLINGON_4_LARGE
+   count = 25
+   regeneration_per_day = 0.16
+   launch_time = 1.73
+   damage = { min = 5 max = 22 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.89
+   tracking = 0.465
+   health = 35
+   armor = 20
+   shield = 5
+   evasion = 0.665
+   speed = 390
+   rotation_speed = 0.41
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1312 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_klingon_hangar_3
+   component_set = hangar_klingon_3_large
+}
+
+### NuQ'Duj Assault Fighter
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_4_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.4 sr_crew = 0.79 }
+   }
+   count = 5
+   regeneration_per_day = 0.19
+   launch_time = 1.58
+   damage = { min = 6 max = 31 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 40
+   armor = 30
+   shield = 20
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1313 }
+   size_restriction = { fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_klingon_hangar_4
+   component_set = hangar_klingon_4_small
+}
+
+### NuQ'Duj Assault Fighter
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_4_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -120
+   resources = {
+      category = ship_components
+      cost = { alloys = 225 }
+      upkeep = { alloys = 1.19 sr_crew = 2.37 }
+   }
+   count = 15
+   regeneration_per_day = 0.19
+   launch_time = 1.58
+   damage = { min = 6 max = 31 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 40
+   armor = 30
+   shield = 20
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1313 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_klingon_hangar_4
+   component_set = hangar_klingon_4_medium
+}
+
+### NuQ'Duj Assault Fighter
+strike_craft_component_template = {
+   key = HANGAR_KLINGON_4_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -190
+   resources = {
+      category = ship_components
+      cost = { alloys = 370 }
+      upkeep = { alloys = 1.95 sr_crew = 3.89 }
+   }
+   count = 25
+   regeneration_per_day = 0.19
+   launch_time = 1.58
+   damage = { min = 6 max = 31 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 40
+   armor = 30
+   shield = 20
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1313 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_klingon_hangar_4
+   component_set = hangar_klingon_4_large
+}
+
+### Jian Short-Range Defender
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 25 }
+      upkeep = { alloys = 0.14 sr_crew = 0.27 }
+   }
+   upgrades_to = HANGAR_ROMULAN_2_SMALL
+   count = 5
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1314 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_romulan_hangar_1
+   component_set = hangar_romulan_1_small
+}
+
+### Jian Short-Range Defender
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_1_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.4 sr_crew = 0.79 }
+   }
+   upgrades_to = HANGAR_ROMULAN_2_MEDIUM
+   count = 15
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1314 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_romulan_hangar_1
+   component_set = hangar_romulan_1_medium
+}
+
+### Jian Short-Range Defender
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_1_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -70
+   resources = {
+      category = ship_components
+      cost = { alloys = 125 }
+      upkeep = { alloys = 0.66 sr_crew = 1.32 }
+   }
+   upgrades_to = HANGAR_ROMULAN_2_LARGE
+   count = 25
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1314 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_romulan_hangar_1
+   component_set = hangar_romulan_1_large
+}
+
+### Drone Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_HOLO_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 40 }
+      upkeep = { alloys = 0.22 energy = 0.44 }
+   }
+   count = 1
+   regeneration_per_day = 0.25
+   launch_time = 9.25
+   damage = { min = 12 max = 48 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.84
+   tracking = 0.39
+   health = 170
+   armor = 50
+   shield = 0
+   evasion = 0.59
+   speed = 330
+   rotation_speed = 0.36
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_physics_11285 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_romulan_holo_hangar_1
+   component_set = hangar_romulan_holo_1_small
+}
+
+### Drone Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_HOLO_1_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -60
+   resources = {
+      category = ship_components
+      cost = { alloys = 110 }
+      upkeep = { alloys = 0.61 energy = 1.21 }
+   }
+   count = 3
+   regeneration_per_day = 0.25
+   launch_time = 9.25
+   damage = { min = 12 max = 48 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.84
+   tracking = 0.39
+   health = 170
+   armor = 50
+   shield = 0
+   evasion = 0.59
+   speed = 330
+   rotation_speed = 0.36
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_physics_11285 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_romulan_holo_hangar_1
+   component_set = hangar_romulan_holo_1_medium
+}
+
+### Drone Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_HOLO_1_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -100
+   resources = {
+      category = ship_components
+      cost = { alloys = 185 }
+      upkeep = { alloys = 1.02 energy = 2.04 }
+   }
+   count = 5
+   regeneration_per_day = 0.25
+   launch_time = 9.25
+   damage = { min = 12 max = 48 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.84
+   tracking = 0.39
+   health = 170
+   armor = 50
+   shield = 0
+   evasion = 0.59
+   speed = 330
+   rotation_speed = 0.36
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "missile" "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_physics_11285 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_romulan_holo_hangar_1
+   component_set = hangar_romulan_holo_1_large
+}
+
+### Gladius Space Superiority Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_2_SMALL
+   size = LARGE
+   entity = "romulan_fighter_entity"
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 50 }
+      upkeep = { alloys = 0.27 sr_crew = 0.53 }
+   }
+   upgrades_to = HANGAR_ROMULAN_3_SMALL
+   count = 5
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1315 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_romulan_hangar_2
+   component_set = hangar_romulan_2_small
+}
+
+### Gladius Space Superiority Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_2_MEDIUM
+   size = LARGE
+   entity = "romulan_fighter_entity"
+   power = -70
+   resources = {
+      category = ship_components
+      cost = { alloys = 140 }
+      upkeep = { alloys = 0.74 sr_crew = 1.47 }
+   }
+   upgrades_to = HANGAR_ROMULAN_3_MEDIUM
+   count = 15
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1315 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_romulan_hangar_2
+   component_set = hangar_romulan_2_medium
+}
+
+### Gladius Space Superiority Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_2_LARGE
+   size = LARGE
+   entity = "romulan_fighter_entity"
+   power = -120
+   resources = {
+      category = ship_components
+      cost = { alloys = 230 }
+      upkeep = { alloys = 1.21 sr_crew = 2.42 }
+   }
+   upgrades_to = HANGAR_ROMULAN_3_LARGE
+   count = 25
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1315 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_romulan_hangar_2
+   component_set = hangar_romulan_2_large
+}
+
+### Kahleh Light Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_3_SMALL
+   size = LARGE
+   entity = "snakehead_fighter_entity"
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 60 }
+      upkeep = { alloys = 0.32 sr_crew = 0.63 }
+   }
+   upgrades_to = HANGAR_ROMULAN_4_SMALL
+   count = 5
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1316 }
+   size_restriction = { fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_romulan_hangar_3
+   component_set = hangar_romulan_3_small
+}
+
+### Kahleh Light Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_3_MEDIUM
+   size = LARGE
+   entity = "snakehead_fighter_entity"
+   power = -90
+   resources = {
+      category = ship_components
+      cost = { alloys = 180 }
+      upkeep = { alloys = 0.95 sr_crew = 1.89 }
+   }
+   upgrades_to = HANGAR_ROMULAN_4_MEDIUM
+   count = 15
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1316 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_romulan_hangar_3
+   component_set = hangar_romulan_3_medium
+}
+
+### Kahleh Light Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_3_LARGE
+   size = LARGE
+   entity = "snakehead_fighter_entity"
+   power = -150
+   resources = {
+      category = ship_components
+      cost = { alloys = 300 }
+      upkeep = { alloys = 1.58 sr_crew = 3.15 }
+   }
+   upgrades_to = HANGAR_ROMULAN_4_LARGE
+   count = 25
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1316 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_romulan_hangar_3
+   component_set = hangar_romulan_3_large
+}
+
+### Scorpion Attack Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_4_SMALL
+   size = LARGE
+   entity = "scorpion_fighter_entity"
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.4 sr_crew = 0.79 }
+   }
+   count = 5
+   regeneration_per_day = 0.19
+   launch_time = 1.58
+   damage = { min = 6 max = 31 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 40
+   armor = 30
+   shield = 20
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1317 }
+   size_restriction = { fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_romulan_hangar_4
+   component_set = hangar_romulan_4_small
+}
+
+### Scorpion Attack Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_4_MEDIUM
+   size = LARGE
+   entity = "scorpion_fighter_entity"
+   power = -120
+   resources = {
+      category = ship_components
+      cost = { alloys = 225 }
+      upkeep = { alloys = 1.19 sr_crew = 2.37 }
+   }
+   count = 15
+   regeneration_per_day = 0.19
+   launch_time = 1.58
+   damage = { min = 6 max = 31 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 40
+   armor = 30
+   shield = 20
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1317 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_romulan_hangar_4
+   component_set = hangar_romulan_4_medium
+}
+
+### Scorpion Attack Fighter
+strike_craft_component_template = {
+   key = HANGAR_ROMULAN_4_LARGE
+   size = LARGE
+   entity = "scorpion_fighter_entity"
+   power = -190
+   resources = {
+      category = ship_components
+      cost = { alloys = 370 }
+      upkeep = { alloys = 1.95 sr_crew = 3.89 }
+   }
+   count = 25
+   regeneration_per_day = 0.19
+   launch_time = 1.58
+   damage = { min = 6 max = 31 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.95
+   tracking = 0.555
+   health = 40
+   armor = 30
+   shield = 20
+   evasion = 0.755
+   speed = 470
+   rotation_speed = 0.47
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_green_02
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1317 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_romulan_hangar_4
+   component_set = hangar_romulan_4_large
+}
+
+### Short-Range Jem'Hadar Fighter
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_1_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -20
+   resources = {
+      category = ship_components
+      cost = { alloys = 25 }
+      upkeep = { alloys = 0.14 sr_crew = 0.27 }
+   }
+   upgrades_to = HANGAR_DOMINION_2_SMALL
+   count = 5
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1318 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_sarajevo fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_dominion_hangar_1
+   component_set = hangar_dominion_1_small
+}
+
+### Short-Range Jem'Hadar Fighter
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_1_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -40
+   resources = {
+      category = ship_components
+      cost = { alloys = 75 }
+      upkeep = { alloys = 0.4 sr_crew = 0.79 }
+   }
+   upgrades_to = HANGAR_DOMINION_2_MEDIUM
+   count = 15
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1318 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_dominion_hangar_1
+   component_set = hangar_dominion_1_medium
+}
+
+### Short-Range Jem'Hadar Fighter
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_1_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -70
+   resources = {
+      category = ship_components
+      cost = { alloys = 125 }
+      upkeep = { alloys = 0.66 sr_crew = 1.32 }
+   }
+   upgrades_to = HANGAR_DOMINION_2_LARGE
+   count = 25
+   regeneration_per_day = 0.12
+   launch_time = 1.93
+   damage = { min = 3 max = 10 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.81
+   tracking = 0.345
+   health = 25
+   armor = 0
+   shield = 0
+   evasion = 0.545
+   speed = 290
+   rotation_speed = 0.33
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1318 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_dominion_hangar_1
+   component_set = hangar_dominion_1_large
+}
+
+### Jem'Hadar Assault Craft
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_2_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 50 }
+      upkeep = { alloys = 0.27 sr_crew = 0.53 }
+   }
+   upgrades_to = HANGAR_DOMINION_3_SMALL
+   count = 5
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1319 }
+   size_restriction = { fed_carrier_minuteman fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_radiant fed_mmv_walker fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_proxima fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_heavy_cruiser_yorktown fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_dominion_hangar_2
+   component_set = hangar_dominion_2_small
+}
+
+### Jem'Hadar Assault Craft
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_2_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -70
+   resources = {
+      category = ship_components
+      cost = { alloys = 140 }
+      upkeep = { alloys = 0.74 sr_crew = 1.47 }
+   }
+   upgrades_to = HANGAR_DOMINION_3_MEDIUM
+   count = 15
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1319 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_dominion_hangar_2
+   component_set = hangar_dominion_2_medium
+}
+
+### Jem'Hadar Assault Craft
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_2_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -120
+   resources = {
+      category = ship_components
+      cost = { alloys = 230 }
+      upkeep = { alloys = 1.21 sr_crew = 2.42 }
+   }
+   upgrades_to = HANGAR_DOMINION_3_LARGE
+   count = 25
+   regeneration_per_day = 0.15
+   launch_time = 1.78
+   damage = { min = 4 max = 19 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.87
+   tracking = 0.435
+   health = 30
+   armor = 15
+   shield = 0
+   evasion = 0.635
+   speed = 370
+   rotation_speed = 0.39
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1319 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_dominion_hangar_2
+   component_set = hangar_dominion_2_large
+}
+
+### Jem'Hadar Heavy Patrol Boat
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_3_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 60 }
+      upkeep = { alloys = 0.32 sr_crew = 0.63 }
+   }
+   upgrades_to = HANGAR_DOMINION_4_SMALL
+   count = 5
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1320 }
+   size_restriction = { fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_stealth_escort_modin kdf_raider_d6 kdf_raider_sech kdf_raider_kvort kdf_raider_klalath kdf_battlecruiser_jach kdf_warship_jejha fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_exploration_cruiser_federation fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath klingon_houses_battlecruiser_jach klingon_houses_warship_jejha fed_carrier_ptolomy fed_carrier_sydney fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_scout_akyazi fed_scout_nova fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_dominion_hangar_3
+   component_set = hangar_dominion_3_small
+}
+
+### Jem'Hadar Heavy Patrol Boat
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_3_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -90
+   resources = {
+      category = ship_components
+      cost = { alloys = 180 }
+      upkeep = { alloys = 0.95 sr_crew = 1.89 }
+   }
+   upgrades_to = HANGAR_DOMINION_4_MEDIUM
+   count = 15
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1320 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_ambassador fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_strike_ship_feklhr rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak rom_shrike_cruiser_decius rom_hero_ship_falchion steamrunner adv_cruiser  klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal }
+   icon = GFX_ship_part_LARGE_dominion_hangar_3
+   component_set = hangar_dominion_3_medium
+}
+
+### Jem'Hadar Heavy Patrol Boat
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_3_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -150
+   resources = {
+      category = ship_components
+      cost = { alloys = 300 }
+      upkeep = { alloys = 1.58 sr_crew = 3.15 }
+   }
+   upgrades_to = HANGAR_DOMINION_4_LARGE
+   count = 25
+   regeneration_per_day = 0.17
+   launch_time = 1.68
+   damage = { min = 5 max = 25 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.91
+   tracking = 0.495
+   health = 35
+   armor = 20
+   shield = 10
+   evasion = 0.695
+   speed = 420
+   rotation_speed = 0.43
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1320 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_dominion_hangar_3
+   component_set = hangar_dominion_3_large
+}
+
+### Alpha Jem'Hadar Fighter
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_4_SMALL
+   size = LARGE
+   entity = fighter_entity
+   power = -50
+   resources = {
+      category = ship_components
+      cost = { alloys = 85 }
+      upkeep = { alloys = 0.45 sr_crew = 0.9 }
+   }
+   count = 5
+   regeneration_per_day = 0.2
+   launch_time = 1.53
+   damage = { min = 7 max = 34 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.97
+   tracking = 0.585
+   health = 45
+   armor = 35
+   shield = 20
+   evasion = 0.785
+   speed = 490
+   rotation_speed = 0.49
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1321 }
+   size_restriction = { fed_explorer_new_orleans fed_explorer_intrepid_class fed_explorer_pathfinder fed_mmv_norway fed_heavy_cruiser_sovereign fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution kdf_raider_kvort kdf_raider_klalath fed_mmv_springfield fed_frigate_california fed_frigate_galen fed_command_cruiser_odyssey fed_flagship_odyssey klingon_houses_raider_klalath fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_explorer_dauntless fed_stealth_escort_nimrod fed_stealth_escort_deimos fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland }
+   icon = GFX_ship_part_LARGE_dominion_hangar_4
+   component_set = hangar_dominion_4_small
+}
+
+### Alpha Jem'Hadar Fighter
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_4_MEDIUM
+   size = LARGE
+   entity = fighter_entity
+   power = -130
+   resources = {
+      category = ship_components
+      cost = { alloys = 245 }
+      upkeep = { alloys = 1.29 sr_crew = 2.58 }
+   }
+   count = 15
+   regeneration_per_day = 0.2
+   launch_time = 1.53
+   damage = { min = 7 max = 34 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.97
+   tracking = 0.585
+   health = 45
+   armor = 35
+   shield = 20
+   evasion = 0.785
+   speed = 490
+   rotation_speed = 0.49
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1321 }
+   size_restriction = { fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_sagan fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang rom_battleship_dderidex rom_hero_ship_tulwas rom_battleship_dkazanak steamrunner adv_cruiser  klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon }
+   icon = GFX_ship_part_LARGE_dominion_hangar_4
+   component_set = hangar_dominion_4_medium
+}
+
+### Alpha Jem'Hadar Fighter
+strike_craft_component_template = {
+   key = HANGAR_DOMINION_4_LARGE
+   size = LARGE
+   entity = fighter_entity
+   power = -210
+   resources = {
+      category = ship_components
+      cost = { alloys = 405 }
+      upkeep = { alloys = 2.13 sr_crew = 4.26 }
+   }
+   count = 25
+   regeneration_per_day = 0.2
+   launch_time = 1.53
+   damage = { min = 7 max = 34 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.97
+   tracking = 0.585
+   health = 45
+   armor = 35
+   shield = 20
+   evasion = 0.785
+   speed = 490
+   rotation_speed = 0.49
+   acceleration = 1
+   ship_behavior = "fighters_behavior"
+   weapon_type = point_defence 
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = beam_purple_01
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { tech_engineering_industry_1321 }
+   size_restriction = { fed_mobile_throne_charon rom_sword_scimitar dom_sword_shrike rom_shrike_cruiser_vasteme rom_shrike_cruiser_khanakh  super_battleship man_war starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder kdf_ship_of_the_dead_duj_heg research_starbase deep_space_starbase orbital_cannon nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  }
+   icon = GFX_ship_part_LARGE_dominion_hangar_4
+   component_set = hangar_dominion_4_large
+}
+
+### Borg Nano Pod
+strike_craft_component_template = {
+   key = "HANGAR_BORG_1_SMALL"
+   size = LARGE
+   entity = "borg_fighter_entity"
+   power = -30
+   resources = {
+      category = ship_components
+      cost = { alloys = 60 }
+      upkeep = { alloys = 0.36 sr_crew = 0.72 }
+   }
+   count = 5
+   regeneration_per_day = 0.15
+   launch_time = 1.75
+   damage = { min = 5 max = 21 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.88
+   tracking = 0.45
+   health = 35
+   armor = 15
+   shield = 5
+   evasion = 0.65
+   speed = 380
+   rotation_speed = 0.4
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = "beam_green_01"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_02892" }
+   size_restriction = { borg_unimatrix_defense_small borg_probe borg_scout borg_pyramid }
+   icon = "GFX_ship_part_LARGE_borg_hangar_1"
+   component_set = "hangar_borg_1_small"
+}
+
+### Borg Nano Pod
+strike_craft_component_template = {
+   key = "HANGAR_BORG_1_MEDIUM"
+   size = LARGE
+   entity = "borg_fighter_entity"
+   power = -90
+   resources = {
+      category = ship_components
+      cost = { alloys = 170 }
+      upkeep = { alloys = 1.02 sr_crew = 2.04 }
+   }
+   count = 15
+   regeneration_per_day = 0.15
+   launch_time = 1.75
+   damage = { min = 5 max = 21 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.88
+   tracking = 0.45
+   health = 35
+   armor = 15
+   shield = 5
+   evasion = 0.65
+   speed = 380
+   rotation_speed = 0.4
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = "beam_green_01"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_02892" }
+   size_restriction = { borg_sphere borg_diamond borg_cube }
+   icon = "GFX_ship_part_LARGE_borg_hangar_1"
+   component_set = "hangar_borg_1_medium"
+}
+
+### Borg Nano Pod
+strike_craft_component_template = {
+   key = "HANGAR_BORG_1_LARGE"
+   size = LARGE
+   entity = "borg_fighter_entity"
+   power = -140
+   resources = {
+      category = ship_components
+      cost = { alloys = 280 }
+      upkeep = { alloys = 1.68 sr_crew = 3.36 }
+   }
+   count = 25
+   regeneration_per_day = 0.15
+   launch_time = 1.75
+   damage = { min = 5 max = 21 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.88
+   tracking = 0.45
+   health = 35
+   armor = 15
+   shield = 5
+   evasion = 0.65
+   speed = 380
+   rotation_speed = 0.4
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = "beam_green_01"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_02892" }
+   size_restriction = { borg_tactical super_cube research_starbase deep_space_starbase orbital_cannon }
+   icon = "GFX_ship_part_LARGE_borg_hangar_1"
+   component_set = "hangar_borg_1_large"
+}
+
+### Borg Nano Drone
+strike_craft_component_template = {
+   key = "HANGAR_BORG_2_SMALL"
+   size = LARGE
+   entity = "borg2_fighter_entity"
+   power = -60
+   resources = {
+      category = ship_components
+      cost = { alloys = 105 }
+      upkeep = { alloys = 0.66 sr_crew = 1.32 }
+   }
+   count = 8
+   regeneration_per_day = 0.17
+   launch_time = 0.93
+   damage = { min = 5 max = 26 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.99
+   tracking = 0.615
+   health = 25
+   armor = 20
+   shield = 15
+   evasion = 0.815
+   speed = 520
+   rotation_speed = 0.51
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = "beam_green_01"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_industry_1254" }
+   size_restriction = { borg_unimatrix_defense_small borg_probe borg_scout borg_pyramid }
+   icon = "GFX_ship_part_LARGE_borg_hangar_2"
+   component_set = "hangar_borg_2_small"
+}
+
+### Borg Nano Drone
+strike_craft_component_template = {
+   key = "HANGAR_BORG_2_MEDIUM"
+   size = LARGE
+   entity = "borg2_fighter_entity"
+   power = -160
+   resources = {
+      category = ship_components
+      cost = { alloys = 315 }
+      upkeep = { alloys = 1.97 sr_crew = 3.94 }
+   }
+   count = 24
+   regeneration_per_day = 0.17
+   launch_time = 0.93
+   damage = { min = 5 max = 26 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.99
+   tracking = 0.615
+   health = 25
+   armor = 20
+   shield = 15
+   evasion = 0.815
+   speed = 520
+   rotation_speed = 0.51
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = "beam_green_01"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_industry_1254" }
+   size_restriction = { borg_sphere borg_diamond borg_cube }
+   icon = "GFX_ship_part_LARGE_borg_hangar_2"
+   component_set = "hangar_borg_2_medium"
+}
+
+### Borg Nano Drone
+strike_craft_component_template = {
+   key = "HANGAR_BORG_2_LARGE"
+   size = LARGE
+   entity = "borg2_fighter_entity"
+   power = -270
+   resources = {
+      category = ship_components
+      cost = { alloys = 525 }
+      upkeep = { alloys = 3.29 sr_crew = 6.57 }
+   }
+   count = 40
+   regeneration_per_day = 0.17
+   launch_time = 0.93
+   damage = { min = 5 max = 26 }
+   cooldown = 2
+   range = 10
+   engagement_range = 200
+   accuracy = 0.99
+   tracking = 0.615
+   health = 25
+   armor = 20
+   shield = 15
+   evasion = 0.815
+   speed = 520
+   rotation_speed = 0.51
+   acceleration = 1
+   ship_behavior = "bombers_behavior"
+   weapon_type = point_defence
+   point_defence_targets = { "strike_craft" }
+   projectile_gfx = "beam_green_01"
+   tags = { weapon_type_strike_craft }
+   icon_frame = 1
+   prerequisites = { "tech_engineering_industry_1254" }
+   size_restriction = { borg_tactical super_cube research_starbase deep_space_starbase orbital_cannon }
+   icon = "GFX_ship_part_LARGE_borg_hangar_2"
+   component_set = "hangar_borg_2_large"
+}

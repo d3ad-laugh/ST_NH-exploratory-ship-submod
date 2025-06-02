@@ -1,0 +1,2097 @@
+### Bio Warp Drive Type-1  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 90
+   resources = {
+      category = ship_components
+      cost = {  food = 91 }
+      upkeep = {  food = 0.91 }
+   }
+   size_restriction = { undine_01_bio_scout science civ_raven constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_A"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25 }
+   modifier = {    ship_shield_mult = 0.01 ship_weapon_damage = 0.01 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-2  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_B"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 120
+   resources = {
+      category = ship_components
+      cost = {  food = 121 }
+      upkeep = {  food = 1.21 }
+   }
+   size_restriction = { kdf_gunboat_borghel_a kdf_gunboat_brel_a rom_shuttle_snakehead miradorn_raider shuttle attack_ship fed_shuttle_shuttlepod fed_shuttle_class_c_shuttle fed_shuttle_class_f_shuttle fed_shuttle_type_7_shuttle fed_runabout_danube fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_galileo fed_attack_wing_peregrine fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_daqtagh kdf_attack_wing_bop_wing rom_shuttle_tajen rom_attack_wing_shalimar rom_attack_wing_scorpion fed_attack_wing_nx_beta }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.01 ship_weapon_damage = 0.01 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-3  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 160
+   resources = {
+      category = ship_components
+      cost = {  food = 160 }
+      upkeep = {  food = 1.6 }
+   }
+   size_restriction = { fed_frigate_emette kdf_bop_borghel kdf_bop_blasrika rom_bop_rea borg_probe corvette fed_scout_freedom fed_scout_malachowski fed_scout_daedalus fed_scout_oberth fed_scout_olympic fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_scout_freedom_tng fed_frigate_discovery fed_scout_akyazi }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_C"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.01 ship_weapon_damage = 0.01 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-4  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 210
+   resources = {
+      category = ship_components
+      cost = {  food = 214 }
+      upkeep = {  food = 2.14 }
+   }
+   size_restriction = { fed_carrier_sarajevo fed_carrier_minuteman fed_frigate_magee fed_frigate_saladin kdf_bop_homcha kdf_strike_ship_grethor kdf_raptor_qoj rom_bop_stanet borg_scout bajoran_lightship yridian_destroyer klingon_houses_raptor_qoj undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_D"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-5  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_E"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 290
+   resources = {
+      category = ship_components
+      cost = {  food = 285 }
+      upkeep = {  food = 2.85 }
+   }
+   size_restriction = { fed_frigate_akula fed_frigate_challenger fed_light_cruiser_intrepid_type fed_explorer_nx fed_mmv_poseidon fed_hero_ship_nx kdf_bop_brel kdf_raptor_somraw kdf_raider_sech rom_bop_jorek rom_interceptor_tvaro saber destroyer fed_frigate_california klingon_houses_raptor_somraw klingon_houses_raider_sech fed_heavy_cruiser_yorktown fed_frigate_galen }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-6  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_F"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 380
+   resources = {
+      category = ship_components
+      cost = {  food = 379 }
+      upkeep = {  food = 3.79 }
+   }
+   size_restriction = { fed_light_cruiser_bonaventure fed_light_cruiser_shepard fed_light_cruiser_saber fed_explorer_hoover kdf_bop_pagh kdf_raptor_d5 kdf_raider_d6 rom_bop_arhael rom_interceptor_tliss ENT_seleya ENT_kumari fed_light_cruiser_parliament fed_light_cruiser_reliant fed_carrier_engle }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-7  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_G"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 510
+   resources = {
+      category = ship_components
+      cost = {  food = 506 }
+      upkeep = {  food = 5.06 }
+   }
+   size_restriction = { fed_light_cruiser_talas fed_light_cruiser_t_pol fed_light_cruiser_gral fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_intrepid_class fed_mmv_norway fed_heavy_cruiser_nimitz kdf_raptor_jev kdf_battlecruiser_d7 kdf_raider_klalath kdf_battlecruiser_jach rom_interceptor_tmara rom_warbird_tellus strike promellian_battlecruiser klingon_houses_battlecruiser_d7 klingon_houses_raider_klalath klingon_houses_battlecruiser_jach }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-8  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_H"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 680
+   resources = {
+      category = ship_components
+      cost = {  food = 674 }
+      upkeep = {  food = 6.74 }
+   }
+   size_restriction = { fed_light_cruiser_centaur fed_light_cruiser_steamrunner fed_mmv_walker fed_heavy_cruiser_ares fed_heavy_escort_defiant fed_escort_ship_defiant kdf_raptor_hegh kdf_raider_kvort kdf_battlecruiser_ktinga kdf_warship_jejha kdf_strike_ship_feklhr rom_interceptor_tdair rom_warbird_stasek rom_starbird_tshen steamrunner battleship amarie_cruiser la_sirena klingon_houses_warship_jejha fed_mmv_radiant fed_mmv_loknar fed_mmv_farragut fed_heavy_cruiser_proxima }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-9  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_I"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 900
+   resources = {
+      category = ship_components
+      cost = {  food = 898 }
+      upkeep = {  food = 8.98 }
+   }
+   size_restriction = { fed_light_cruiser_curry_type fed_light_cruiser_niagara fed_explorer_kiri_kin_tha fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_advanced_cruiser_crossfield fed_hero_ship_constitution fed_stealth_escort_modin kdf_raptor_mehadraw kdf_battlecruiser_norgh rom_warbird_sharien rom_hero_ship_falchion rom_starbird_debrune rom_shrike_cruiser_decius sovereign cruiser fed_explorer_cheyenne fed_explorer_century fed_explorer_pathfinder fed_carrier_sydney fed_explorer_dauntless fed_stealth_escort_nimrod fed_heavy_cruiser_kelvin_constitution }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-10  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 1200
+   resources = {
+      category = ship_components
+      cost = {  food = 1197 }
+      upkeep = {  food = 11.97 }
+   }
+   size_restriction = { fed_light_cruiser_kelvin fed_mmv_constellation fed_mmv_akira fed_mmv_sagan fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_excelsior kdf_battlecruiser_vorcha kdf_warship_roj rom_warbird_kanassarum rom_starbird_valkis rom_battleship_praetor rom_battleship_pontilus borg_pyramid fed_mmv_springfield fed_adv_heavy_cruiser_inquiry klingon_houses_battlecruiser_vorcha undine_01_bio_destroyer fed_carrier_ptolomy fed_carrier_iwo_jima fed_carrier_samson fed_mobile_carrier_typhon }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_J"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-12  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 1600
+   resources = {
+      category = ship_components
+      cost = {  food = 1596 }
+      upkeep = {  food = 15.96 }
+   }
+   size_restriction = { fed_heavy_cruiser_nebula fed_heavy_cruiser_sovereign fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_exploration_cruiser_ambassador fed_hero_ship_ambassador fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution kdf_warship_kvek rom_starbird_kaskara rom_shrike_cruiser_khanakh borg_sphere undine_01_bio_ship fallen_interdictor fallen_attack adv_cruiser titan fed_exploration_cruiser_federation cardassian_01_adv_cruiser_obsidian undine_01_bio_cruiser fed_heavy_cruiser_polaris fed_heavy_cruiser_achilles cardassian_01_war_cruiser_ekoor }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_K"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-14  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 2140
+   resources = {
+      category = ship_components
+      cost = {  food = 2127 }
+      upkeep = {  food = 21.27 }
+   }
+   size_restriction = { fed_advanced_cruiser_vesta fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_flagship_galaxy fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross kdf_warship_neghvar rom_warbird_valdore rom_hero_ship_tulwas rom_warbird_vreedex rom_battleship_dderidex rom_battleship_dkazanak borg_diamond assault_cruiser klingon_houses_warship_neghvar undine_01_bio_raider fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_L"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.04 ship_weapon_damage = 0.04 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-16  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 2850
+   resources = {
+      category = ship_components
+      cost = {  food = 2835 }
+      upkeep = {  food = 28.35 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_M"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.04 ship_weapon_damage = 0.04 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-18  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 3800
+   resources = {
+      category = ship_components
+      cost = {  food = 3778 }
+      upkeep = {  food = 37.78 }
+   }
+   size_restriction = { fed_mobile_throne_charon borg_tactical undine_01_bio_behemoth fallen_flagship xindi_weapon undine_01_bio_warship xindi_planet_killer_degra }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_N"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+### Bio Warp Drive Type-20  - First Undine Drive
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_1_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_1"
+   icon_frame = 1
+   power = 5070
+   resources = {
+      category = ship_components
+      cost = {  food = 5036 }
+      upkeep = {  food = 50.36 }
+   }
+   size_restriction = { super_cube man_war colossus undine_01_bio_vanquisher time_ship_annorax sona_collector_ahdar }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_2_O"
+   ship_modifier = {  ship_ftl_jumpdrive_range_mult = -0.25   }
+   modifier = {    ship_shield_mult = 0.06 ship_weapon_damage = 0.06 }
+   prerequisites = { "tech_undine_warp" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 100
+   }
+}
+
+### Inter-Dimensional Drive Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 110
+   resources = {
+      category = ship_components
+      cost = {  food = 109 }
+      upkeep = {  food = 1.09 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_A"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+
+### Inter-Dimensional Drive Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 200
+   resources = {
+      category = ship_components
+      cost = {  food = 192 }
+      upkeep = {  food = 1.92 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_C"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+### Inter-Dimensional Drive Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 270
+   resources = {
+      category = ship_components
+      cost = {  food = 256 }
+      upkeep = {  food = 2.56 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_D"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+
+### Inter-Dimensional Drive Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 1520
+   resources = {
+      category = ship_components
+      cost = {  food = 1436 }
+      upkeep = {  food = 14.36 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_J"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+### Inter-Dimensional Drive Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 2020
+   resources = {
+      category = ship_components
+      cost = {  food = 1915 }
+      upkeep = {  food = 19.15 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_K"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+### Inter-Dimensional Drive Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 2700
+   resources = {
+      category = ship_components
+      cost = {  food = 2552 }
+      upkeep = {  food = 25.52 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_L"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.06 ship_weapon_damage = 0.06 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+### Inter-Dimensional Drive Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 3600
+   resources = {
+      category = ship_components
+      cost = {  food = 3401 }
+      upkeep = {  food = 34.01 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_M"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.07 ship_weapon_damage = 0.07 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+### Inter-Dimensional Drive Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 4790
+   resources = {
+      category = ship_components
+      cost = {  food = 4534 }
+      upkeep = {  food = 45.34 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_N"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.08 ship_weapon_damage = 0.08 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+### Inter-Dimensional Drive Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_2_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_2"
+   icon_frame = 1
+   power = 6390
+   resources = {
+      category = ship_components
+      cost = {  food = 6044 }
+      upkeep = {  food = 60.44 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_3_O"
+   ship_modifier = { ship_interstellar_speed_mult = 0.5    }
+   modifier = {    ship_shield_mult = 0.09 ship_weapon_damage = 0.09 }
+   prerequisites = { "tech_physics_01343" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 110
+   }
+}
+
+### Trans-Dimensional Drive Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 140
+   resources = {
+      category = ship_components
+      cost = {  food = 131 }
+      upkeep = {  food = 1.31 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_A"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.02 ship_weapon_damage = 0.02 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+
+### Trans-Dimensional Drive Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 250
+   resources = {
+      category = ship_components
+      cost = {  food = 232 }
+      upkeep = {  food = 2.32 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_C"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+### Trans-Dimensional Drive Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 330
+   resources = {
+      category = ship_components
+      cost = {  food = 310 }
+      upkeep = {  food = 3.1 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_D"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+
+### Trans-Dimensional Drive Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 1830
+   resources = {
+      category = ship_components
+      cost = {  food = 1735 }
+      upkeep = {  food = 17.35 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_J"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.07 ship_weapon_damage = 0.07 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+### Trans-Dimensional Drive Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 2440
+   resources = {
+      category = ship_components
+      cost = {  food = 2313 }
+      upkeep = {  food = 23.13 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_K"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.07 ship_weapon_damage = 0.07 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+### Trans-Dimensional Drive Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 3260
+   resources = {
+      category = ship_components
+      cost = {  food = 3083 }
+      upkeep = {  food = 30.83 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_L"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.09 ship_weapon_damage = 0.09 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+### Trans-Dimensional Drive Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 4340
+   resources = {
+      category = ship_components
+      cost = {  food = 4110 }
+      upkeep = {  food = 41.1 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_M"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.1 ship_weapon_damage = 0.1 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+### Trans-Dimensional Drive Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 5780
+   resources = {
+      category = ship_components
+      cost = {  food = 5478 }
+      upkeep = {  food = 54.78 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_N"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.11 ship_weapon_damage = 0.11 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+### Trans-Dimensional Drive Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_3_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_3"
+   icon_frame = 1
+   power = 7710
+   resources = {
+      category = ship_components
+      cost = {  food = 7303 }
+      upkeep = {  food = 73.03 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_4_O"
+   ship_modifier = { ship_interstellar_speed_mult = 1.25 ship_ftl_jumpdrive_range_mult = 0.25 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.13 ship_weapon_damage = 0.13 }
+   prerequisites = { "tech_physics_01344" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 120
+   }
+}
+
+### Extra-Dimensional Drive Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 190
+   resources = {
+      category = ship_components
+      cost = {  food = 167 }
+      upkeep = {  food = 1.67 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_A"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+
+### Extra-Dimensional Drive Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 330
+   resources = {
+      category = ship_components
+      cost = {  food = 296 }
+      upkeep = {  food = 2.96 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_C"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.04 ship_weapon_damage = 0.04 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+### Extra-Dimensional Drive Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 440
+   resources = {
+      category = ship_components
+      cost = {  food = 395 }
+      upkeep = {  food = 3.95 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_D"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+
+### Extra-Dimensional Drive Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 2460
+   resources = {
+      category = ship_components
+      cost = {  food = 2214 }
+      upkeep = {  food = 22.14 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_J"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.1 ship_weapon_damage = 0.1 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+### Extra-Dimensional Drive Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 3280
+   resources = {
+      category = ship_components
+      cost = {  food = 2951 }
+      upkeep = {  food = 29.51 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_K"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.11 ship_weapon_damage = 0.11 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+### Extra-Dimensional Drive Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 4370
+   resources = {
+      category = ship_components
+      cost = {  food = 3934 }
+      upkeep = {  food = 39.34 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_L"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.13 ship_weapon_damage = 0.13 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+### Extra-Dimensional Drive Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 5830
+   resources = {
+      category = ship_components
+      cost = {  food = 5244 }
+      upkeep = {  food = 52.44 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_M"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.15 ship_weapon_damage = 0.15 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+### Extra-Dimensional Drive Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 7770
+   resources = {
+      category = ship_components
+      cost = {  food = 6990 }
+      upkeep = {  food = 69.9 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_N"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.17 ship_weapon_damage = 0.17 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+### Extra-Dimensional Drive Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_4_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_4"
+   icon_frame = 1
+   power = 10360
+   resources = {
+      category = ship_components
+      cost = {  food = 9317 }
+      upkeep = {  food = 93.17 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_5_O"
+   ship_modifier = { ship_interstellar_speed_mult = 2.25 ship_ftl_jumpdrive_range_mult = 0.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.2 ship_weapon_damage = 0.2 }
+   prerequisites = { "tech_physics_01345" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 130
+   }
+}
+
+### Fluidic Space Shunt Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 210
+   resources = {
+      category = ship_components
+      cost = {  food = 181 }
+      upkeep = {  food = 1.81 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_A"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+
+### Fluidic Space Shunt Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 370
+   resources = {
+      category = ship_components
+      cost = {  food = 320 }
+      upkeep = {  food = 3.2 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_C"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.04 ship_weapon_damage = 0.04 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+### Fluidic Space Shunt Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 490
+   resources = {
+      category = ship_components
+      cost = {  food = 427 }
+      upkeep = {  food = 4.27 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_D"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+
+### Fluidic Space Shunt Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 2770
+   resources = {
+      category = ship_components
+      cost = {  food = 2394 }
+      upkeep = {  food = 23.94 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_J"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.1 ship_weapon_damage = 0.1 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+### Fluidic Space Shunt Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 3700
+   resources = {
+      category = ship_components
+      cost = {  food = 3191 }
+      upkeep = {  food = 31.91 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_K"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.11 ship_weapon_damage = 0.11 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+### Fluidic Space Shunt Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 4930
+   resources = {
+      category = ship_components
+      cost = {  food = 4253 }
+      upkeep = {  food = 42.53 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_L"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.13 ship_weapon_damage = 0.13 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+### Fluidic Space Shunt Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 6570
+   resources = {
+      category = ship_components
+      cost = {  food = 5669 }
+      upkeep = {  food = 56.69 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_M"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.15 ship_weapon_damage = 0.15 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+### Fluidic Space Shunt Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 8760
+   resources = {
+      category = ship_components
+      cost = {  food = 7556 }
+      upkeep = {  food = 75.56 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_N"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.17 ship_weapon_damage = 0.17 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+### Fluidic Space Shunt Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_5_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_5"
+   icon_frame = 1
+   power = 11680
+   resources = {
+      category = ship_components
+      cost = {  food = 10072 }
+      upkeep = {  food = 100.72 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_6_O"
+   ship_modifier = { ship_interstellar_speed_mult = 2.75 ship_ftl_jumpdrive_range_mult = 0.75 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.2 ship_weapon_damage = 0.2 }
+   prerequisites = { "tech_physics_01346" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 140
+   }
+}
+
+### Rapid Fluidic Space Shunt Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 230
+   resources = {
+      category = ship_components
+      cost = {  food = 205 }
+      upkeep = {  food = 2.05 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_A"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.04 ship_weapon_damage = 0.04 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+
+### Rapid Fluidic Space Shunt Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 410
+   resources = {
+      category = ship_components
+      cost = {  food = 364 }
+      upkeep = {  food = 3.64 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_C"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+### Rapid Fluidic Space Shunt Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 550
+   resources = {
+      category = ship_components
+      cost = {  food = 486 }
+      upkeep = {  food = 4.86 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_D"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.06 ship_weapon_damage = 0.06 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+
+### Rapid Fluidic Space Shunt Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 3060
+   resources = {
+      category = ship_components
+      cost = {  food = 2723 }
+      upkeep = {  food = 27.23 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_J"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.13 ship_weapon_damage = 0.13 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+### Rapid Fluidic Space Shunt Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 4080
+   resources = {
+      category = ship_components
+      cost = {  food = 3629 }
+      upkeep = {  food = 36.29 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_K"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.15 ship_weapon_damage = 0.15 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+### Rapid Fluidic Space Shunt Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 5440
+   resources = {
+      category = ship_components
+      cost = {  food = 4837 }
+      upkeep = {  food = 48.37 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_L"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.18 ship_weapon_damage = 0.18 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+### Rapid Fluidic Space Shunt Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 7250
+   resources = {
+      category = ship_components
+      cost = {  food = 6448 }
+      upkeep = {  food = 64.48 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_M"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.2 ship_weapon_damage = 0.2 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+### Rapid Fluidic Space Shunt Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 9670
+   resources = {
+      category = ship_components
+      cost = {  food = 8595 }
+      upkeep = {  food = 85.95 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_N"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.23 ship_weapon_damage = 0.23 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+### Rapid Fluidic Space Shunt Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_6_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_6"
+   icon_frame = 1
+   power = 12890
+   resources = {
+      category = ship_components
+      cost = {  food = 11457 }
+      upkeep = {  food = 114.57 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_7_O"
+   ship_modifier = { ship_interstellar_speed_mult = 3.75 ship_ftl_jumpdrive_range_mult = 1 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.27 ship_weapon_damage = 0.27 }
+   prerequisites = { "tech_physics_01347" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 150
+   }
+}
+
+### Extra Rapid Fluidic Space Shunt Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 250
+   resources = {
+      category = ship_components
+      cost = {  food = 219 }
+      upkeep = {  food = 2.19 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_A"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.04 ship_weapon_damage = 0.04 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+
+### Extra Rapid Fluidic Space Shunt Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 450
+   resources = {
+      category = ship_components
+      cost = {  food = 388 }
+      upkeep = {  food = 3.88 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_C"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+### Extra Rapid Fluidic Space Shunt Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 600
+   resources = {
+      category = ship_components
+      cost = {  food = 518 }
+      upkeep = {  food = 5.18 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_D"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.06 ship_weapon_damage = 0.06 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+
+### Extra Rapid Fluidic Space Shunt Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 3350
+   resources = {
+      category = ship_components
+      cost = {  food = 2902 }
+      upkeep = {  food = 29.02 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_J"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.13 ship_weapon_damage = 0.13 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+### Extra Rapid Fluidic Space Shunt Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 4460
+   resources = {
+      category = ship_components
+      cost = {  food = 3868 }
+      upkeep = {  food = 38.68 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_K"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.15 ship_weapon_damage = 0.15 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+### Extra Rapid Fluidic Space Shunt Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 5940
+   resources = {
+      category = ship_components
+      cost = {  food = 5156 }
+      upkeep = {  food = 51.56 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_L"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.18 ship_weapon_damage = 0.18 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+### Extra Rapid Fluidic Space Shunt Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 7920
+   resources = {
+      category = ship_components
+      cost = {  food = 6873 }
+      upkeep = {  food = 68.73 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_M"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.2 ship_weapon_damage = 0.2 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+### Extra Rapid Fluidic Space Shunt Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 10560
+   resources = {
+      category = ship_components
+      cost = {  food = 9162 }
+      upkeep = {  food = 91.62 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_N"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.23 ship_weapon_damage = 0.23 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+### Extra Rapid Fluidic Space Shunt Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_7_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_7"
+   icon_frame = 1
+   power = 14080
+   resources = {
+      category = ship_components
+      cost = {  food = 12213 }
+      upkeep = {  food = 122.13 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_8_O"
+   ship_modifier = { ship_interstellar_speed_mult = 4.5 ship_ftl_jumpdrive_range_mult = 1.25 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.27 ship_weapon_damage = 0.27 }
+   prerequisites = { "tech_physics_01348" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 160
+   }
+}
+
+### Oscillating Fluidic Space Shunt Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 260
+   resources = {
+      category = ship_components
+      cost = {  food = 246 }
+      upkeep = {  food = 2.46 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_A"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+
+### Oscillating Fluidic Space Shunt Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 460
+   resources = {
+      category = ship_components
+      cost = {  food = 436 }
+      upkeep = {  food = 4.36 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_C"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.06 ship_weapon_damage = 0.06 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Oscillating Fluidic Space Shunt Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 620
+   resources = {
+      category = ship_components
+      cost = {  food = 582 }
+      upkeep = {  food = 5.82 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_D"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.07 ship_weapon_damage = 0.07 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+
+### Oscillating Fluidic Space Shunt Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 3480
+   resources = {
+      category = ship_components
+      cost = {  food = 3261 }
+      upkeep = {  food = 32.61 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_J"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.17 ship_weapon_damage = 0.17 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Oscillating Fluidic Space Shunt Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 4630
+   resources = {
+      category = ship_components
+      cost = {  food = 4347 }
+      upkeep = {  food = 43.47 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_K"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.19 ship_weapon_damage = 0.19 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Oscillating Fluidic Space Shunt Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 6180
+   resources = {
+      category = ship_components
+      cost = {  food = 5794 }
+      upkeep = {  food = 57.94 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_L"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.22 ship_weapon_damage = 0.22 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Oscillating Fluidic Space Shunt Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 8230
+   resources = {
+      category = ship_components
+      cost = {  food = 7724 }
+      upkeep = {  food = 77.24 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_M"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.26 ship_weapon_damage = 0.26 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Oscillating Fluidic Space Shunt Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 10970
+   resources = {
+      category = ship_components
+      cost = {  food = 10295 }
+      upkeep = {  food = 102.95 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_N"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.3 ship_weapon_damage = 0.3 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Oscillating Fluidic Space Shunt Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_8_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_8"
+   icon_frame = 1
+   power = 14630
+   resources = {
+      category = ship_components
+      cost = {  food = 13723 }
+      upkeep = {  food = 137.23 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   upgrades_to = "REQUIRED_WARP_BIO_9_O"
+   ship_modifier = { ship_interstellar_speed_mult = 5.5 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1 }
+   modifier = {    ship_shield_mult = 0.34 ship_weapon_damage = 0.34 }
+   prerequisites = { "tech_physics_01349" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+
+### Experimental Fluidic Space Shunt Type-1 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_A"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 280
+   resources = {
+      category = ship_components
+      cost = {  food = 259 }
+      upkeep = {  food = 2.59 }
+   }
+   size_restriction = { undine_01_bio_scout constructor transport colonizer sponsored_colonizer borg_colonizer xcv330 }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+
+### Experimental Fluidic Space Shunt Type-3 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_C"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 500
+   resources = {
+      category = ship_components
+      cost = {  food = 460 }
+      upkeep = {  food = 4.6 }
+   }
+   size_restriction = { science civ_raven }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.07 ship_weapon_damage = 0.07 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Experimental Fluidic Space Shunt Type-4 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_D"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 660
+   resources = {
+      category = ship_components
+      cost = {  food = 614 }
+      upkeep = {  food = 6.14 }
+   }
+   size_restriction = { undine_01_bio_frigate }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.08 ship_weapon_damage = 0.08 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+
+### Experimental Fluidic Space Shunt Type-10 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_J"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 3730
+   resources = {
+      category = ship_components
+      cost = {  food = 3441 }
+      upkeep = {  food = 34.41 }
+   }
+   size_restriction = { undine_01_bio_destroyer }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.19 ship_weapon_damage = 0.19 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Experimental Fluidic Space Shunt Type-12 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_K"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 4970
+   resources = {
+      category = ship_components
+      cost = {  food = 4586 }
+      upkeep = {  food = 45.86 }
+   }
+   size_restriction = { undine_01_bio_ship undine_01_bio_cruiser }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.21 ship_weapon_damage = 0.21 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Experimental Fluidic Space Shunt Type-14 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_L"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 6620
+   resources = {
+      category = ship_components
+      cost = {  food = 6113 }
+      upkeep = {  food = 61.13 }
+   }
+   size_restriction = { undine_01_bio_raider }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.25 ship_weapon_damage = 0.25 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Experimental Fluidic Space Shunt Type-16 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_M"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 8830
+   resources = {
+      category = ship_components
+      cost = {  food = 8149 }
+      upkeep = {  food = 81.49 }
+   }
+   size_restriction = { undine_01_bio_battleship undine_01_bio_infester }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.28 ship_weapon_damage = 0.28 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Experimental Fluidic Space Shunt Type-18 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_N"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 11770
+   resources = {
+      category = ship_components
+      cost = {  food = 10862 }
+      upkeep = {  food = 108.62 }
+   }
+   size_restriction = { undine_01_bio_behemoth undine_01_bio_warship }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.33 ship_weapon_damage = 0.33 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}
+### Experimental Fluidic Space Shunt Type-20 
+utility_component_template = {
+   key = "REQUIRED_WARP_BIO_9_O"
+   size = small
+   icon = "GFX_ship_part_required_warp_bio_9"
+   icon_frame = 1
+   power = 15690
+   resources = {
+      category = ship_components
+      cost = {  food = 14479 }
+      upkeep = {  food = 144.79 }
+   }
+   size_restriction = { undine_01_bio_vanquisher }
+   ftl = yes
+   jumpdrive = yes
+   ship_modifier = { ship_interstellar_speed_mult = 6.25 ship_ftl_jumpdrive_range_mult = 1.5 ship_disengage_opportunities_add = 1  }
+   modifier = {    ship_shield_mult = 0.38 ship_weapon_damage = 0.38 }
+   prerequisites = { "tech_physics_field_manipulation_14025" }
+   component_set = "required_warp"
+   ai_weight = {
+      weight = 170
+   }
+}

@@ -1,0 +1,274 @@
+weapon_component_template = {
+   key = "EXTRA_LARGE_MUON_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_muon_special_0_extra_large"
+   icon_frame = 1
+   size_restriction = { fed_light_cruiser_steamrunner fed_light_cruiser_saber fed_explorer_intrepid_class fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_norway fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_heavy_escort_defiant fed_escort_ship_defiant fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_mobile_throne_charon fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_gunboat_brel_a kdf_bop_pagh kdf_raptor_mehadraw kdf_raider_kvort kdf_battlecruiser_vorcha kdf_warship_neghvar kdf_hero_ship_chtang kdf_flagship_jehjhong rom_bop_arhael rom_interceptor_tdair rom_warbird_valdore rom_hero_ship_tulwas rom_warbird_vreedex rom_starbird_kaskara rom_battleship_dderidex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube undine_01_bio_scout undine_01_bio_ship undine_01_bio_behemoth fallen_interdictor fallen_assault fallen_flagship corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war military_defense_fed_1 military_defense_fed_2 military_defense_fed_3 military_defense_rom_1 military_defense_kdf_1 military_defense_kdf_2 military_defense_car_1 military_defense_dom_1 military_defense_generic_1 la_sirena shuttle attack_ship military_station_small military_station_medium military_station_large cardassian_cannon orbital_cannon enclave_mercenary_station ion_cannon borg_unimatrix_defense_small starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders fed_frigate_california fed_light_cruiser_parliament fed_light_cruiser_reliant klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_frigate undine_01_bio_destroyer undine_01_bio_cruiser undine_01_bio_raider undine_01_bio_battleship undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_danube fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen fed_dreadnought_vengeance  }
+   prerequisites = { "tech_physics_muon_139" }
+   component_set = "MUON_SPECIAL_0_SPINAL"
+   projectile_gfx = "cannon_blue_01"
+   tags = { weapon_type_kinetic }
+   ai_tags = { weapon_role_anti_armor }
+   resources = {
+      category = ship_components
+      cost = { alloys = 240 sr_tallonian = 111.89 }
+      upkeep = { energy = 4 alloys = 1 }
+   }
+   ai_weight = {
+      weight = 1
+            modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_tallonian }
+		}
+   }
+}
+
+###Quantum Resonance Cannon
+
+weapon_component_template = {
+   key = "EXTRA_LARGE_QUANTUM_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_quantum_special_0_extra_large"
+   icon_frame = 1
+   size_restriction = { fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau rom_warbird_vreedex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war la_sirena shuttle attack_ship starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen fed_dreadnought_vengeance  }
+   prerequisites = { "tech_physics_quantum_140" }
+   component_set = "QUANTUM_SPECIAL_0_SPINAL"
+   projectile_gfx = "cannon_blue_02"
+   tags = { weapon_type_kinetic }
+   ai_tags = { weapon_role_anti_armor }
+   resources = {
+      category = ship_components
+      cost = { alloys = 164 sr_tallonian = 130.56 }
+      upkeep = { energy = 4.08 alloys = 1.02 }
+   }
+   ai_weight = {
+      weight = 1
+            modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_tallonian }
+		}
+   }
+}
+
+###Medevlan Gauss Cannon
+
+weapon_component_template = {
+   key = "EXTRA_LARGE_MEDEVLAN_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_medevlan_special_0_extra_large"
+   icon_frame = 1
+   size_restriction = { fed_light_cruiser_steamrunner fed_light_cruiser_saber fed_explorer_intrepid_class fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_norway fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_heavy_escort_defiant fed_escort_ship_defiant fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_mobile_throne_charon fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_gunboat_brel_a kdf_bop_pagh kdf_raptor_mehadraw kdf_raider_kvort kdf_battlecruiser_vorcha kdf_warship_neghvar kdf_hero_ship_chtang kdf_flagship_jehjhong rom_bop_arhael rom_interceptor_tdair rom_warbird_valdore rom_hero_ship_tulwas rom_warbird_vreedex rom_starbird_kaskara rom_battleship_dderidex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube undine_01_bio_scout undine_01_bio_ship undine_01_bio_behemoth fallen_interdictor fallen_assault fallen_flagship corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war military_defense_fed_1 military_defense_fed_2 military_defense_fed_3 military_defense_rom_1 military_defense_kdf_1 military_defense_kdf_2 military_defense_car_1 military_defense_dom_1 military_defense_generic_1 la_sirena shuttle attack_ship military_station_small military_station_medium military_station_large cardassian_cannon orbital_cannon enclave_mercenary_station ion_cannon borg_unimatrix_defense_small starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders fed_frigate_california fed_light_cruiser_parliament fed_light_cruiser_reliant klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_frigate undine_01_bio_destroyer undine_01_bio_cruiser undine_01_bio_raider undine_01_bio_battleship undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_danube fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen fed_dreadnought_vengeance  }
+   prerequisites = { "tech_physics_medevlan_144" }
+   component_set = "MEDEVLAN_SPECIAL_0_SPINAL"
+   projectile_gfx = "beam_blue_03"
+   tags = { weapon_type_energy s_slot }
+   ai_tags = { weapon_role_anti_shield charge mid_range skirmisher }
+   resources = {
+      category = ship_components
+      cost = { alloys = 240 sr_tallonian = 111.89 }
+      upkeep = { energy = 4 alloys = 1 }
+   }
+   ai_weight = {
+      weight = 1
+            modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_tallonian }
+		}
+   }
+}
+
+###Isokinetic Cannon
+
+weapon_component_template = {
+   key = "EXTRA_LARGE_ISOKINETIC_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_isokinetic_special_0_extra_large"
+   icon_frame = 1
+   size_restriction = { fed_light_cruiser_steamrunner fed_light_cruiser_saber fed_explorer_intrepid_class fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_norway fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_heavy_escort_defiant fed_escort_ship_defiant fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_mobile_throne_charon fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_gunboat_brel_a kdf_bop_pagh kdf_raptor_mehadraw kdf_raider_kvort kdf_battlecruiser_vorcha kdf_warship_neghvar kdf_hero_ship_chtang kdf_flagship_jehjhong rom_bop_arhael rom_interceptor_tdair rom_warbird_valdore rom_hero_ship_tulwas rom_warbird_vreedex rom_starbird_kaskara rom_battleship_dderidex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube undine_01_bio_scout undine_01_bio_ship undine_01_bio_behemoth fallen_interdictor fallen_assault fallen_flagship corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war military_defense_fed_1 military_defense_fed_2 military_defense_fed_3 military_defense_rom_1 military_defense_kdf_1 military_defense_kdf_2 military_defense_car_1 military_defense_dom_1 military_defense_generic_1 la_sirena shuttle attack_ship military_station_small military_station_medium military_station_large cardassian_cannon orbital_cannon enclave_mercenary_station ion_cannon borg_unimatrix_defense_small starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders fed_frigate_california fed_light_cruiser_parliament fed_light_cruiser_reliant klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_frigate undine_01_bio_destroyer undine_01_bio_cruiser undine_01_bio_raider undine_01_bio_battleship undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_danube fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen fed_dreadnought_vengeance  }
+   prerequisites = { "tech_physics_isokinetic_146" }
+   component_set = "ISOKINETIC_SPECIAL_0_SPINAL"
+   projectile_gfx = "cannon_dark_03"
+   tags = { weapon_type_kinetic }
+   ai_tags = { weapon_role_anti_shield charge mid_range skirmisher }
+   resources = {
+      category = ship_components
+      cost = { alloys = 227 sr_tallonian = 105.68 }
+      upkeep = { energy = 3.78 alloys = 0.95 }
+   }
+   ai_weight = {
+      weight = 1
+            modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_tallonian }
+		}
+   }
+}
+
+###Subatomic Temporal Disruptor Cannon
+
+weapon_component_template = {
+   key = "EXTRA_LARGE_SUBATOMIC_CANNON_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_subatomic_cannon_special_0_extra_large"
+   icon_frame = 1
+   size_restriction = { fed_light_cruiser_steamrunner fed_light_cruiser_saber fed_explorer_intrepid_class fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_norway fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_heavy_escort_defiant fed_escort_ship_defiant fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_mobile_throne_charon fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_gunboat_brel_a kdf_bop_pagh kdf_raptor_mehadraw kdf_raider_kvort kdf_battlecruiser_vorcha kdf_warship_neghvar kdf_hero_ship_chtang kdf_flagship_jehjhong rom_bop_arhael rom_interceptor_tdair rom_warbird_valdore rom_hero_ship_tulwas rom_warbird_vreedex rom_starbird_kaskara rom_battleship_dderidex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube undine_01_bio_scout undine_01_bio_ship undine_01_bio_behemoth fallen_interdictor fallen_assault fallen_flagship corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war military_defense_fed_1 military_defense_fed_2 military_defense_fed_3 military_defense_rom_1 military_defense_kdf_1 military_defense_kdf_2 military_defense_car_1 military_defense_dom_1 military_defense_generic_1 la_sirena shuttle attack_ship military_station_small military_station_medium military_station_large cardassian_cannon orbital_cannon enclave_mercenary_station ion_cannon borg_unimatrix_defense_small starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders fed_frigate_california fed_light_cruiser_parliament fed_light_cruiser_reliant klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_frigate undine_01_bio_destroyer undine_01_bio_cruiser undine_01_bio_raider undine_01_bio_battleship undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_danube fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen fed_dreadnought_vengeance  }
+   prerequisites = { "tech_physics_subatomic_145" }
+   component_set = "SUBATOMIC_CANNON_SPECIAL_0_SPINAL"
+   projectile_gfx = "cannon_dark_02"
+   tags = { weapon_type_kinetic }
+   ai_tags = { weapon_role_anti_armor weapon_role_anti_shield charge mid_range skirmisher }
+   resources = {
+      category = ship_components
+      cost = {  sr_time_crystal = 23.78 }
+      upkeep = { energy = 4.76 alloys = 1.19 }
+   }
+   ai_weight = {
+      weight = 1
+            modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_time_crystal }
+		}
+   }
+}
+
+###Boolean Cannon
+
+weapon_component_template = {
+   key = "EXTRA_LARGE_BOOLEAN_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_boolean_special_0_extra_large"
+   icon_frame = 1
+   size_restriction = { fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau rom_warbird_vreedex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war la_sirena shuttle attack_ship starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen fed_dreadnought_vengeance  }
+   prerequisites = { "tech_physics_11517" }
+   component_set = "BOOLEAN_SPECIAL_0_SPINAL"
+   projectile_gfx = "beam_dark_02"
+   tags = { weapon_type_energy s_slot }
+   ai_tags = { weapon_role_artillery artillery sniper carrier }
+   resources = {
+      category = ship_components
+      cost = { alloys = 164 sr_tallonian = 130.56 }
+      upkeep = { energy = 4.08 alloys = 1.02 }
+   }
+   ai_weight = {
+      weight = 1
+            modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_tallonian }
+		}
+   }
+}
+
+###Optronic Pulse Array
+
+weapon_component_template = {
+   key = "EXTRA_LARGE_OPTRONIC_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_optronic_special_0_extra_large"
+   icon_frame = 1
+   size_restriction = { fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau rom_warbird_vreedex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war la_sirena shuttle attack_ship starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen fed_dreadnought_vengeance  }
+   prerequisites = { "tech_physics_01534" }
+   component_set = "OPTRONIC_SPECIAL_0_SPINAL"
+   projectile_gfx = "beam_dark_02"
+   tags = { weapon_type_energy s_slot }
+   ai_tags = { weapon_role_anti_hull }
+   resources = {
+      category = ship_components
+      cost = { alloys = 144 sr_tallonian = 115.2 }
+      upkeep = { energy = 3.6 alloys = 0.9 }
+   }
+   ai_weight = {
+      weight = 1
+            modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_tallonian }
+		}
+   }
+}
+
+###Psionic Energy Blast
+
+weapon_component_template = {
+   key = "LARGE_PSIONIC_GOMTUU_SPECIAL_0"
+   size = large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_psionic_gomtuu_special_0_large"
+   icon_frame = 1
+   firing_arc = 25.0
+	min_range = 30
+   size_restriction = { gomtuu fed_frigate_magee fed_frigate_saladin fed_frigate_akula fed_frigate_challenger fed_light_cruiser_intrepid_type fed_light_cruiser_bonaventure fed_light_cruiser_shepard fed_light_cruiser_kelvin fed_light_cruiser_talas fed_light_cruiser_t_pol fed_light_cruiser_gral fed_light_cruiser_centaur fed_light_cruiser_curry_type fed_light_cruiser_niagara fed_light_cruiser_steamrunner fed_light_cruiser_saber fed_explorer_nx fed_explorer_hoover fed_explorer_cardenas fed_explorer_miranda fed_explorer_new_orleans fed_explorer_kiri_kin_tha fed_explorer_intrepid_class fed_mmv_poseidon fed_mmv_walker fed_mmv_constellation fed_heavy_cruiser_nebula fed_mmv_akira fed_mmv_norway fed_heavy_cruiser_nimitz fed_heavy_cruiser_ares fed_heavy_cruiser_constitution fed_flagship_constitution fed_heavy_cruiser_shangri_la fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_crossfield fed_hero_ship_crossfield fed_advanced_cruiser_excelsior fed_flagship_excelsior fed_advanced_cruiser_vesta fed_exploration_cruiser_ambassador fed_flagship_ambassador fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_heavy_escort_defiant fed_escort_ship_defiant fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_hero_ship_nx fed_hero_ship_constitution fed_hero_ship_excelsior fed_hero_ship_ambassador fed_hero_ship_galaxy fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution fed_mobile_throne_charon fed_stealth_escort_modin fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau kdf_gunboat_borghel_a kdf_gunboat_brel_a kdf_bop_borghel kdf_bop_blasrika kdf_bop_homcha kdf_bop_brel kdf_bop_pagh kdf_raptor_somraw kdf_raptor_d5 kdf_hero_ship_d5 kdf_raptor_jev kdf_raptor_hegh kdf_raptor_mehadraw kdf_raider_d6 kdf_raider_kvort kdf_battlecruiser_d7 kdf_hero_ship_d7 kdf_battlecruiser_ktinga kdf_battlecruiser_norgh kdf_battlecruiser_vorcha kdf_warship_roj kdf_warship_kvek kdf_warship_neghvar kdf_hero_ship_chtang kdf_flagship_jehjhong kdf_raider_klalath kdf_raptor_qoj kdf_raider_sech kdf_battlecruiser_jach kdf_warship_jejha kdf_strike_ship_grethor kdf_strike_ship_feklhr rom_bop_rea rom_hero_ship_mimicus rom_bop_stanet rom_bop_jorek rom_bop_arhael rom_interceptor_tvaro rom_interceptor_arrenhe rom_interceptor_tliss rom_interceptor_tmara rom_interceptor_tdair rom_warbird_tellus rom_warbird_stasek rom_warbird_sharien rom_hero_ship_falchion rom_warbird_kanassarum rom_warbird_valdore rom_hero_ship_tulwas rom_warbird_vreedex rom_starbird_tshen rom_starbird_debrune rom_starbird_valkis rom_starbird_kaskara rom_battleship_praetor rom_battleship_gallant rom_battleship_pontilus rom_battleship_dderidex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_decius rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube undine_01_bio_scout undine_01_bio_ship undine_01_bio_behemoth fallen_interdictor fallen_assault fallen_flagship fallen_attack corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war bajoran_lightship miradorn_raider yridian_destroyer amarie_cruiser military_defense_fed_1 military_defense_fed_2 military_defense_fed_3 military_defense_rom_1 military_defense_kdf_1 military_defense_kdf_2 military_defense_car_1 military_defense_dom_1 military_defense_generic_1 la_sirena shuttle attack_ship military_station_small military_station_medium military_station_large cardassian_cannon orbital_cannon enclave_mercenary_station ion_cannon borg_unimatrix_defense_small starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders fed_mmv_springfield fed_frigate_california fed_light_cruiser_parliament fed_light_cruiser_reliant fed_explorer_cheyenne fed_exploration_cruiser_federation   klingon_houses_raptor_somraw klingon_houses_battlecruiser_d7 klingon_houses_battlecruiser_vorcha klingon_houses_warship_neghvar klingon_houses_raider_klalath klingon_houses_raptor_qoj klingon_houses_raider_sech klingon_houses_battlecruiser_jach klingon_houses_warship_jejha cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_dreadnought_vengeance fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder fed_heavy_cruiser_yorktown undine_01_bio_frigate undine_01_bio_destroyer undine_01_bio_cruiser undine_01_bio_raider undine_01_bio_battleship undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester science fed_scout_freedom fed_scout_malachowski fed_scout_daedalus fed_scout_oberth fed_scout_olympic fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_shuttle_shuttlepod fed_shuttle_class_c_shuttle fed_shuttle_class_f_shuttle fed_shuttle_type_7_shuttle fed_runabout_danube fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_galileo fed_attack_wing_peregrine fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_daqtagh kdf_attack_wing_bop_wing rom_shuttle_tajen rom_attack_wing_shalimar rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra science fed_scout_freedom_tng fed_carrier_sarajevo fed_carrier_minuteman fed_carrier_ptolomy fed_carrier_sydney fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_advanced_cruiser_obena fed_advanced_cruiser_duderstadt fed_command_cruiser_excalibur fed_flagship_excalibur fed_carrier_engle fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_mmv_radiant fed_mmv_loknar fed_mmv_farragut fed_heavy_cruiser_proxima fed_frigate_discovery fed_attack_wing_nx_beta fed_explorer_dauntless fed_scout_akyazi fed_stealth_escort_nimrod fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland fed_heavy_cruiser_kelvin_constitution cardassian_01_cruiser_kimal kdf_ship_of_the_dead_duj_heg cardassian_01_war_cruiser_ekoor research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen   }
+   hidden = yes
+   component_set = "PSIONIC_GOMTUU_SPECIAL_0"
+   projectile_gfx = "beam_purple_02"
+   tags = { weapon_type_energy s_slot }
+   ai_tags = { weapon_role_anti_shield charge mid_range skirmisher }
+}
+
+###Doomsday Machine
+
+weapon_component_template = {
+   key = "EXTRA_LARGE_DOOMSDAY_SPECIAL_0"
+   size = extra_large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_doomsday_special_0_extra_large"
+   icon_frame = 1
+   firing_arc = 25.0
+   size_restriction = { vger_probe edo_god doomsday }
+   hidden = yes
+   component_set = "DOOMSDAY_SPECIAL_0_SPINAL"
+   projectile_gfx = "beam_blue_03"
+   tags = { weapon_type_energy s_slot }
+   ai_tags = { weapon_role_anti_hull }
+}
+
+###Pakled Grappling Arms
+
+weapon_component_template = {
+   key = "LARGE_TUNNELING_SPECIAL_1"
+   size = large
+   entity = "small_laser_gun_entity"
+   type = instant
+   icon = "GFX_ship_part_tunneling_special_1_large"
+   icon_frame = 1
+   size_restriction = { fed_heavy_cruiser_sovereign fed_flagship_sovereign fed_command_cruiser_odyssey fed_flagship_odyssey fed_adv_heavy_cruiser_inquiry  fed_advanced_cruiser_vesta fed_heavy_escort_prometheus fed_stealth_escort_deimos fed_heavy_escort_texas fed_hero_ship_texas fed_mmv_sagan fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross cardassian_01_war_cruiser_letau rom_warbird_vreedex rom_sword_scimitar dom_sword_shrike rom_battleship_dkazanak rom_shrike_cruiser_khanakh rom_shuttle_snakehead borg_probe borg_scout borg_pyramid borg_sphere borg_diamond borg_cube borg_tactical super_cube corvette saber sovereign exploration_cruiser steamrunner adv_cruiser strike assault_cruiser super_battleship man_war la_sirena shuttle attack_ship starbase_outpost starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_castle  starbase_terran_vanguard_01 starbase_swarm starbase_ai starbase_exd starbase_marauder starbase_gatebuilders cardassian_01_adv_cruiser_obsidian military_defense_fed_4 fed_explorer_century fed_explorer_lamarr fed_explorer_gagarin fed_explorer_pathfinder undine_01_bio_warship undine_01_bio_vanquisher undine_01_bio_infester fed_scout_nova fed_scout_protostar fed_hero_ship_protostar fed_runabout_venture fed_shuttle_aquarius fed_attack_wing_gryphon kdf_shuttle_kivra kdf_attack_wing_bop_wing rom_attack_wing_scorpion cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra fed_carrier_iwo_jima fed_carrier_samson time_ship_annorax sona_collector_ahdar fed_command_cruiser_excalibur fed_flagship_excalibur fed_heavy_cruiser_polaris fed_flagship_polaris fed_mobile_carrier_typhon fed_explorer_dauntless research_starbase deep_space_starbase nor_starbase_nor klingon_juggernaut federation_member_world_shipyard  fed_frigate_galen   }
+   prerequisites = { "tech_physics_particles_14014" }
+   component_set = "TUNNELING_SPECIAL_1"
+   projectile_gfx = "beam_white_02"
+   tags = { weapon_type_energy s_slot }
+   ai_tags = { weapon_role_anti_armor }
+   resources = {
+      category = ship_components
+      cost = { alloys = 103 sr_tallonian = 81.88 }
+      upkeep = { energy = 2.56 alloys = 0.64 }
+   }
+   ai_weight = {
+      weight = 1
+         modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_tallonian }
+		}
+   }
+}

@@ -1,0 +1,748 @@
+### Failsafe System
+utility_component_template = {
+	key = "required_science_backup"
+	size = small
+	icon = "GFX_ship_part_required_science_backup"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+		upkeep = {
+			alloys = 0.2
+			energy = 0.8
+		}
+	}
+	ship_modifier = {
+		ship_disengage_chance_mult = 0.03
+	}
+	component_set = "required_science"
+	size_restriction = {
+		research_starbase
+		constructor
+		transport
+		colonizer
+		science
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+	}
+	ai_tags = {
+		brawler
+		gunship
+		explosive
+		carrier
+		screen
+		artillery
+		essential_component
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Escape Pods
+utility_component_template = {
+	key = "required_science_escape_1"
+	size = small
+	icon = "GFX_ship_part_required_science_escape_1"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+		upkeep = {
+			alloys = 0.2
+			energy = 0.8
+		}
+	}
+	prerequisites = {
+		tech_physics_subspace_34
+	}
+	component_set = "required_science"
+	ship_modifier = {
+		ship_disengage_chance_mult = 0.1
+	}
+	size_restriction = {
+		constructor
+		transport
+		colonizer
+		science
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+	}
+	ai_tags = {
+		brawler
+		gunship
+		explosive
+		carrier
+		screen
+		artillery
+		essential_component
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Graviton Field Emitter
+utility_component_template = {
+	key = "required_science_anti_cloak_1"
+	size = small
+	icon = "GFX_ship_part_required_tactical_anti_cloak_1_1"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 250
+		}
+		upkeep = {
+			alloys = 0.5
+			energy = 2
+		}
+	}
+	prerequisites = {
+		tech_physics_anticloak_1
+	}
+	component_set = "required_science"
+	upgrades_to = required_science_anti_cloak_2
+	ship_modifier = {
+		ship_cloaking_detection_add = 1
+	}
+	size_restriction = {
+		science
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+	}
+	ai_tags = {
+		brawler
+		gunship
+		explosive
+		carrier
+		screen
+		artillery
+		essential_component
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Metaphasic Sensor Sweep
+utility_component_template = {
+	key = "required_science_anti_cloak_2"
+	size = small
+	icon = "GFX_ship_part_required_tactical_anti_cloak_2_2"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 250
+		}
+		upkeep = {
+			alloys = 0.5
+			energy = 2
+		}
+	}
+	prerequisites = {
+		tech_physics_anticloak_2
+	}
+	component_set = "required_science"
+	upgrades_to = required_science_anti_cloak_3
+	ship_modifier = {
+		ship_cloaking_detection_add = 2
+	}
+	size_restriction = {
+		science
+		fed_hero_ship_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+	}
+	ai_tags = {
+		brawler
+		gunship
+		explosive
+		carrier
+		screen
+		artillery
+		essential_component
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Tachyon Detection Grid
+utility_component_template = {
+	key = "required_science_anti_cloak_3"
+	size = small
+	icon = "GFX_ship_part_required_tactical_anti_cloak_3_3"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 250
+		}
+		upkeep = {
+			alloys = 0.5
+			energy = 2
+		}
+	}
+	prerequisites = {
+		tech_physics_anticloak_3
+	}
+	component_set = "required_science"
+	upgrades_to = required_science_anti_cloak_4
+	ship_modifier = {
+		ship_cloaking_detection_add = 3
+	}
+	size_restriction = {
+		science
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+	}
+	ai_tags = {
+		brawler
+		gunship
+		explosive
+		carrier
+		screen
+		artillery
+		essential_component
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Quantum Beacons
+utility_component_template = {
+	key = "required_science_anti_cloak_4"
+	size = small
+	icon = "GFX_ship_part_required_tactical_anti_cloak_4_4"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 250
+		}
+		upkeep = {
+			alloys = 0.55
+			energy = 2.2
+		}
+	}
+	prerequisites = {
+		tech_physics_anticloak_4
+	}
+	component_set = "required_science"
+	ship_modifier = {
+		ship_cloaking_detection_add = 4
+	}
+	size_restriction = {
+		science
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+	}
+	ai_tags = {
+		brawler
+		gunship
+		explosive
+		carrier
+		screen
+		artillery
+		essential_component
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Onboard Physics Lab - Research Starbase
+utility_component_template = {
+	key = "required_science_lab_physics_1"
+	size = small
+	icon = "GFX_ship_part_required_science_lab_physics_1"
+	icon_frame = 1
+	power = -175
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+		}
+		produces = {
+			engineering_research = 5
+		}
+		upkeep = {
+			sr_crew = 0.36
+		}
+	}
+	prerequisites = {
+		tech_starbase_3
+	}
+	component_set = "required_science"
+	size_restriction = {
+		research_starbase
+		deep_space_starbase
+		nor_starbase_nor
+	}
+	ai_tags = {
+		essential_component
+	}
+	ai_weight = {
+		weight = 236
+		modifier = {
+			factor = 0
+			is_ai = yes
+			no_resource_for_component = {
+				RESOURCE = sr_crew
+			}
+		}
+	}
+}
+
+### Onboard Society Lab - Research Starbase
+utility_component_template = {
+	key = "required_science_lab_society_1"
+	size = small
+	icon = "GFX_ship_part_utility_large_lab_society_3"
+	icon_frame = 1
+	power = -175
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+		}
+		produces = {
+			society_research = 5
+		}
+		upkeep = {
+			sr_crew = 0.36
+		}
+	}
+	prerequisites = {
+		tech_starbase_3
+	}
+	component_set = "required_science"
+	size_restriction = {
+		research_starbase
+		deep_space_starbase
+		nor_starbase_nor
+	}
+	ai_tags = {
+		essential_component
+	}
+	ai_weight = {
+		weight = 236
+		modifier = {
+			factor = 0
+			is_ai = yes
+			no_resource_for_component = {
+				RESOURCE = sr_crew
+			}
+		}
+	}
+}
+
+### Onboard Engineering Lab - Research Starbase
+utility_component_template = {
+	key = "required_science_lab_engineering_1"
+	size = small
+	icon = "GFX_ship_part_utility_large_lab_engineering_3"
+	icon_frame = 1
+	power = -175
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+		}
+		produces = {
+			physics_research = 5
+		}
+		upkeep = {
+			sr_crew = 0.36
+		}
+	}
+	prerequisites = {
+		tech_starbase_3
+	}
+	component_set = "required_science"
+	size_restriction = {
+		research_starbase
+		deep_space_starbase
+		nor_starbase_nor
+	}
+	ai_tags = {
+		essential_component
+	}
+	ai_weight = {
+		weight = 236
+		modifier = {
+			factor = 0
+			is_ai = yes
+			no_resource_for_component = {
+				RESOURCE = sr_crew
+			}
+		}
+	}
+}
+
+########################
+#
+# Specialisations
+#
+########################
+### Science
+utility_component_template = {
+	key = "required_science_specialisation_science"
+	size = small
+	icon = "GFX_ship_part_required_science_specialisation_science"
+	icon_frame = 1
+	power = 0
+	component_set = "required_science_specialisation"
+	size_restriction = {
+		science
+		fed_flagship_constitution
+		fed_flagship_excelsior
+		fed_flagship_ambassador
+		fed_flagship_galaxy
+		fed_flagship_sovereign
+		fed_flagship_odyssey
+		fed_flagship_neo_constitution
+		fed_flagship_excalibur
+		fed_flagship_polaris
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+		kdf_hero_ship_chtang
+		kdf_hero_ship_d5
+		kdf_hero_ship_d7
+		rom_hero_ship_tulwas
+		rom_hero_ship_mimicus
+		rom_hero_ship_falchion
+	}
+	inline_script = {
+		script = "ship_components/scripted_actions/research"
+	}
+	ai_weight = {
+		weight = 10
+	}
+}
+
+### Medical
+utility_component_template = {
+	key = "required_science_specialisation_medical"
+	size = small
+	icon = "GFX_ship_part_required_science_specialisation_medical"
+	icon_frame = 1
+	power = -10
+	component_set = "required_science_specialisation"
+	#class_restriction = { shipclass_science_ship }
+	size_restriction = {
+		science
+		fed_flagship_constitution
+		fed_flagship_excelsior
+		fed_flagship_ambassador
+		fed_flagship_galaxy
+		fed_flagship_sovereign
+		fed_flagship_odyssey
+		fed_flagship_neo_constitution
+		fed_flagship_excalibur
+		fed_flagship_polaris
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+		kdf_hero_ship_chtang
+		kdf_hero_ship_d5
+		kdf_hero_ship_d7
+		rom_hero_ship_tulwas
+		rom_hero_ship_mimicus
+		rom_hero_ship_falchion
+	}
+	scripted_action_possible = {
+		is_colony = yes
+		exists = owner
+		owner = {
+			is_same_value = prev.from.owner
+		}
+		OR = {
+			has_planet_flag = "medical_assist_from:@from"
+			NOT = {
+				has_planet_flag = "medical_assist"
+			}
+		}
+	}
+	scripted_action_button_possible = {
+		custom_tooltip = {
+			fail_text = "requires_owned_system"
+			exists = space_owner
+			space_owner = {
+				is_same_value = prev.owner
+			}
+		}
+		custom_tooltip = {
+			fail_text = "requires_medical_leader"
+			solar_system = {
+				any_fleet_in_system = {
+					exists = leader
+					leader = {
+						is_medical_leader = yes
+					}
+				}
+			}
+		}
+	}
+	scripted_action_finished = {
+		has_planet_flag = "assist_medical_finished"
+	}
+	scripted_action_name = on_assist_medical_planet_reached
+	scripted_action_tooltip = assist_medical_ship_button
+	scripted_action_icon = GFX_fleet_order_button_assist_medical_action
+	scripted_action_on_cancel = on_assist_medical_action_cancel
+	scripted_action_activity_key = assist_medical_action_activity_key
+	scripted_action_context_menu_name = assist_medical_context_menu_title
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Diplomacy
+utility_component_template = {
+	key = "required_science_specialisation_diplomacy"
+	size = small
+	icon = "GFX_ship_part_required_science_specialisation_diplomacy"
+	icon_frame = 1
+	power = -10
+	component_set = "required_science_specialisation"
+	size_restriction = {
+		science
+		fed_flagship_constitution
+		fed_flagship_excelsior
+		fed_flagship_ambassador
+		fed_flagship_galaxy
+		fed_flagship_sovereign
+		fed_flagship_odyssey
+		fed_flagship_neo_constitution
+		fed_flagship_excalibur
+		fed_flagship_polaris
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+		kdf_hero_ship_chtang
+		kdf_hero_ship_d5
+		kdf_hero_ship_d7
+		rom_hero_ship_tulwas
+		rom_hero_ship_mimicus
+		rom_hero_ship_falchion
+		fed_escort_ship_defiant
+	}
+	inline_script = {
+		script = "ship_components/scripted_actions/diplomatic"
+	}
+	ai_weight = {
+		weight = 10
+	}
+}
+
+### Engineering
+utility_component_template = {
+	key = "required_science_specialisation_engineering"
+	size = small
+	icon = "GFX_ship_part_required_science_specialisation_engineering"
+	icon_frame = 1
+	power = -10
+	component_set = "required_science_specialisation"
+	size_restriction = {
+		science
+		fed_flagship_constitution
+		fed_flagship_excelsior
+		fed_flagship_ambassador
+		fed_flagship_galaxy
+		fed_flagship_sovereign
+		fed_flagship_odyssey
+		fed_flagship_neo_constitution
+		fed_flagship_excalibur
+		fed_flagship_polaris
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		fed_hero_ship_crossfield
+		fed_hero_ship_protostar
+		fed_hero_ship_texas
+		kdf_hero_ship_chtang
+		kdf_hero_ship_d5
+		kdf_hero_ship_d7
+		rom_hero_ship_tulwas
+		rom_hero_ship_mimicus
+		rom_hero_ship_falchion
+		fed_escort_ship_defiant
+	}
+	inline_script = {
+		script = "ship_components/scripted_actions/engineering"
+	}
+	ai_weight = {
+		weight = 10
+	}
+}
+
+### Flagship
+utility_component_template = {
+	key = "required_science_specialisation_flagship"
+	size = small
+	icon = "GFX_ship_part_required_science_specialisation_flagship"
+	icon_frame = 1
+	power = -10
+	component_set = "required_science_specialisation"
+	size_restriction = {
+		fed_flagship_constitution
+		fed_flagship_excelsior
+		fed_flagship_ambassador
+		fed_flagship_galaxy
+		fed_flagship_sovereign
+		fed_flagship_odyssey
+		fed_flagship_neo_constitution
+		fed_flagship_excalibur
+		fed_flagship_polaris
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		kdf_hero_ship_chtang
+		kdf_hero_ship_d5
+		kdf_hero_ship_d7
+		rom_hero_ship_tulwas
+		rom_hero_ship_mimicus
+		rom_hero_ship_falchion
+		fed_escort_ship_defiant
+	}
+	inline_script = {
+		script = "ship_components/scripted_actions/flagship"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+### Security
+utility_component_template = {
+	key = "required_science_specialisation_security"
+	size = small
+	icon = "GFX_ship_part_required_science_specialisation_security"
+	icon_frame = 1
+	power = -10
+	component_set = "required_science_specialisation"
+	size_restriction = {
+		fed_flagship_constitution
+		fed_flagship_excelsior
+		fed_flagship_ambassador
+		fed_flagship_galaxy
+		fed_flagship_sovereign
+		fed_flagship_odyssey
+		fed_flagship_neo_constitution
+		fed_flagship_excalibur
+		fed_flagship_polaris
+		fed_hero_ship_nx
+		fed_hero_ship_constitution
+		fed_hero_ship_excelsior
+		fed_hero_ship_ambassador
+		fed_hero_ship_galaxy
+		fed_hero_ship_sovereign
+		fed_hero_ship_odyssey
+		fed_hero_ship_neo_constitution
+		kdf_hero_ship_chtang
+		kdf_hero_ship_d5
+		kdf_hero_ship_d7
+		rom_hero_ship_tulwas
+		rom_hero_ship_mimicus
+		rom_hero_ship_falchion
+		fed_escort_ship_defiant
+	}
+	inline_script = {
+		script = "ship_components/scripted_actions/security"
+	}
+	ai_weight = {
+		weight = 5
+	}
+}

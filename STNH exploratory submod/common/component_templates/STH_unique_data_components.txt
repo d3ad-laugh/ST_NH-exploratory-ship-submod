@@ -1,0 +1,7053 @@
+### Data Modules
+
+
+### Emette-Class Frigate
+utility_component_template = {
+	key = "required_data_fed_frigate_emette_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_emette_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	component_set = "required_data_fed_frigate_emette"
+	upgrades_to = required_data_fed_frigate_emette_2
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Neptune-Class Refit - Neptune Class Refit
+ utility_component_template = {
+	key = "required_data_fed_frigate_emette_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_emette_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 10 }
+	   upkeep = { alloys = 0.02 energy = 0.08 }
+	}
+	prerequisites = { tech_engineering_03503 }
+	#
+	component_set = "required_data_fed_frigate_emette"
+	modifier = { ship_armor_mult = 0.1      }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Discovery-Class Frigate
+ utility_component_template = {
+	key = "required_data_fed_frigate_discovery_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_discovery_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_frigate_discovery"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.1  }
+	modifier = { ship_armor_mult = 0.05      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Magee-Class Frigate
+ utility_component_template = {
+	key = "required_data_fed_frigate_magee_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_magee_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_frigate_magee"
+	upgrades_to = "required_data_fed_frigate_magee_2"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2  }
+	modifier = { ship_base_speed_mult = 0.3 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Shran-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_frigate_magee_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_magee_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 30 }
+	   upkeep = { alloys = 0.04 energy = 0.15 }
+	}
+	prerequisites = { tech_engineering_12353 }
+	component_set = "required_data_fed_frigate_magee"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.3  }
+	modifier = { ship_base_speed_mult = 0.4 ship_evasion_mult = 0.025 }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Saladin-Class Frigate
+ utility_component_template = {
+	key = "required_data_fed_frigate_saladin_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_saladin_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_frigate_saladin"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_base_speed_mult = 0.15 ship_evasion_mult = 0.02 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Akula-Class Frigate
+ utility_component_template = {
+	key = "required_data_fed_frigate_akula_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_akula_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_frigate_akula"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2 ship_tracking_add = 15 }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Challenger-Class Frigate
+ utility_component_template = {
+	key = "required_data_fed_frigate_challenger_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_challenger_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_frigate_challenger"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2 ship_tracking_add = 15 }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 ship_armor_mult = 0.05 ship_hull_mult = 0.05 ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### California-Class Frigate
+ utility_component_template = {
+	key = "required_data_fed_frigate_california_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_california_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_frigate_california"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2 ship_tracking_add = 15 }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 ship_armor_mult = 0.05 ship_hull_mult = 0.05 ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Galen-Class Frigate
+ utility_component_template = {
+	key = "required_data_fed_frigate_galen_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_frigate_galen_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_frigate_galen"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2 ship_tracking_add = 15 }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 ship_armor_mult = 0.05 ship_hull_mult = 0.05 ship_shield_mult = 0.05 ship_weapon_damage = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Frontier-Class Scout
+utility_component_template = {
+	key = "required_data_fed_scout_freedom_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_freedom_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_freedom"
+	upgrades_to = required_data_fed_scout_freedom_2
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.75  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Daedalus-Class Mk I - Daedalus mk I refit
+ utility_component_template = {
+	key = "required_data_fed_scout_freedom_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_freedom_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 10 }
+	   upkeep = { alloys = 0.03 energy = 0.09 }
+	}
+	component_set = "required_data_fed_scout_freedom"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.55  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025 ship_weapon_damage = 0.05    }
+	ai_weight = {
+	   weight = 150
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Malachowski-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_malachowski_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_malachowski_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_malachowski"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.75  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025 ship_weapon_damage = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Daedalus-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_daedalus_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_daedalus_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_daedalus"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.75  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025 ship_weapon_damage = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Oberth-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_oberth_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_oberth_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_oberth"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.75  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Akyaz-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_akyazi_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_akyazi_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_akyazi"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.70  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025 ship_weapon_damage = 0.075 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Freedom_TNG-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_freedom_tng_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_freedom_tng_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_freedom_tng"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.75  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025 ship_weapon_damage = 0.075 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Olympic-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_olympic_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_olympic_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_olympic"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.75  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Nova-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_nova_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_nova_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_nova"
+	
+	upgrades_to = required_data_fed_scout_nova_2
+	ship_modifier = {  ship_interstellar_speed_mult = 0.75  }
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.025 ship_weapon_damage = 0.075 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Rhode-Island Class Refit
+ utility_component_template = {
+	key = "required_data_fed_scout_nova_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_nova_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 20 }
+	   upkeep = { alloys = 0 energy = 0 }
+	}
+	prerequisites = { tech_engineering_03599 }
+	component_set = "required_data_fed_scout_nova"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.80  }
+	modifier = { ship_base_speed_mult = 0.55 ship_evasion_mult = 0.025 ship_weapon_damage = 0.088 }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Protostar-Class Scout
+ utility_component_template = {
+	key = "required_data_fed_scout_protostar_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_scout_protostar_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_scout_protostar"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.85  }
+	modifier = { ship_base_speed_mult = 0.65 ship_evasion_mult = 0.20 ship_weapon_damage = 0.075 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Intrepid-Type Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_intrepid_type_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_intrepid_type_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_intrepid_type"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.90  }
+	modifier = { ship_weapon_damage = 0.05      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bonaventure-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_bonaventure_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_bonaventure_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_bonaventure"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Shepard-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_shepard_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_shepard_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_shepard"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.05      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Aegis-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_aegis"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_aegis_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_shepard"
+	#
+	ship_modifier = { ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Engle-Class Light Transport
+ utility_component_template = {
+	key = "required_data_fed_carrier_engle_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_carrier_engle_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.02 energy = 0.05 }
+	}
+	component_set = "required_data_fed_carrier_engle"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.05      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+ ### Kelvin-Type Deep Space Cruiser Refit
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_kelvin_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_kelvin_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_kelvin"
+	#
+	ship_modifier = {  ship_tracking_add = 30  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Talas-Class Andorian Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_talas_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_talas_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_talas"
+	#
+	modifier = { ship_evasion_mult = 0.025      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### T'Pol-Class Vulcan Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_t_pol_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_t_pol_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_t_pol"
+	#
+	ship_modifier = {  ship_weapon_range_mult = 0.30  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Gral-Class Tellarite Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_gral_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_gral_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_gral"
+	#
+	modifier = { ship_shield_mult = 0.4      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Centaur-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_centaur_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_centaur_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_centaur"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.15      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Resolute-Class Refit
+utility_component_template = {
+	key = "required_data_fed_light_cruiser_centaur_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_centaur_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 70 }
+	   upkeep = { alloys = 0.14 energy = 0.56 }
+	}
+	prerequisites = { tech_engineering_13519 }
+	component_set = "required_data_fed_light_cruiser_centaur"
+	#
+	ship_modifier = {  ship_tracking_add = 17  }
+	modifier = { ship_weapon_damage = 0.21 ship_shield_mult = 0.4 ship_base_speed_mult = 0.10    }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Curry-Type Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_curry_type_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_curry_type_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_curry_type"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.20      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Niagara-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_niagara_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_niagara_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_niagara"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.25      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Steamrunner-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_steamrunner_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_steamrunner_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_steamrunner"
+	#
+	ship_modifier = {  ship_weapon_range_mult = 0.45  }
+	modifier = { ship_weapon_damage = 0.1      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Saber-Class Heavy Patrol Ship
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_saber_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_saber_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_saber"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2  }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 ship_weapon_damage = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Parliament-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_parliament_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_parliament_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_parliament"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2  }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 ship_weapon_damage = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Reliant-Class Light Cruiser
+ utility_component_template = {
+	key = "required_data_fed_light_cruiser_reliant_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_light_cruiser_reliant_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_light_cruiser_reliant"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.1  }
+	modifier = { ship_base_speed_mult = 0.25 ship_evasion_mult = 0.025 ship_weapon_damage = 0.3    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### NX-Class Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_nx_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_nx_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_nx"
+	
+	upgrades_to = required_data_fed_explorer_nx_2
+	modifier = { ships_upkeep_mult = -0.1 ship_armor_mult = 0.05     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Columbia-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_explorer_nx_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_nx_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 20 }
+	   upkeep = { alloys = 0.04 energy = 0.16 }
+	}
+	prerequisites = { tech_engineering_03505 }
+	component_set = "required_data_fed_explorer_nx"
+	
+	upgrades_to = required_data_fed_explorer_nx_3
+	modifier = { ships_upkeep_mult = -0.1 ship_hull_mult = 0.15     }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Endeavour-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_explorer_nx_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_nx_3"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 20 }
+	   upkeep = { alloys = 0.04 energy = 0.16 }
+	}
+	prerequisites = { tech_engineering_nxdiscovery }
+	component_set = "required_data_fed_explorer_nx"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.15  }
+	modifier = { ships_upkeep_mult = -0.1 ship_hull_mult = 0.15 ship_base_speed_mult = 0.15    }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Hoover Class Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_hoover_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_hoover_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_hoover"
+	#
+	modifier = { ships_upkeep_mult = -0.1 ship_hull_mult = 0.25 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Cardenas-Class Heavy Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_cardenas_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_cardenas_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_cardenas"
+	#
+	ship_modifier = { ship_interstellar_speed_mult = 0.2 ship_sensor_range_add = 1 }
+	modifier = { ships_upkeep_mult = -0.1 ship_shield_mult = 0.15     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Miranda-Class Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_miranda_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_miranda_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_miranda"
+	upgrades_to = required_data_fed_explorer_miranda_2
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2  }
+	#
+	modifier = { ships_upkeep_mult = -0.1 ship_shield_mult = 0.3     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Miranda Second Generation Deep Space Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_miranda_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_miranda_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 50 }
+	   upkeep = { alloys = 0.1 energy = 0.4 }
+	}
+	prerequisites = { tech_engineering_22316 }
+	component_set = "required_data_fed_explorer_miranda"
+	upgrades_to = required_data_fed_explorer_miranda_3
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.15 ship_sensor_range_add = 1 }
+	modifier = { ships_upkeep_mult = -0.1 ship_shield_mult = 0.35     }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Miranda Third Generation Heavy Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_miranda_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_miranda_3"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 50 }
+	   upkeep = { alloys = 0.1 energy = 0.4 }
+	}
+	prerequisites = { tech_engineering_22319 }
+	component_set = "required_data_fed_explorer_miranda"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.15 ship_sensor_range_add = 2 }
+	modifier = { ships_upkeep_mult = -0.1 ship_shield_mult = 0.4     }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### New Orleans-Class Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_new_orleans_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_new_orleans_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_new_orleans"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.25 ship_sensor_range_add = 2 }
+	modifier = { ships_upkeep_mult = -0.1 ship_hull_mult = 0.55     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Cheyenne-Class Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_cheyenne_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_cheyenne_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_cheyenne"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.3 ship_sensor_range_add = 2 }
+	modifier = { ships_upkeep_mult = -0.1 ship_hull_mult = 0.50     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Kiri Kin Tha Vulcan Heavy Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_kiri_kin_tha_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_kiri_kin_tha_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_kiri_kin_tha"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2 ship_sensor_range_add = 1 }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.15 ship_armor_mult = 0.15 ship_hull_mult = 0.15 ship_shield_mult = 0.15  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Intrepid-Class Explorer
+utility_component_template = {
+	key = "required_data_fed_explorer_intrepid_class_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_intrepid_class_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_intrepid_class"
+	upgrades_to = required_data_fed_explorer_intrepid_class_2
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.4 ship_sensor_range_add = 3 }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.2 ship_shield_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+### Yeager-Class
+ utility_component_template = {
+	key = "required_data_fed_explorer_intrepid_class_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_intrepid_class_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 40 }
+	   upkeep = { alloys = 0.08 energy = 0.32 }
+	}
+	component_set = "required_data_fed_explorer_intrepid_class"
+	upgrades_to = required_data_fed_explorer_intrepid_class_3
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.35  }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.2 ship_shield_mult = 0.2    }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Interceptor-Class Refit
+utility_component_template = {
+	key = "required_data_fed_explorer_intrepid_class_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_intrepid_class_3"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 60 }
+	   upkeep = { alloys = 0.12 energy = 0.48 }
+	}
+	prerequisites = {  }
+	component_set = "required_data_fed_explorer_intrepid_class"
+	upgrades_to = required_data_fed_explorer_intrepid_class_4
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.35  }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.3 ship_shield_mult = 0.25    }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Intrepid-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_explorer_intrepid_class_4"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_intrepid_class_4"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 60 }
+	   upkeep = { alloys = 0.12 energy = 0.48 }
+	}
+	prerequisites = {  }
+	component_set = "required_data_fed_explorer_intrepid_class"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.40  }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.35 ship_shield_mult = 0.25 ship_sensor_range_add = 3 }
+	ai_weight = {
+	   weight = 400
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Dauntless-Class Prototype Transwarp Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_dauntless_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_dauntless_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_dauntless"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.5 ship_sensor_range_add = 2.5 }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.15 ship_shield_mult = 0.1    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Century-Class Advanced Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_century_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_century_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_century"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.15 ship_sensor_range_add = 3 }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.3 ship_shield_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Lamarr-Class Science Explorer
+utility_component_template = {
+	key = "required_data_fed_explorer_lamarr_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_lamarr_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_lamarr"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.15 ship_sensor_range_add = 3.5 }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.3 ship_shield_mult = 0.25 ship_cloaking_detection_add = 4 ship_tracking_add = 5  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Pathfinder-Class Explorer
+utility_component_template = {
+	key = "required_data_fed_explorer_pathfinder_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_pathfinder_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_pathfinder"
+	
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2 ship_sensor_range_add = 3.5 }
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.3 ship_shield_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Gagarin-Class Explorer
+ utility_component_template = {
+	key = "required_data_fed_explorer_gagarin_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_explorer_gagarin_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_explorer_gagarin"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.15  }
+	modifier = { ships_upkeep_mult = -0.05 ship_weapon_damage = 0.45 ship_shield_mult = 0.4    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Posiedon-Class Multi-Mission-Ship
+ utility_component_template = {
+	key = "required_data_fed_mmv_poseidon_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_poseidon_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_poseidon"
+	#
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Loknar-Class Multi-Mission-Ship
+utility_component_template = {
+	key = "required_data_fed_mmv_loknar_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_loknar_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_loknar"
+	upgrades_to = required_data_fed_mmv_loknar_3
+	#
+	modifier = { ship_weapon_damage = 0.02  ship_shield_mult = 0.02    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Loknar Class Refit
+ utility_component_template = {
+	key = "required_data_fed_mmv_loknar_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_loknar_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 70 }
+	   upkeep = { alloys = 0.06 energy = 0.23 }
+	}
+	component_set = "required_data_fed_mmv_loknar"
+	#
+	modifier = { ship_weapon_damage = 0.03  ship_shield_mult = 0.03    }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Pioneer-Class Multi-Mission-Ship
+utility_component_template = {
+	key = "required_data_fed_mmv_loknar_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_pioneer_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 50 }
+	   upkeep = { alloys = 0.1 energy = 0.4 }
+	}
+	component_set = "required_data_fed_mmv_loknar"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.07  }
+	modifier = { ship_weapon_damage = 0.02      }
+	ai_weight = {
+	   weight = 90
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Farragut-Class Multi-Mission-Ship
+ utility_component_template = {
+	key = "required_data_fed_mmv_farragut_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_farragut_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_farragut"
+	upgrades_to = required_data_fed_mmv_farragut_2
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.10  }
+	modifier = { ship_weapon_damage = 0.02 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Mercy-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_mmv_farragut_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_farragut_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 60 }
+	   upkeep = { alloys = 0.05 energy = 0.2 }
+	}
+	prerequisites = { tech_engineering_12508 }
+	component_set = "required_data_fed_mmv_farragut"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.15  }
+	modifier = { ship_weapon_damage = 0.03 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Walker-Class Multi-Mission-Ship
+ utility_component_template = {
+	key = "required_data_fed_mmv_walker_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_walker_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_walker"
+	upgrades_to = required_data_fed_mmv_walker_2
+	#
+	modifier = { ship_weapon_damage = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Ranger-Class Refit Multi-Mission-Ship
+ utility_component_template = {
+	key = "required_data_fed_mmv_walker_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_walker_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 60 }
+	   upkeep = { alloys = 0.06 energy = 0.24 }
+	}
+	prerequisites = { tech_engineering_12353 }
+	component_set = "required_data_fed_mmv_walker"
+	#
+	modifier = { ship_weapon_damage = 0.07 }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Radiant-Class Multi-Mission-Ship
+utility_component_template = {
+	key = "required_data_fed_mmv_radiant_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_radiant_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_radiant"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.05  }
+	modifier = { ship_weapon_damage = 0.05      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Constellation-Class Multi-Mission-Ship
+ utility_component_template = {
+	key = "required_data_fed_mmv_constellation_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_constellation_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_constellation"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.1 ship_hull_mult = 0.1 ship_shield_mult = 0.1   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Springfield-Class Multi-Mission-Ship
+utility_component_template = {
+	key = "required_data_fed_mmv_springfield_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_springfield_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_springfield"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Akira-Class Heavy Long-Range Striker
+ utility_component_template = {
+	key = "required_data_fed_mmv_akira_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_akira_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_akira"
+	upgrades_to = required_data_fed_mmv_akira_2
+	#
+	modifier = { ship_weapon_damage = 0.10 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Thunderchild-Class Refit
+utility_component_template = {
+	key = "required_data_fed_mmv_akira_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_akira_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 120 }
+	   upkeep = { alloys = 0.24 energy = 0.96 }
+	}
+	prerequisites = { tech_engineering_03524 }
+	component_set = "required_data_fed_mmv_akira"
+	upgrades_to = required_data_fed_mmv_akira_3
+	#
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2   }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Proteus-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_mmv_akira_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_akira_3"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 130 }
+	   upkeep = { alloys = 0.26 energy = 1.04 }
+	}
+	prerequisites = { tech_engineering_03526 }
+	component_set = "required_data_fed_mmv_akira"
+	#
+	modifier = { ship_weapon_damage = 0.20 ship_armor_mult = 0.23 ship_hull_mult = 0.2 ship_shield_mult = 0.25   }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Alita-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_mmv_akira_4"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_akira_4"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 130 }
+	   upkeep = { alloys = 0.26 energy = 1.04 }
+	}
+	prerequisites = { tech_engineering_03524 }
+	component_set = "required_data_fed_mmv_akira"
+	#
+	modifier = { ship_weapon_damage = 0.20 ship_fire_rate_mult = 0.10 ship_hull_mult = 0.2 ship_shield_mult = 0.25 }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Norway-Class Multi-Mission-Ship
+ utility_component_template = {
+	key = "required_data_fed_mmv_norway_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_norway_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_norway"
+	#
+	modifier = { ship_weapon_damage = 0.25 ship_armor_mult = 0.05 ship_hull_mult = 0.05 ship_shield_mult = 0.05   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Sagan-Class Multi-Mission-Ship
+ utility_component_template = {
+	key = "required_data_fed_mmv_sagan_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mmv_sagan_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mmv_sagan"
+	#
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.05 ship_hull_mult = 0.05 ship_shield_mult = 0.05   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Inquiry-Class Advanced Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_adv_heavy_cruiser_inquiry_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_adv_heavy_cruiser_inquiry_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_adv_heavy_cruiser_inquiry"
+	
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.25 ship_hull_mult = 0.25 ship_shield_mult = 0.25   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Yorktown-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_yorktown_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_yorktown_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_yorktown"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.17 ship_hull_mult = 0.1 ship_shield_mult = 0.15   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Proxima-Class Heavy Cruiser
+utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_proxima_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_proxima_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_proxima"
+	upgrades_to = required_data_fed_heavy_cruiser_proxima_3
+	#
+	modifier = { ship_weapon_damage = 0.1 ship_armor_mult = 0.1 ship_hull_mult = 0.1 ship_shield_mult = 0.1 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Proxima-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_proxima_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_proxima_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 70 }
+	   upkeep = { alloys = 0.14 energy = 0.56 }
+	}
+	prerequisites = { tech_engineering_loknar_2 }
+	component_set = "required_data_fed_heavy_cruiser_proxima"
+	#
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.15 ship_hull_mult = 0.15 ship_shield_mult = 0.15 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Ranger-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_proxima_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_ranger_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 50 }
+	   upkeep = { alloys = 0.1 energy = 0.4 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_proxima"
+	#
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.15 ship_hull_mult = 0.15 ship_shield_mult = 0.15 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 90
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Shangri-La-Class Heavy Cruiser
+utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_shangri_la_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_shangri_la_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_shangri_la"
+	
+	modifier = { ship_weapon_damage = 0.25 ship_armor_mult = 0.20 ship_hull_mult = 0.20 ship_shield_mult = 0.20 ships_upkeep_mult = 0.15  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Nimitz-Class Medium Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_nimitz_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_nimitz_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_nimitz"
+	#
+	modifier = { ship_weapon_damage = 0.1 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Ares-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_ares_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_ares_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_ares"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.35 ships_upkeep_mult = 0.05    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Constitution-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_constitution_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_constitution_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterprise
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			#ship_cloaking_detection_add = 1
+		}
+	}
+
+	component_set = "required_data_fed_heavy_cruiser_constitution"
+	upgrades_to = required_data_fed_heavy_cruiser_constitution_2
+	
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.20 ship_hull_mult = 0.20 ship_shield_mult = 0.20 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Constitution Second Stage Overhaul
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_constitution_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_constitution_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 80 }
+	   upkeep = { alloys = 0.16 energy = 0.64 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterprise
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			#ship_cloaking_detection_add = 1
+		}
+	}
+
+	prerequisites = { tech_engineering_03514 }
+	component_set = "required_data_fed_heavy_cruiser_constitution"
+	upgrades_to = required_data_fed_heavy_cruiser_constitution_3
+	
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.20 ship_hull_mult = 0.20 ship_shield_mult = 0.20 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Constitution-Class Advanced Flagship
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_constitution_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_constitution_3"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 90 }
+	   upkeep = { alloys = 0.18 energy = 0.72 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterprise
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			#ship_cloaking_detection_add = 1
+		}
+	}
+
+	prerequisites = { tech_engineering_03515 }
+	component_set = "required_data_fed_heavy_cruiser_constitution"
+	
+	modifier = { ship_weapon_damage = 0.055 ship_armor_mult = 0.20 ship_hull_mult = 0.20 ship_shield_mult = 0.20 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Sombra-Class Heavy Cruiser
+utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_sombra_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_constitution_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_constitution"
+	#
+	modifier = { ship_armor_mult = 0.20 ship_base_speed_mult = 0.35 ship_shield_mult = 0.15 ships_upkeep_mult = 0.1 ship_interstellar_speed_mult = 1 }
+	ai_weight = {
+	   weight = 50
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Nebula-Class Heavy Crusier
+utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_nebula_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_nebula_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_nebula"
+	#
+	modifier = { ship_weapon_damage = 0.25 ship_armor_mult = 0.25 ship_hull_mult = 0.30 ship_shield_mult = 0.2 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ ### Sutherland-Refit Heavy Crusier
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_nebula_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_nebula_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 6 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_nebula"
+	prerequisites = { tech_engineering_sagan }
+	#
+	modifier = { ship_weapon_damage = 0.30 ship_armor_mult = 0.30 ship_hull_mult = 0.30 ship_shield_mult = 0.2 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Sutherland-Class Heavy Crusier
+utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_sutherland_1"
+	size = small
+	icon = GFX_ship_part_required_data_fed_heavy_cruiser_nebula_2
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_sutherland"
+	#
+	modifier = { ship_weapon_damage = 0.2 ship_armor_mult = 0.3 ship_hull_mult = 0.22 ship_shield_mult = 0.33 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+}
+ 
+ 
+### Sovereign-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_sovereign_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_sovereign_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseE
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			##ship_cloaking_detection_add = 5
+		}
+	}
+
+	component_set = "required_data_fed_heavy_cruiser_sovereign"
+	
+	modifier = { ship_weapon_damage = 0.3 ship_armor_mult = 0.3 ship_hull_mult = 0.3 ship_shield_mult = 0.3 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Regency-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_sovereign_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_sovereign_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 170 }
+	   upkeep = { alloys = 0.38 energy = 1.5 }
+	}
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseE
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+		}
+	}
+	prerequisites = { tech_engineering_03599 }
+	component_set = "required_data_fed_heavy_cruiser_sovereign"
+	
+	modifier = { ship_weapon_damage = 0.3 ship_armor_mult = 0.35 ship_hull_mult = 0.35 ship_shield_mult = 0.4 ships_upkeep_mult = 0.15  }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Achilles-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_achilles_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_achilles_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_achilles"
+	upgrades_to = required_data_fed_heavy_cruiser_achilles_2
+	#
+	modifier = { ship_weapon_damage = 0.3 ship_armor_mult = 0.3 ship_hull_mult = 0.25 ship_shield_mult = 0.35 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Argonaut-Refit Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_achilles_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_achilles_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 170 }
+	   upkeep = { alloys = 0.38 energy = 1.5 }
+	}
+	prerequisites = { tech_engineering_03599 }
+	component_set = "required_data_fed_heavy_cruiser_achilles"
+	#
+	modifier = { ship_weapon_damage = 0.33 ship_armor_mult = 0.33 ship_hull_mult = 0.33 ship_shield_mult = 0.35 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Crossfield-Class Advanced Cruiser
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_crossfield_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_crossfield_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_advanced_cruiser_crossfield"
+	upgrades_to = required_data_fed_advanced_cruiser_crossfield_2
+	#
+	ship_modifier = {  ship_windup_mult = -0.5  }
+	modifier = { ship_weapon_damage = 0.05 ship_shield_mult = 0.2 ships_upkeep_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Carpenter-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_crossfield_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_crossfield_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 60 }
+	   upkeep = { alloys = 0.12 energy = 0.48 }
+	}
+	prerequisites = { tech_engineering_12508 }
+	component_set = "required_data_fed_advanced_cruiser_crossfield"
+	#
+	ship_modifier = {  ship_disengage_chance_mult = 0.2  }
+	modifier = { ship_weapon_damage = 0.07 ship_shield_mult = 0.35 ships_upkeep_mult = 0.35    }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Excelsior-Class Advanced Cruiser
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_excelsior_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_excelsior_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseB
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			#ship_cloaking_detection_add = 2
+		}
+	}
+
+	component_set = "required_data_fed_advanced_cruiser_excelsior"
+	upgrades_to = required_data_fed_advanced_cruiser_excelsior_2
+	
+	modifier = { ship_weapon_damage = 0.1 ship_shield_mult = 0.4 ships_upkeep_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Lakota-Type Refit
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_excelsior_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_excelsior_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 110 }
+	   upkeep = { alloys = 0.22 energy = 0.88 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseB
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			#ship_cloaking_detection_add = 2
+		}
+	}
+	
+	prerequisites = { tech_engineering_03516 }
+	component_set = "required_data_fed_advanced_cruiser_excelsior"
+	#upgrades_to = required_data_fed_advanced_cruiser_excelsior_3
+	modifier = { ship_weapon_damage = 0.12 ship_shield_mult = 0.41 ships_upkeep_mult = 0.2    }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Lexington-Type Refit
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_excelsior_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_excelsior_3"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 130 }
+	   upkeep = { alloys = 0.26 energy = 1.04 }
+	}
+	prerequisites = { tech_engineering_03520 }
+	component_set = "required_data_fed_advanced_cruiser_excelsior"
+	#
+	modifier = { ship_weapon_damage = 0.12 ship_shield_mult = 0.4 ships_upkeep_mult = 0.15    }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Obena-Class Advanced Cruiser
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_obena_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_obena_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_advanced_cruiser_obena"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_shield_mult = 0.35 ships_upkeep_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Excelsior-II-Class
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_obena_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_obena_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 120 }
+	   upkeep = { alloys = 0.24 energy = 0.96 }
+	}
+	component_set = "required_data_fed_advanced_cruiser_obena"
+	#
+	modifier = { ship_weapon_damage = 0.1 ship_shield_mult = 0.4 ships_upkeep_mult = 0.2    }
+	ai_weight = {
+	   weight = 90
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Duderstadt-Class Advanced Cruiser
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_duderstadt_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_duderstadt_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_advanced_cruiser_duderstadt"
+	#
+	modifier = { ship_weapon_damage = 0.1 ship_shield_mult = 0.4 ships_upkeep_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Vesta-Class Advanced Cruiser
+ utility_component_template = {
+	key = "required_data_fed_advanced_cruiser_vesta_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_advanced_cruiser_vesta_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_advanced_cruiser_vesta"
+	
+	ship_modifier = {  ship_ftl_jumpdrive_range_mult = 0.50 ship_tracking_add = 15 }
+	modifier = { ship_weapon_damage = 0.1 ship_evasion_mult = 0.02 ship_shield_mult = 0.25 ships_upkeep_mult = 0.2   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Federation-Class Exploration Cruiser
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_federation_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_federation_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_exploration_cruiser_federation"
+	#
+	modifier = { ship_weapon_damage = 0.18 ship_hull_mult = 0.25 ship_shield_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Ambassador-Class Exploration Cruiser
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_ambassador_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_ambassador_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseC
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			##ship_cloaking_detection_add = 3
+		}
+	}
+	upgrades_to = required_data_fed_exploration_cruiser_ambassador_2
+	component_set = "required_data_fed_exploration_cruiser_ambassador"
+	
+	modifier = { ship_weapon_damage = 0.15 ship_hull_mult = 0.3 ship_shield_mult = 0.3    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Narendra-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_ambassador_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_ambassador_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 120 }
+	   upkeep = { alloys = 0.24 energy = 0.96 }
+	}
+	prerequisites = { "tech_engineering_13519" }
+	component_set = "required_data_fed_exploration_cruiser_ambassador"
+	
+	modifier = { ship_weapon_damage = 0.17 ship_hull_mult = 0.3 ship_shield_mult = 0.3    }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+
+ 
+### Galaxy-Class Exploration Cruiser
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_galaxy_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_galaxy_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseD
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			##ship_cloaking_detection_add = 4
+		}
+	}
+
+	component_set = "required_data_fed_exploration_cruiser_galaxy"
+	upgrades_to = required_data_fed_exploration_cruiser_galaxy_2
+	
+	ship_modifier = {  ship_disengage_chance_mult = 0.2  }
+	modifier = { ship_hull_mult = 0.75  ship_weapon_damage = 0.25 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Venture Type Refit
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_galaxy_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_galaxy_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 210 }
+	   upkeep = { alloys = 0.42 energy = 1.68 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseD
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			##ship_cloaking_detection_add = 4
+		}
+	}
+	
+	prerequisites = { tech_engineering_03520 }
+	component_set = "required_data_fed_exploration_cruiser_galaxy"
+	upgrades_to = required_data_fed_exploration_cruiser_galaxy_3
+	ship_modifier = {  ship_disengage_chance_mult = 0.2  }
+	modifier = { ship_hull_mult = 0.75 ship_weapon_damage = 0.27 }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### X Type Refit
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_galaxy_3"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_galaxy_3"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 240 }
+	   upkeep = { alloys = 0.53 energy = 2.12 }
+	}
+	
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = hero_ship_enterpriseD
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.20
+			##ship_cloaking_detection_add = 4
+		}
+	}
+
+	prerequisites = { tech_engineering_03525 }
+	component_set = "required_data_fed_exploration_cruiser_galaxy"
+	ship_modifier = {  ship_disengage_chance_mult = 0.2  }
+	modifier = { ship_hull_mult = 0.75 ship_weapon_damage = 0.30 }
+	ai_weight = {
+	   weight = 300
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Defiant-Class Heavy Escort
+ utility_component_template = {
+	key = "required_data_fed_heavy_escort_defiant_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_escort_defiant_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			has_ship_flag = legend_defiant
+		}
+		modifier = {
+			ship_hull_mult = 0.20 
+			ship_shield_mult = 0.20
+			ship_fire_rate_mult = 0.25
+		}
+	}
+	#
+	ship_modifier = {
+		ship_disengage_opportunities_add = 1
+		ship_disengage_chance_mult = 0.45
+	}
+	modifier = {
+		ship_cloaking_strength_add = 7
+	}
+
+	triggered_ship_modifier = {
+		potential = {
+			is_cloaked = yes
+			has_ship_flag = legend_defiant
+		}
+		modifier = {
+			ship_cloaking_strength_add = 3
+			ship_shield_reduction = 0.25
+		}
+	}
+
+	hostile_aura = {
+		name = "aura_cloak"
+		radius = 25
+		apply_on = ships
+		stack_info = { id = hostile_cloak_aura priority = 50 }
+  
+		limit = {
+			has_ship_flag = legend_defiant
+		}
+  
+		modifier = { ship_tracking_add = -10 ship_accuracy_add = -10    }
+	 }
+	component_set = "required_data_fed_heavy_escort_defiant"
+	upgrades_to = required_data_fed_heavy_escort_defiant_2
+	ship_modifier = {  ship_hull_damage_mult = 0.55  }
+	modifier = { ship_evasion_mult = 0.025 ship_armor_mult = 0.5 ships_upkeep_mult = 0.1 ship_weapon_damage = 0.15 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Vigilant-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_heavy_escort_defiant_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_escort_defiant_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 40 }
+	   upkeep = { alloys = 0.09 energy = 0.36 }
+	}
+	#
+	prerequisites = { tech_engineering_vigilant }
+	component_set = "required_data_fed_heavy_escort_defiant"
+	ship_modifier = {  ship_hull_damage_mult = 0.60  }
+	modifier = { ship_evasion_mult = 0.0255 ship_armor_mult = 0.5 ships_upkeep_mult = 0.1 ship_weapon_damage = 0.15 }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Defiant-Class Warship
+ utility_component_template = {
+	key = "required_data_fed_escort_ship_defiant_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_escort_defiant_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_escort_ship_defiant"
+	
+	ship_modifier = {  ship_hull_damage_mult = 0.60  }
+	modifier = { ship_evasion_mult = 0.0255 ship_armor_mult = 0.5 ships_upkeep_mult = 0.1 ship_weapon_damage = 0.18 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Prometheus-Class Heavy Escort
+ utility_component_template = {
+	key = "required_data_fed_heavy_escort_prometheus_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_escort_prometheus_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_escort_prometheus"
+	#
+	ship_modifier = {  ship_disengage_chance_mult = 0.2  }
+	modifier = { ship_evasion_mult = 0.02 ship_weapon_damage = 0.2 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2 ships_upkeep_mult = 0.1 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Texas-Class Heavy Escort
+ utility_component_template = {
+	key = "required_data_fed_heavy_escort_texas_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_escort_texas_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_heavy_escort_texas"
+	#
+	ship_modifier = {  ship_disengage_chance_mult = 0.2 ship_tracking_add = 15 }
+	modifier = { ship_evasion_mult = 0.02 ship_weapon_damage = 0.15 ship_armor_mult = 0.2 ships_upkeep_mult = -0.15   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### NX-Class Armed Explorer
+ utility_component_template = {
+	key = "required_data_fed_hero_ship_nx_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_hero_ship_nx_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 250 }
+	   upkeep = { alloys = 0.5 energy = 2 }
+	}
+	component_set = "required_data_fed_hero_ship_nx"
+	
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = -0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Constitution-Class Flagship Cruiser
+ utility_component_template = {
+	key = "required_data_fed_hero_ship_constitution_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_hero_ship_constitution_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 250 }
+	   upkeep = { alloys = 0.5 energy = 2 }
+	}
+	component_set = "required_data_fed_hero_ship_constitution"
+	
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = -0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Excelsior-Class Flagship Cruiser
+ utility_component_template = {
+	key = "required_data_fed_hero_ship_excelsior_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_hero_ship_excelsior_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 250 }
+	   upkeep = { alloys = 0.5 energy = 2 }
+	}
+	component_set = "required_data_fed_hero_ship_excelsior"
+	
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = -0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Ambasador-Class Flagship Cruiser
+ utility_component_template = {
+	key = "required_data_fed_hero_ship_ambassador_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_hero_ship_ambassador_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 250 }
+	   upkeep = { alloys = 0.5 energy = 2 }
+	}
+	component_set = "required_data_fed_hero_ship_ambassador"
+	
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = -0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Galaxy-Class Flagship Cruiser
+ utility_component_template = {
+	key = "required_data_fed_hero_ship_galaxy_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_hero_ship_galaxy_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 250 }
+	   upkeep = { alloys = 0.5 energy = 2 }
+	}
+	component_set = "required_data_fed_hero_ship_galaxy"
+	
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = -0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Sovereign-Class Flagship Cruiser
+ utility_component_template = {
+	key = "required_data_fed_hero_ship_sovereign_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_hero_ship_sovereign_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 250 }
+	   upkeep = { alloys = 0.5 energy = 2 }
+	}
+	component_set = "required_data_fed_hero_ship_sovereign"
+	
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = -0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### The Imperial Throne
+ utility_component_template = {
+	key = "required_data_fed_mobile_throne_charon_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mobile_throne_charon_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_mobile_throne_charon"
+	
+	ship_modifier = {  ship_weapon_range_mult = 0.45  }
+	modifier = { ship_armor_mult = 0.3 ship_hull_mult = 0.3 ship_shield_mult = 0.3 ships_upkeep_mult = 0.3   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Modi'in-Class Recon Cruiser
+ utility_component_template = {
+	key = "required_data_fed_stealth_escort_modin_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_stealth_escort_modin_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	hostile_aura = {
+		name = "aura_cloak"
+		radius = 25
+		apply_on = ships
+		stack_info = { id = hostile_cloak_aura priority = 80 }
+  
+		limit = {
+		   has_component = required_data_fed_stealth_escort_modin_1
+		}
+  
+		modifier = { ship_tracking_add = -5 ship_accuracy_add = -5    }
+	 }
+
+	component_set = "required_data_fed_stealth_escort_modin"
+	modifier = { ship_evasion_mult = 0.025 ship_weapon_damage = 0.22 ships_upkeep_mult = 0.3    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Nimrod-Class Heavy Escort
+ utility_component_template = {
+	key = "required_data_fed_stealth_escort_nimrod_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_stealth_escort_nimrod_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+
+	hostile_aura = {
+		name = "aura_cloak"
+		radius = 25
+		apply_on = ships
+		stack_info = { id = hostile_cloak_aura priority = 80 }
+  
+		limit = {
+		   has_component = required_data_fed_stealth_escort_nimrod_1
+		}
+  
+		modifier = { ship_tracking_add = -5 ship_accuracy_add = -5 }
+	 }
+	# 
+	component_set = "required_data_fed_stealth_escort_nimrod"
+	modifier = { ship_evasion_mult = 0.025 ship_weapon_damage = 0.25 ships_upkeep_mult = 0.3    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Deimos-Class Stealth Escort
+ utility_component_template = {
+	key = "required_data_fed_stealth_escort_deimos_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_stealth_escort_deimos_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fed_stealth_escort_deimos"
+	#
+	modifier = { ship_evasion_mult = 0.0255 ship_weapon_damage = 0.25 ships_upkeep_mult = 0.3    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Luna-Class Exploration Cruiser
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_luna_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_luna_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_exploration_cruiser_luna"
+	#
+	modifier = { ship_base_speed_mult = 0.2 ship_shield_mult = 0.6 ships_upkeep_mult = 0.3 ship_hull_mult = 0.3   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Neo Constitution-Class Exploration Cruiser
+ utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_neo_constitution_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_neo_constitution_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_exploration_cruiser_neo_constitution"
+	#
+	modifier = { ship_base_speed_mult = 0.2 ship_shield_mult = 0.6 ships_upkeep_mult = 0.3 ship_hull_mult = 0.3   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Ross-Class Exploration Cruiser
+utility_component_template = {
+	key = "required_data_fed_exploration_cruiser_ross_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_exploration_cruiser_ross_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_exploration_cruiser_ross"
+	#
+	ship_modifier = {  ship_disengage_chance_mult = 0.2  }
+	modifier = { ship_hull_mult = 0.5 ship_weapon_damage = 0.15 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+ 
+### Odyssey-Class Command Cruiser
+ utility_component_template = {
+	key = "required_data_fed_command_cruiser_odyssey_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_command_cruiser_odyssey_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_command_cruiser_odyssey"
+	
+	modifier = { ship_weapon_damage = 0.20 ship_armor_mult = 0.3 ship_hull_mult = 0.3 ship_shield_mult = 0.3   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Excalibur-Class Command Cruiser
+ utility_component_template = {
+	key = "required_data_fed_command_cruiser_excalibur_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_command_cruiser_excalibur_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_command_cruiser_excalibur"
+	#
+	modifier = { ship_weapon_damage = 0.20 ship_armor_mult = 0.25 ship_hull_mult = 0.25 ship_shield_mult = 0.25   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Polaris-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_polaris_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_polaris_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_polaris"
+	#
+	ship_modifier = {  ship_ftl_jumpdrive_range_mult = 0.50  }
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.25 ship_hull_mult = 0.25 ship_shield_mult = 0.25 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Vengeance Class Dreadnought
+ utility_component_template = {
+	key = "required_data_fed_dreadnought_vengeance_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_dreadnought_vengeance_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_dreadnought_vengeance"
+	#
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = 0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Kelvin-Consitution-Class Heavy Cruiser
+ utility_component_template = {
+	key = "required_data_fed_heavy_cruiser_kelvin_constitution_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_heavy_cruiser_kelvin_constitution_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.44 energy = 1.76 }
+	}
+	component_set = "required_data_fed_heavy_cruiser_kelvin_constitution"
+	
+	ship_modifier = {  ship_weapon_range_mult = -0.5  }
+	modifier = { ship_weapon_damage = -0.5 ship_armor_mult = 0.5 ship_hull_mult = 0.5 ship_shield_mult = 0.5   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Shuttlepod-Class Shuttle
+ utility_component_template = {
+	key = "required_data_fed_shuttle_shuttlepod_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_shuttle_shuttlepod_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_shuttle_shuttlepod"
+	#
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Class-C Shuttle
+ utility_component_template = {
+	key = "required_data_fed_shuttle_class_c_shuttle_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_shuttle_class_c_shuttle_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_shuttle_class_c_shuttle"
+	#
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Class-F Shuttle
+ utility_component_template = {
+	key = "required_data_fed_shuttle_class_f_shuttle_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_shuttle_class_f_shuttle_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_shuttle_class_f_shuttle"
+	#
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Type-7 Shuttle
+ utility_component_template = {
+	key = "required_data_fed_shuttle_type_7_shuttle_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_shuttle_type_7_shuttle_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_shuttle_type_7_shuttle"
+	upgrades_to = required_data_fed_shuttle_type_7_shuttle_2
+	#
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+}
+
+### Aquarius-Class Shuttle
+utility_component_template = {
+	key = "required_data_fed_shuttle_aquarius_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_shuttle_aquarius_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_shuttle_aquarius"
+	#
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.33 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Delta Flyer Prototype
+ utility_component_template = {
+	key = "required_data_fed_shuttle_type_7_shuttle_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_shuttle_type_7_shuttle_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	prerequisites = { tech_engineering_industry_1305 }
+	component_set = "required_data_fed_shuttle_type_7_shuttle"
+	#
+	modifier = { ship_base_speed_mult = 0.55 ship_evasion_mult = 0.25     }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Danube-Class Runabout
+ utility_component_template = {
+	key = "required_data_fed_runabout_danube_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_runabout_danube_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_runabout_danube"
+	upgrades_to = required_data_fed_runabout_danube_2
+	#
+	modifier = { ship_base_speed_mult = 0.6 ship_evasion_mult = 0.25 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Yellowstone-Class Refit
+ utility_component_template = {
+	key = "required_data_fed_runabout_danube_2"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_runabout_danube_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	prerequisites = { tech_engineering_22341 }
+	component_set = "required_data_fed_runabout_danube"
+	#
+	modifier = { ship_base_speed_mult = 0.65 ship_evasion_mult = 0.3 }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Venture-Class Runabout
+ utility_component_template = {
+	key = "required_data_fed_runabout_venture_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_runabout_venture_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_runabout_venture"
+	#
+	modifier = { ship_base_speed_mult = 0.65 ship_evasion_mult = 0.25 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### NX Beta Attack Wing
+ utility_component_template = {
+	key = "required_data_fed_attack_wing_nx_beta_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_attack_wing_nx_beta_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_attack_wing_nx_beta"
+	#
+	modifier = { ship_base_speed_mult = 0.5 ship_evasion_mult = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Galileo-Class Attack Fighter
+ utility_component_template = {
+	key = "required_data_fed_attack_wing_galileo_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_attack_wing_galileo_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_attack_wing_galileo"
+	#
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.25 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Peregrine-Class Attack Fighter
+ utility_component_template = {
+	key = "required_data_fed_attack_wing_peregrine_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_attack_wing_peregrine_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_attack_wing_peregrine"
+	#
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.25 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Gryphon-Class Attack Fighter
+ utility_component_template = {
+	key = "required_data_fed_attack_wing_gryphon_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_attack_wing_gryphon_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_attack_wing_gryphon"
+	#
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.27 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Sarajevo-Class Carrier
+ utility_component_template = {
+	key = "required_data_fed_carrier_sarajevo_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_carrier_sarajevo_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_carrier_sarajevo"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.05     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Minuteman-Class Carrier
+utility_component_template = {
+	key = "required_data_fed_carrier_minuteman_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_carrier_minuteman_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_carrier_minuteman"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.05     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Ptolomy-Class Carrier
+ utility_component_template = {
+	key = "required_data_fed_carrier_ptolomy_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_carrier_ptolomy_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_carrier_ptolomy"
+	
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.05     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Sydney-Class Carrier
+ utility_component_template = {
+	key = "required_data_fed_carrier_sydney_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_carrier_sydney_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_carrier_sydney"
+	#
+	modifier = { ship_weapon_damage = 0.07 ship_armor_mult = 0.05     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Iwo Jima-Class Carrier
+ utility_component_template = {
+	key = "required_data_fed_carrier_iwo_jima_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_carrier_iwo_jima_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_carrier_iwo_jima"
+	#
+	modifier = { ship_weapon_damage = 0.085 ship_armor_mult = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Samson-Class Carrier
+ utility_component_template = {
+	key = "required_data_fed_carrier_samson_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_carrier_samson_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_carrier_samson"
+	#
+	modifier = { ship_weapon_damage = 0.086 ship_armor_mult = 0.075 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Typhon-Class Mobile Carrier
+ utility_component_template = {
+	key = "required_data_fed_mobile_carrier_typhon_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fed_mobile_carrier_typhon_1"
+	
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 2 }
+	   upkeep = { alloys = 0.01 energy = 0.02 }
+	}
+	component_set = "required_data_fed_mobile_carrier_typhon"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_shield_mult = 0.3 ships_upkeep_mult = 0.1    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Borghel-A Modified Gunboat
+ utility_component_template = {
+	key = "required_data_kdf_gunboat_borghel_a_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_gunboat_borghel_a_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	component_set = "required_data_kdf_gunboat_borghel_a"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### B'rel-A Modified Gunboat
+ utility_component_template = {
+	key = "required_data_kdf_gunboat_brel_a_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_gunboat_brel_a_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_gunboat_brel_a"
+	#
+	modifier = { ship_evasion_mult = 0.02 ship_weapon_damage = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Borghel Class Bird of Prey
+ utility_component_template = {
+	key = "required_data_kdf_bop_borghel_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_bop_borghel_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_bop_borghel"
+	#
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### B1 Series Bird of PRey
+ utility_component_template = {
+	key = "required_data_kdf_bop_blasrika_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_bop_blasrika_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_bop_blasrika"
+	#
+	upgrades_to = required_data_kdf_bop_blasrika_2
+	ship_modifier = {  ship_hull_damage_mult = 0.05  }
+	modifier = { ship_evasion_mult = 0.02      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### B2 Series Bird of PRey
+ utility_component_template = {
+	key = "required_data_kdf_bop_blasrika_2"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_bop_blasrika_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 10 }
+	   upkeep = { alloys = 0.03 energy = 0.09 }
+	}
+	prerequisites = { tech_engineering_03604 }
+	component_set = "required_data_kdf_bop_blasrika"
+	#
+	ship_modifier = {  ship_hull_damage_mult = 0.15  }
+	modifier = { ship_evasion_mult = 0.02      }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Hom Cha'Par Class Bird of Prey
+ utility_component_template = {
+	key = "required_data_kdf_bop_homcha_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_bop_homcha_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_bop_homcha"
+	#
+	modifier = { ship_evasion_mult = 0.02 ship_weapon_damage = 0.1 ship_base_speed_mult = 0.15    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### B'Rel Class Bird of Prey
+ utility_component_template = {
+	key = "required_data_kdf_bop_brel_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_bop_brel_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_bop_brel"
+	upgrades_to = required_data_kdf_bop_brel_2
+	
+	modifier = { ship_evasion_mult = 0.02 ship_weapon_damage = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### B'rel Advanced Prototype
+ utility_component_template = {
+	key = "required_data_kdf_bop_brel_2"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_bop_brel_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 30 }
+	   upkeep = { alloys = 0.07 energy = 0.26 }
+	}
+	prerequisites = { tech_engineering_03609 }
+	component_set = "required_data_kdf_bop_brel"
+	#
+	modifier = { ship_evasion_mult = 0.025 ship_weapon_damage = 0.15     }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Pagh Class Haw' Bird of Prey
+ utility_component_template = {
+	key = "required_data_kdf_bop_pagh_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_bop_pagh_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_bop_pagh"
+	#
+	modifier = { ship_evasion_mult = 0.025 ship_weapon_damage = 0.25     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Somraw Class Raptor
+ utility_component_template = {
+	key = "required_data_kdf_raptor_somraw_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raptor_somraw_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raptor_somraw"
+	#
+	modifier = { ship_weapon_damage = 0.05      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### D5-Type Raptor
+ utility_component_template = {
+	key = "required_data_kdf_raptor_d5_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raptor_d5_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raptor_d5"
+	#
+	modifier = { ship_weapon_damage = 0.05 ship_armor_mult = 0.05 ship_hull_mult = 0.05 ship_shield_mult = 0.05   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Qoj Class Raptor
+ utility_component_template = {
+	key = "required_data_kdf_raptor_qoj_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raptor_qoj_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raptor_qoj"
+	#
+	modifier = { ship_weapon_damage = 0.075 ship_armor_mult = 0.075 ship_hull_mult = 0.075 ship_shield_mult = 0.075   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Jev Cha'par Class Raptor
+ utility_component_template = {
+	key = "required_data_kdf_raptor_jev_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raptor_jev_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raptor_jev"
+	#
+	modifier = { ship_weapon_damage = 0.1 ship_armor_mult = 0.1 ship_hull_mult = 0.1 ship_shield_mult = 0.1   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Hegh Jop Class Raptor
+ utility_component_template = {
+	key = "required_data_kdf_raptor_hegh_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raptor_hegh_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raptor_hegh"
+	#
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.15 ship_hull_mult = 0.15 ship_shield_mult = 0.15   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Me'Had'Raw Class Raptor
+ utility_component_template = {
+	key = "required_data_kdf_raptor_mehadraw_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raptor_mehadraw_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raptor_mehadraw"
+	#
+	modifier = { ship_weapon_damage = 0.25 ship_armor_mult = 0.25 ship_hull_mult = 0.25 ship_shield_mult = 0.25   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Sech Class Raider
+ utility_component_template = {
+	key = "required_data_kdf_raider_sech_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raider_sech_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raider_sech"
+	#
+	ship_modifier = {  ship_hull_damage_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### D6-Type Raider
+ utility_component_template = {
+	key = "required_data_kdf_raider_d6_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raider_d6_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raider_d6"
+	#
+	ship_modifier = {  ship_hull_damage_mult = 0.3  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Klalath Class Raider
+ utility_component_template = {
+	key = "required_data_kdf_raider_klalath_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raider_klalath_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raider_klalath"
+	#
+	ship_modifier = {  ship_hull_damage_mult = 0.4  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### K'Vort Class Raider
+ utility_component_template = {
+	key = "required_data_kdf_raider_kvort_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_raider_kvort_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_raider_kvort"
+	#
+	ship_modifier = {  ship_hull_damage_mult = 0.6  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Jach Class Battlecruiser
+ utility_component_template = {
+	key = "required_data_kdf_battlecruiser_jach_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_battlecruiser_jach_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_battlecruiser_jach"
+	#
+	modifier = { ships_upkeep_mult = -0.05 ship_weapon_damage = 0.05 ship_armor_mult = 0.1    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### D7-Type Battlecruiser
+ utility_component_template = {
+	key = "required_data_kdf_battlecruiser_d7_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_battlecruiser_d7_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_battlecruiser_d7"
+	
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.1 ship_armor_mult = 0.15    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### K't'inga Class Battlecruiser
+ utility_component_template = {
+	key = "required_data_kdf_battlecruiser_ktinga_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_battlecruiser_ktinga_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_battlecruiser_ktinga"
+	
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.22 ship_armor_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Norgh Class Battlecruiser
+ utility_component_template = {
+	key = "required_data_kdf_battlecruiser_norgh_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_battlecruiser_norgh_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_battlecruiser_norgh"
+	#
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.22 ship_armor_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Vor'Cha Class Battlecruiser
+ utility_component_template = {
+	key = "required_data_kdf_battlecruiser_vorcha_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_battlecruiser_vorcha_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_battlecruiser_vorcha"
+	
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.25 ship_armor_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Jejha Class Warship
+ utility_component_template = {
+	key = "required_data_kdf_warship_jejha_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_warship_jejha_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_warship_jejha"
+	#
+	modifier = { ship_weapon_damage = 0.1 ship_armor_mult = 0.25 ship_hull_mult = 0.25 ship_shield_mult = 0.25 ships_upkeep_mult = 0.05  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Roj Par Class Warship
+ utility_component_template = {
+	key = "required_data_kdf_warship_roj_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_warship_roj_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_warship_roj"
+	#
+	modifier = { ship_weapon_damage = 0.15 ship_armor_mult = 0.3 ship_hull_mult = 0.3 ship_shield_mult = 0.3 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### K'vek Class Warship
+ utility_component_template = {
+	key = "required_data_kdf_warship_kvek_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_warship_kvek_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_warship_kvek"
+	#
+	modifier = { ship_weapon_damage = 0.25 ship_armor_mult = 0.25 ship_hull_mult = 0.25 ship_shield_mult = 0.25 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Negh'Var Class Warship
+ utility_component_template = {
+	key = "required_data_kdf_warship_neghvar_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_warship_neghvar_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_warship_neghvar"
+	upgrades_to = required_data_kdf_warship_neghvar_2
+	
+	modifier = { ship_weapon_damage = 0.35 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Kronos One HQ Upgrade
+ utility_component_template = {
+	key = "required_data_kdf_warship_neghvar_2"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_warship_neghvar_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 220 }
+	   upkeep = { alloys = 0.51 energy = 2.03 }
+	}
+	prerequisites = { tech_engineering_03613 }
+	component_set = "required_data_kdf_warship_neghvar"
+	
+	modifier = { ship_weapon_damage = 0.4 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 200
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### JeH'jhong Flagship
+ utility_component_template = {
+	key = "required_data_kdf_flagship_jehjhong_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_flagship_jehjhong_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_flagship_jehjhong"
+	
+	modifier = { ship_weapon_damage = 0.5 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2 ships_upkeep_mult = 0.2  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Duj Heg-Class Sarcophagus Ship
+ utility_component_template = {
+	key = "required_data_kdf_ship_of_the_dead_duj_heg_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_ship_of_the_dead_duj_heg_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_ship_of_the_dead_duj_heg"
+	
+	modifier = { ship_weapon_damage = 0.5 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2 ships_upkeep_mult = 0.2  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Kivra-Class Shuttle
+ utility_component_template = {
+	key = "required_data_kdf_shuttle_kivra_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_shuttle_kivra_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_shuttle_kivra"
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.2 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Grethor-Class Striker
+ utility_component_template = {
+	key = "required_data_kdf_strike_ship_grethor_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_strike_ship_grethor_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_strike_ship_grethor"
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.2 ship_armor_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Feklhr-Class Striker
+ utility_component_template = {
+	key = "required_data_kdf_strike_ship_feklhr_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_strike_ship_feklhr_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_strike_ship_feklhr"
+	modifier = { ships_upkeep_mult = -0.1 ship_weapon_damage = 0.2 ship_armor_mult = 0.25    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Daqtagh-Class Attack Fighter
+ utility_component_template = {
+	key = "required_data_kdf_attack_wing_daqtagh_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_attack_wing_daqtagh_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_attack_wing_daqtagh"
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bird of Prey Attack Wing
+ utility_component_template = {
+	key = "required_data_kdf_attack_wing_bop_wing_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_attack_wing_bop_wing_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_attack_wing_bop_wing"
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### ChTang Exploratory Ship
+utility_component_template = {
+	key = "required_data_kdf_hero_ship_chtang_1"
+	size = small
+	icon = "GFX_ship_part_required_data_kdf_hero_ship_chtang_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_kdf_hero_ship_chtang"
+	modifier = { ship_weapon_damage = 0.35 ship_armor_mult = 0.2 ship_hull_mult = 0.2 ship_shield_mult = 0.2 ships_upkeep_mult = 0.1  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Rea Class Bird of Prey
+ utility_component_template = {
+	key = "required_data_rom_bop_rea_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_bop_rea_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_bop_rea"
+	#
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### S'Tanet Class Bird of Prey
+ utility_component_template = {
+	key = "required_data_rom_bop_stanet_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_bop_stanet_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_bop_stanet"
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.1 }
+	#
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Jo'rek Class Bird of Prey
+ utility_component_template = {
+	key = "required_data_rom_bop_jorek_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_bop_jorek_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_bop_jorek"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.2      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Ar'hael Class Bird of Prey
+ utility_component_template = {
+	key = "required_data_rom_bop_arhael_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_bop_arhael_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_bop_arhael"
+	#
+	ship_modifier = {  ship_tracking_add = 15  }
+	modifier = { ship_weapon_damage = 0.3      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Arrenhe-Class Interceptor
+ utility_component_template = {
+	key = "required_data_rom_interceptor_arrenhe_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_interceptor_arrenhe_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_interceptor_arrenhe"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.25  }
+	modifier = { ship_base_speed_mult = 0.2 ship_evasion_add = 5 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### T'Varo Class Interceptor
+ utility_component_template = {
+	key = "required_data_rom_interceptor_tvaro_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_interceptor_tvaro_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_interceptor_tvaro"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.2  }
+	modifier = { ship_base_speed_mult = 0.15      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### T'Liss Class Interceptor
+ utility_component_template = {
+	key = "required_data_rom_interceptor_tliss_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_interceptor_tliss_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_interceptor_tliss"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.4  }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### T'Mara Class Interceptor
+ utility_component_template = {
+	key = "required_data_rom_interceptor_tmara_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_interceptor_tmara_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_interceptor_tmara"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.4  }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 ship_weapon_damage = 0.1    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### T'Dair Class Interceptor
+ utility_component_template = {
+	key = "required_data_rom_interceptor_tdair_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_interceptor_tdair_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_interceptor_tdair"
+	#
+	ship_modifier = {  ship_interstellar_speed_mult = 0.4  }
+	modifier = { ship_base_speed_mult = 0.3 ship_evasion_mult = 0.02 ship_weapon_damage = 0.3    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tellus Class Warbird
+ utility_component_template = {
+	key = "required_data_rom_warbird_tellus_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_warbird_tellus_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_warbird_tellus"
+	#
+	ship_modifier = {  ship_shield_damage_mult = 0.15  }
+	modifier = { ships_upkeep_mult = -0.1      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### S'tasek Class Warbird
+ utility_component_template = {
+	key = "required_data_rom_warbird_stasek_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_warbird_stasek_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_warbird_stasek"
+	#
+	ship_modifier = {  ship_shield_damage_mult = 0.2  }
+	modifier = { ships_upkeep_mult = -0.1 ship_evasion_mult = 0.02     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### S'harien Class Warbird
+ utility_component_template = {
+	key = "required_data_rom_warbird_sharien_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_warbird_sharien_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_warbird_sharien"
+	#
+	ship_modifier = {  ship_shield_damage_mult = 0.15  }
+	modifier = { ships_upkeep_mult = -0.1 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Kanassarum Class Warbird
+ utility_component_template = {
+	key = "required_data_rom_warbird_kanassarum_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_warbird_kanassarum_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_warbird_kanassarum"
+	#
+	ship_modifier = {  ship_shield_damage_mult = 0.1 ship_accuracy_add = 5 }
+	modifier = { ships_upkeep_mult = -0.1 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Valdore Class Warbird
+ utility_component_template = {
+	key = "required_data_rom_warbird_valdore_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_warbird_valdore_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_warbird_valdore"
+	
+	ship_modifier = {  ship_shield_damage_mult = 0.15 ship_accuracy_add = 10 }
+	modifier = { ships_upkeep_mult = -0.1 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Vreedex Class Warbird
+ utility_component_template = {
+	key = "required_data_rom_warbird_vreedex_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_warbird_vreedex_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_warbird_vreedex"
+	#
+	ship_modifier = {  ship_shield_damage_mult = 0.2 ship_tracking_add = 30 }
+	modifier = { ships_upkeep_mult = -0.1 ship_evasion_mult = 0.025     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### T'shen Class Starbird
+ utility_component_template = {
+	key = "required_data_rom_starbird_tshen_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_starbird_tshen_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_starbird_tshen"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.15  }
+	modifier = { ship_armor_mult = 0.15      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Debrune Class Starbird
+ utility_component_template = {
+	key = "required_data_rom_starbird_debrune_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_starbird_debrune_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_starbird_debrune"
+	ship_modifier = {  ship_armor_damage_mult = 0.2  }
+	modifier = { ship_armor_mult = 0.2      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Valkis Class Starbird
+ utility_component_template = {
+	key = "required_data_rom_starbird_valkis_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_starbird_valkis_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_starbird_valkis"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.3  }
+	modifier = { ship_armor_mult = 0.3      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Kaskara Class Starbird
+ utility_component_template = {
+	key = "required_data_rom_starbird_kaskara_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_starbird_kaskara_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_starbird_kaskara"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.4  }
+	modifier = { ship_armor_mult = 0.4      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Gallant Class Battleship
+ utility_component_template = {
+	key = "required_data_rom_battleship_gallant_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_battleship_gallant_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_battleship_gallant"
+	modifier = { ship_weapon_damage = 0.25 ship_evasion_mult = -0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Praetor Class Battleship
+utility_component_template = {
+	key = "required_data_rom_battleship_praetor_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_battleship_praetor_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_battleship_praetor"
+	
+	modifier = { ship_weapon_damage = 0.1 ship_shield_mult = 0.4 ships_upkeep_mult = 0.05    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+  
+### Pontilus Class Battleship
+ utility_component_template = {
+	key = "required_data_rom_battleship_pontilus_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_battleship_pontilus_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_battleship_pontilus"
+	#
+	modifier = { ship_weapon_damage = 0.1 ship_shield_mult = 0.45 ships_upkeep_mult = 0.05    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### D'Deridex Class Battleship
+ utility_component_template = {
+	key = "required_data_rom_battleship_dderidex_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_battleship_dderidex_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_battleship_dderidex"
+	
+	modifier = { ship_weapon_damage = 0.25 ship_shield_mult = 0.5 ships_upkeep_mult = 0.1    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### D'Kazanak Class Battleship
+ utility_component_template = {
+	key = "required_data_rom_battleship_dkazanak_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_battleship_dkazanak_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_battleship_dkazanak"
+	#
+	modifier = { ship_weapon_damage = 0.30 ship_shield_mult = 0.55 ships_upkeep_mult = 0.1    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Scimitar
+ utility_component_template = {
+	key = "required_data_rom_sword_scimitar_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_sword_scimitar_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_sword_scimitar"
+	
+	ship_modifier = {  ship_hull_damage_mult = 0.45 ship_weapon_range_mult = 0.45 ship_weapon_damage = 0.65 ship_accuracy_add = 0.25 }
+	modifier = { ship_shield_mult = 0.5 ships_upkeep_mult = 0.25     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Decius-Class Shrike Cruiser
+ utility_component_template = {
+	key = "required_data_rom_shrike_cruiser_decius_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_shrike_cruiser_decius_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_shrike_cruiser_decius"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.2  }
+	modifier = { ship_armor_mult = 0.2      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Vasteme-Class Shrike Cruiser
+ utility_component_template = {
+	key = "required_data_rom_shrike_cruiser_vasteme_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_shrike_cruiser_vasteme_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_shrike_cruiser_vasteme"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.2 ship_weapon_damage = 0.25  }
+	modifier = { ship_armor_mult = 0.2      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### K'hanakh-Class Shrike Cruiser
+ utility_component_template = {
+	key = "required_data_rom_shrike_cruiser_khanakh_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_shrike_cruiser_khanakh_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_shrike_cruiser_khanakh"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.2  }
+	modifier = { ship_armor_mult = 0.2      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tajen-Class Shuttle
+ utility_component_template = {
+	key = "required_data_rom_shuttle_tajen_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_shuttle_tajen_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_shuttle_tajen"
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Snakehead-Class Shuttle
+ utility_component_template = {
+	key = "required_data_rom_shuttle_snakehead_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_shuttle_snakehead_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_shuttle_snakehead"
+	modifier = { ship_base_speed_mult = 0.99 ship_evasion_mult = 0.2   }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Shalimar-Class Attack Fighter
+ utility_component_template = {
+	key = "required_data_rom_attack_wing_shalimar_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_attack_wing_shalimar_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_attack_wing_shalimar"
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Scorpion-Class Attack Fighter
+ utility_component_template = {
+	key = "required_data_rom_attack_wing_scorpion_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_attack_wing_scorpion_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_attack_wing_scorpion"
+	modifier = { ship_base_speed_mult = 0.7 ship_evasion_mult = 0.2    }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Mimicus-Class Stealth Explorer
+utility_component_template = {
+	key = "required_data_rom_hero_ship_mimicus_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_hero_ship_mimicus_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_hero_ship_mimicus"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.2  }
+	modifier = { ship_armor_mult = 0.2      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+}
+
+### Falchion-Class Stealth Explorer
+ utility_component_template = {
+	key = "required_data_rom_hero_ship_falchion_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_hero_ship_falchion_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_hero_ship_falchion"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.3  }
+	modifier = { ship_armor_mult = 0.3      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+}
+
+### Tulwas-Class Stealth Explorer
+ utility_component_template = {
+	key = "required_data_rom_hero_ship_tulwas_1"
+	size = small
+	icon = "GFX_ship_part_required_data_rom_hero_ship_tulwas_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_rom_hero_ship_tulwas"
+	#
+	ship_modifier = {  ship_armor_damage_mult = 0.4  }
+	modifier = { ship_armor_mult = 0.4      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Probe
+ utility_component_template = {
+	key = "required_data_borg_probe_1"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_probe_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_borg_probe"
+	upgrades_to = required_data_borg_probe_2
+	modifier = { ship_weapon_damage = 0.1 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Omega Probe
+ utility_component_template = {
+	key = "required_data_borg_probe_2"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_probe_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = {  sr_boronite = 1 }
+	   upkeep = {  sr_boronite = 0.01 }
+	}
+	prerequisites = { tech_engineering_12904 }
+	component_set = "required_data_borg_probe"
+	modifier = { ship_weapon_damage = 0.2 ship_hull_mult = 0.2     }
+	ai_weight = {
+	   weight = 150
+      modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_boronite }
+		}
+	}
+ }
+ 
+### Scout
+ utility_component_template = {
+	key = "required_data_borg_scout_1"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_scout_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_borg_scout"
+	upgrades_to = required_data_borg_scout_2
+	modifier = { ship_weapon_damage = 0.05 ship_evasion_add = 15     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Omega Scout
+ utility_component_template = {
+	key = "required_data_borg_scout_2"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_scout_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = {  sr_boronite = 1 }
+	   upkeep = {  sr_boronite = 0.01 }
+	}
+	prerequisites = { tech_engineering_12903 }
+	component_set = "required_data_borg_scout"
+	modifier = { ship_weapon_damage = 0.1 ship_evasion_add = 30     }
+	ai_weight = {
+	   weight = 150
+      modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_boronite }
+		}
+	}
+ }
+ 
+### Pyramid
+ utility_component_template = {
+	key = "required_data_borg_pyramid_1"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_pyramid_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_borg_pyramid"
+	upgrades_to = required_data_borg_pyramid_2
+	modifier = { ship_weapon_damage = 0.1 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Omega Pyramid
+ utility_component_template = {
+	key = "required_data_borg_pyramid_2"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_pyramid_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = {  sr_boronite = 4 }
+	   upkeep = {  sr_boronite = 0.02 }
+	}
+	prerequisites = { tech_engineering_12910 }
+	component_set = "required_data_borg_pyramid"
+	modifier = { ship_weapon_damage = 0.2 ship_hull_mult = 0.2     }
+	ai_weight = {
+	   weight = 150
+      modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_boronite }
+		}
+	}
+ }
+ 
+### Sphere
+ utility_component_template = {
+	key = "required_data_borg_sphere_1"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_sphere_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_borg_sphere"
+	upgrades_to = required_data_borg_sphere_2
+	modifier = { ship_weapon_damage = 0.1 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Omega Sphere
+ utility_component_template = {
+	key = "required_data_borg_sphere_2"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_sphere_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = {  sr_boronite = 5 }
+	   upkeep = {  sr_boronite = 0.03 }
+	}
+	prerequisites = { tech_engineering_12912 }
+	component_set = "required_data_borg_sphere"
+	modifier = { ship_weapon_damage = 0.2 ship_hull_mult = 0.2     }
+	ai_weight = {
+	   weight = 150
+      modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_boronite }
+		}
+	}
+ }
+ 
+### Diamond
+ utility_component_template = {
+	key = "required_data_borg_diamond_1"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_diamond_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_borg_diamond"
+	upgrades_to = required_data_borg_diamond_2
+	modifier = { ship_weapon_damage = 0.1 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Omega Diamond
+ utility_component_template = {
+	key = "required_data_borg_diamond_2"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_diamond_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = {  sr_boronite = 6 }
+	   upkeep = {  sr_boronite = 0.03 }
+	}
+	prerequisites = { tech_engineering_12905 }
+	component_set = "required_data_borg_diamond"
+	modifier = { ship_weapon_damage = 0.2 ship_hull_mult = 0.2     }
+	ai_weight = {
+	   weight = 150
+      modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_boronite }
+		}
+	}
+ }
+ 
+### Cube
+ utility_component_template = {
+	key = "required_data_borg_cube_1"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_cube_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_borg_cube"
+	
+	modifier = { ship_weapon_damage = 0.2 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Tactical Cube
+ utility_component_template = {
+	key = "required_data_borg_tactical_1"
+	size = small
+	icon = "GFX_ship_part_required_data_borg_tactical_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_borg_tactical"
+	
+	modifier = { ship_weapon_damage = 0.25 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Omega Cube
+ utility_component_template = {
+	key = "required_data_super_cube_1"
+	size = small
+	icon = "GFX_ship_part_required_data_super_cube_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = {  sr_boronite = 100 }
+	   upkeep = {  sr_boronite = 0.4 }
+	}
+	component_set = "required_data_super_cube"
+	
+	modifier = { ship_weapon_damage = 0.3 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+      modifier = {
+			factor = 0.0
+         is_ai = yes
+			no_resource_for_component = { RESOURCE = sr_boronite }
+		}
+	}
+ }
+ 
+### Bio-Scout
+ utility_component_template = {
+	key = "required_data_undine_01_bio_scout_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_scout_1"
+	icon_frame = 1
+	power = 500
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_undine_01_bio_scout"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio-Ship
+ utility_component_template = {
+	key = "required_data_undine_01_bio_ship_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_ship_1"
+	icon_frame = 1
+	power = 1500
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_undine_01_bio_ship"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Behemoth
+ utility_component_template = {
+	key = "required_data_undine_01_bio_behemoth_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_behemoth_1"
+	icon_frame = 1
+	power = 2000
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	
+	component_set = "required_data_undine_01_bio_behemoth"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Frigate
+ utility_component_template = {
+	key = "required_data_undine_01_bio_frigate_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_frigate_1"
+	icon_frame = 1
+	power = 2500
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	component_set = "required_data_undine_01_bio_frigate"
+	modifier = { ship_weapon_damage = 0.1 ship_hull_mult = 0.1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Destroyer
+ utility_component_template = {
+	key = "required_data_undine_01_bio_destroyer_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_destroyer_1"
+	icon_frame = 1
+	power = 3000
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	component_set = "required_data_undine_01_bio_destroyer"
+	modifier = { ship_weapon_damage = 0.2 ship_hull_mult = 0.2     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Cruiser
+ utility_component_template = {
+	key = "required_data_undine_01_bio_cruiser_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_cruiser_1"
+	icon_frame = 1
+	power = 3500
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	component_set = "required_data_undine_01_bio_cruiser"
+	modifier = { ship_weapon_damage = 0.3 ship_hull_mult = 0.3     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Raider
+ utility_component_template = {
+	key = "required_data_undine_01_bio_raider_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_raider_1"
+	icon_frame = 1
+	power = 4000
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_undine_01_bio_raider"
+	#
+	modifier = { ship_weapon_damage = 0.4 ship_hull_mult = 0.4     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Battleship
+ utility_component_template = {
+	key = "required_data_undine_01_bio_battleship_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_battleship_1"
+	icon_frame = 1
+	power = 4500
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_undine_01_bio_battleship"
+	
+	modifier = { ship_weapon_damage = 0.5 ship_hull_mult = 0.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Exterminator
+ utility_component_template = {
+	key = "required_data_undine_01_bio_warship_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_warship_1"
+	icon_frame = 1
+	power = 5000
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	component_set = "required_data_undine_01_bio_warship"
+	modifier = { ship_weapon_damage = 0.6 ship_hull_mult = 0.6     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Vanquisher
+ utility_component_template = {
+	key = "required_data_undine_01_bio_vanquisher_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_vanquisher_1"
+	icon_frame = 1
+	power = 5500
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	#
+	component_set = "required_data_undine_01_bio_vanquisher"
+	modifier = { ship_weapon_damage = 1.0 ship_hull_mult = 0.7     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Bio Infester
+ utility_component_template = {
+	key = "required_data_undine_01_bio_infester_1"
+	size = small
+	icon = "GFX_ship_part_required_data_undine_01_bio_infester_1"
+	icon_frame = 1
+	power = 6000
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_undine_01_bio_infester"
+	modifier = { ship_weapon_damage = 1.5 ship_hull_mult = 1.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Interdictor
+ utility_component_template = {
+	key = "required_data_fallen_interdictor_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fallen_interdictor_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fallen_interdictor"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Assault Vessel
+ utility_component_template = {
+	key = "required_data_fallen_assault_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fallen_assault_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	
+	component_set = "required_data_fallen_assault"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Flagship
+ utility_component_template = {
+	key = "required_data_fallen_flagship_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fallen_flagship_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fallen_flagship"
+	
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Fallen Attack
+ utility_component_template = {
+	key = "required_data_fallen_attack_1"
+	size = small
+	icon = "GFX_ship_part_required_data_fallen_attack_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_fallen_attack"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Patrol Frigate
+utility_component_template = {
+	key = "required_data_corvette_1"
+	size = small
+	icon = "GFX_ship_part_required_data_corvette_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	modifier = { ship_weapon_damage = 0.05 }
+	component_set = "required_data_corvette"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Destroyer
+ utility_component_template = {
+	key = "required_data_saber_1"
+	size = small
+	icon = "GFX_ship_part_required_data_saber_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_saber"
+	modifier = { ship_weapon_damage = 0.15 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Cruiser
+ utility_component_template = {
+	key = "required_data_sovereign_1"
+	size = small
+	icon = "GFX_ship_part_required_data_sovereign_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_sovereign"
+	#
+	triggered_ship_modifier = {
+		potential = { exists = owner owner = { has_country_flag = cardassian_union } }
+		ship_weapon_damage = 0.45
+	}
+	modifier = { ship_weapon_damage = 0.20 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Battlecruiser
+ utility_component_template = {
+	key = "required_data_steamrunner_1"
+	size = small
+	icon = "GFX_ship_part_required_data_steamrunner_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_steamrunner"
+	#
+	modifier = { ship_weapon_damage = 0.25 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Battleship
+ utility_component_template = {
+	key = "required_data_adv_cruiser_1"
+	size = small
+	icon = "GFX_ship_part_required_data_adv_cruiser_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_adv_cruiser"
+	#
+	modifier = { ship_weapon_damage = 0.30 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Heavy Raider
+ utility_component_template = {
+	key = "required_data_strike_1"
+	size = small
+	icon = "GFX_ship_part_required_data_strike_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_strike"
+	modifier = { ship_weapon_damage = 0.15 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Assault Cruiser
+ utility_component_template = {
+	key = "required_data_assault_cruiser_1"
+	size = small
+	icon = "GFX_ship_part_required_data_assault_cruiser_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_assault_cruiser"
+	
+	modifier = { ship_weapon_damage = 0.35 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Shuttlecraft
+ utility_component_template = {
+	key = "required_data_shuttle_1"
+	size = small
+	icon = "GFX_ship_part_required_data_shuttle_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_shuttle"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Attack Fighter
+ utility_component_template = {
+	key = "required_data_attack_ship_1"
+	size = small
+	icon = "GFX_ship_part_required_data_attack_ship_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_attack_ship"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Shrike-Class Battleship
+utility_component_template = {
+	key = "required_data_dom_sword_shrike_1"
+	size = small
+	icon = "GFX_ship_part_required_data_dom_sword_shrike_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_dom_sword_shrike"
+	
+	modifier = { ship_weapon_damage = 0.33 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Dominion Super-Carrier
+ utility_component_template = {
+	key = "required_data_super_battleship_1"
+	size = small
+	icon = "GFX_ship_part_required_data_super_battleship_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_super_battleship"
+	#
+	valid_for_country = { NOT = { has_country_flag = cardassian_union } }
+	modifier = { ship_weapon_damage = 0.75 ship_base_speed_mult = -0.25  }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Hutet-Class Super-Carrier
+ utility_component_template = {
+	key = "required_data_super_battleship_2"
+	size = small
+	icon = "GFX_ship_part_required_data_super_battleship_2"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	valid_for_country = { has_country_flag = cardassian_union }
+	
+	modifier = { ship_weapon_damage = 0.5 ship_base_speed_mult = -0.25  }
+	component_set = "required_data_super_battleship"
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Voth City Ship
+ utility_component_template = {
+	key = "required_data_man_war_1"
+	size = small
+	icon = "GFX_ship_part_required_data_man_war_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_man_war"
+	
+	modifier = { ship_weapon_damage = 0.5 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Chintoka-Class Weapons Platform
+ utility_component_template = {
+	key = "required_data_cardassian_01_weapons_platform_chintoka_1"
+	size = small
+	icon = "GFX_ship_part_required_data_cardassian_01_weapons_platform_chintoka_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_cardassian_01_weapons_platform_chintoka"
+	ship_modifier = {  ship_base_speed_mult = -1  }
+	modifier = { ship_weapon_damage = 1.5 ship_hull_mult = 1.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Obsidian Class Battleship
+ utility_component_template = {
+	key = "required_data_cardassian_01_adv_cruiser_obsidian_1"
+	size = small
+	icon = "GFX_ship_part_required_data_cardassian_01_adv_cruiser_obsidian_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_cardassian_01_adv_cruiser_obsidian"
+	#
+	modifier = { ship_weapon_damage = 1.5 ship_hull_mult = 1.5     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Degra-Class Planet Killer
+ utility_component_template = {
+	key = "required_data_xindi_planet_killer_degra_1"
+	size = small
+	icon = "GFX_ship_part_required_data_xindi_planet_killer_degra_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_xindi_planet_killer_degra"
+	
+	ship_modifier = {  ship_base_speed_mult = -1.5  }
+	modifier = { ship_weapon_damage = 0.25      }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+### Annorax-Class Time Ship
+ utility_component_template = {
+	key = "required_data_time_ship_annorax_1"
+	size = small
+	icon = "GFX_ship_part_required_data_time_ship_annorax_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_time_ship_annorax"
+	
+	ship_modifier = {  ship_base_speed_mult = -2.5  }
+	modifier = { ship_weapon_damage = 0.05 ship_hull_mult = 1     }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ ### Ekoor-Class Cruiser
+ utility_component_template = {
+	key = "required_data_cardassian_01_war_cruiser_ekoor_1"
+	size = small
+	icon = "GFX_ship_part_required_data_cardassian_01_war_cruiser_ekoor_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_cardassian_01_war_cruiser_ekoor"
+	modifier = { ship_weapon_damage = 0.5 ship_hull_mult = 0.35     }
+	
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+  ### Letau-Class War Cruiser
+  utility_component_template = {
+	key = "required_data_cardassian_01_war_cruiser_letau_1"
+	size = small
+	icon = "GFX_ship_part_required_data_cardassian_01_war_cruiser_letau_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_cardassian_01_war_cruiser_letau"
+	#
+	modifier = { ship_weapon_damage = 0.5 ship_hull_mult = 0.35 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+   ### Kimal-Class Strike Cruiser
+   utility_component_template = {
+	key = "required_data_cardassian_01_cruiser_kimal_1"
+	size = small
+	icon = "GFX_ship_part_required_data_cardassian_01_cruiser_kimal_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_cardassian_01_cruiser_kimal"
+	#
+	modifier = { ship_weapon_damage = 0.35 ship_hull_mult = 0.2 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+ 
+ ### Nor-Class Starbase
+ utility_component_template = {
+	key = "required_data_nor_starbase_nor_1"
+	size = small
+	icon = "GFX_ship_part_required_data_nor_starbase_nor_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_nor_starbase_nor"
+	ship_modifier = { ship_armor_regen_add_perc = 0.5 ship_hull_regen_add_perc = 0.5 ship_shield_regen_add_perc = 0.5  }
+	modifier = { ship_weapon_damage = 0.33 ship_hull_mult = 0.45 ship_shield_mult = 0.45 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Deep-Space-Station
+ utility_component_template = {
+	key = "required_data_deep_space_starbase_1"
+	size = small
+	icon = "GFX_ship_part_required_data_deep_space_starbase_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_deep_space_starbase"
+	ship_modifier = {  ship_base_speed_mult = -2.6  }
+	modifier = { ship_weapon_damage = 0.10 ship_hull_mult = 0.35 ship_shield_mult = 0.20 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+  ### Research Starbase
+  utility_component_template = {
+	key = "required_data_research_starbase_1"
+	size = small
+	icon = "GFX_ship_part_required_data_deep_space_starbase_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_research_starbase"
+	ship_modifier = {  ship_base_speed_mult = -1  }
+	modifier = { ship_hull_mult = 0.05 ship_shield_mult = 0.05 }
+	ai_weight = {
+	   weight = 100
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Galor
+ utility_component_template = {
+	key = "required_data_cardassian_01_galor_1"
+	size = small
+	icon = "GFX_ship_part_required_data_cardassian_01_galor_1"
+	icon_frame = 1
+	power = -1
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_sovereign"
+	
+	valid_for_country = { has_country_flag = cardassian_union }
+	modifier = { ship_weapon_damage = 0.45 }
+	ai_weight = {
+	   weight = 1000
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+### Dominion Bug Ship
+utility_component_template = {
+	key = "required_data_dominion_01_corvette_1"
+	size = small
+	icon = "GFX_ship_part_required_data_dominion_01_corvette_1"
+	icon_frame = 1
+	power = 100
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	valid_for_country = { has_country_flag = the_dominion }
+	#
+	modifier = { ship_weapon_damage = 0.75 ship_evasion_mult = 0.25 }
+	component_set = "required_data_corvette"
+	ai_weight = {
+	   weight = 10000
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+ ### Gorn Attack Ship 1
+ utility_component_template = {
+	key = "required_data_gorn_01_shuttle_1"
+	size = small
+	icon = "GFX_ship_part_required_data_gorn_01_shuttle_1"
+	icon_frame = 1
+	power = 150
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	component_set = "required_data_shuttle"
+	valid_for_country = { has_country_flag = gorn_empire }
+	#
+	modifier = { ship_weapon_damage = 5 ship_evasion_mult = 0.25 }
+	ai_weight = {
+	   weight = 1000
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }
+
+
+### Gorn Attack Ship 2
+utility_component_template = {
+	key = "required_data_gorn_01_attack_ship_1"
+	size = small
+	icon = "GFX_ship_part_required_data_gorn_01_attack_ship_1"
+	icon_frame = 1
+	power = 250
+	resources = {
+	   category = ship_components
+	   cost = { alloys = 5 }
+	   upkeep = { alloys = 0.01 energy = 0.04 }
+	}
+	valid_for_country = { has_country_flag = gorn_empire }
+	#
+	modifier = { ship_weapon_damage = 8 ship_evasion_mult = 0.25 }
+	component_set = "required_data_attack_ship"
+	ai_weight = {
+	   weight = 10000
+	   modifier = {
+		  factor = 0.0
+		  resource_stockpile_compare = { resource = alloys value < 100 }
+	   }
+	}
+ }

@@ -1,0 +1,130 @@
+# ############
+# # 32C Tech
+# ############
+
+
+
+#    ### Programmable matter hull - Type A
+#    utility_component_template = {
+# 	key = "REQUIRED_HULL_FUTURE_A"
+# 	size = small
+# 	icon = "GFX_ship_part_required_hull_d_8"
+# 	icon_frame = 1
+# 	power = 0
+# 	resources = {
+# 	   category = ship_components
+# 	   cost = { alloys = 629 }
+# 	   upkeep = { alloys = 1.1 energy = 4.4 }
+# 	}
+# 	size_restriction = { fed_heavy_cruiser_nebula fed_heavy_cruiser_sovereign fed_heavy_cruiser_achilles fed_heavy_cruiser_sutherland fed_heavy_cruiser_polaris fed_flagship_polaris fed_advanced_cruiser_vesta fed_hero_ship_sovereign fed_hero_ship_odyssey fed_hero_ship_neo_constitution kdf_warship_kvek rom_warbird_valdore rom_hero_ship_tulwas rom_warbird_vreedex rom_starbird_kaskara rom_shrike_cruiser_khanakh assault_cruiser military_station_large fed_advanced_cruiser_obena }
+# 	modifier = { ships_upkeep_mult = -0.05   ship_hull_add = 16000  }
+# 	prerequisites = { "tech_engineering_32C_hull" }
+# 	component_set = "required_hull"
+# 	ai_weight = {
+# 	   weight = 60
+# 	}
+#  }
+#  ### Programmable matter hull - Type B
+#  utility_component_template = {
+# 	key = "REQUIRED_HULL_FUTURE_B"
+# 	size = small
+# 	icon = "GFX_ship_part_required_hull_d_8"
+# 	icon_frame = 1
+# 	power = 0
+# 	resources = {
+# 	   category = ship_components
+# 	   cost = { alloys = 838 }
+# 	   upkeep = { alloys = 1.47 energy = 5.87 }
+# 	}
+# 	size_restriction = { fed_exploration_cruiser_galaxy fed_flagship_galaxy fed_hero_ship_galaxy fed_exploration_cruiser_luna fed_exploration_cruiser_neo_constitution fed_flagship_neo_constitution fed_exploration_cruiser_ross kdf_warship_neghvar kdf_hero_ship_chtang rom_battleship_dderidex rom_battleship_dkazanak fallen_assault adv_cruiser klingon_houses_warship_neghvar cardassian_01_adv_cruiser_obsidian }
+# 	modifier = { ships_upkeep_mult = -0.05   ship_hull_add = 16500  }
+# 	prerequisites = { "tech_engineering_32C_hull" }
+# 	component_set = "required_hull"
+# 	ai_weight = {
+# 	   weight = 60
+# 	}
+#  }
+#  ### Programmable matter hull - Type C
+#  utility_component_template = {
+# 	key = "REQUIRED_HULL_FUTURE_C"
+# 	size = small
+# 	icon = "GFX_ship_part_required_hull_d_8"
+# 	icon_frame = 1
+# 	power = 0
+# 	resources = {
+# 	   category = ship_components
+# 	   cost = { alloys = 1116 }
+# 	   upkeep = { alloys = 1.96 energy = 7.82 }
+# 	}
+# 	size_restriction = { kdf_flagship_jehjhong rom_sword_scimitar fallen_flagship super_battleship xindi_weapon fed_command_cruiser_odyssey fed_flagship_odyssey fed_command_cruiser_excalibur fed_flagship_excalibur cardassian_01_weapons_platform_chintoka xindi_planet_killer_degra }
+# 	modifier = { ships_upkeep_mult = -0.05   ship_hull_add = 17000  }
+# 	prerequisites = { "tech_engineering_32C_hull" }
+# 	component_set = "required_hull"
+# 	ai_weight = {
+# 	   weight = 60
+# 	}
+#  }
+#  ### Programmable matter hull - Type D
+#  utility_component_template = {
+# 	key = "REQUIRED_HULL_FUTURE_D"
+# 	size = small
+# 	icon = "GFX_ship_part_required_hull_d_8"
+# 	icon_frame = 1
+# 	power = 0
+# 	resources = {
+# 	   category = ship_components
+# 	   cost = { alloys = 1488 }
+# 	   upkeep = { alloys = 2.61 energy = 10.42 }
+# 	}
+# 	size_restriction = { fed_mobile_throne_charon fed_ent_naval_museum jupiter_station  gen_science_station mckinley_station starbase_one }
+# 	modifier = { ships_upkeep_mult = -0.05   ship_hull_add = 17500  }
+# 	prerequisites = { "tech_engineering_32C_hull" }
+# 	component_set = "required_hull"
+# 	ai_weight = {
+# 	   weight = 60
+# 	}
+#  }
+#  ### Programmable matter hull - Type E
+#  utility_component_template = {
+# 	key = "REQUIRED_HULL_FUTURE_E"
+# 	size = small
+# 	icon = "GFX_ship_part_required_hull_d_8"
+# 	icon_frame = 1
+# 	power = 0
+# 	resources = {
+# 	   category = ship_components
+# 	   cost = { alloys = 1983 }
+# 	   upkeep = { alloys = 3.48 energy = 13.89 }
+# 	}
+# 	size_restriction = { man_war time_ship_annorax }
+# 	modifier = { ships_upkeep_mult = -0.05   ship_hull_add = 18000  }
+# 	prerequisites = { "tech_engineering_32C_hull" }
+# 	component_set = "required_hull"
+# 	ai_weight = {
+# 	   weight = 60
+# 	}
+#  }
+
+# ### Dummy Jump Drive 
+# utility_component_template = {
+# 	key = "REQUIRED_WARP_Z_BORG_1_C"
+# 	size = small
+# 	icon = "GFX_ship_part_required_warp_z_spore_1"
+# 	icon_frame = 1
+# 	power = 350
+# 	resources = {
+# 	   category = ship_components
+# 	   cost = { alloys = 7 sr_dilithium = 36 }
+# 	   upkeep = {  sr_dilithium = 1.17 }
+# 	}
+# 	size_restriction = { transport }
+# 	ftl = yes
+# 	jumpdrive = yes
+# 	ship_modifier = { ship_interstellar_speed_mult = 1.25    }
+# 	modifier = {    ship_shield_mult = 0.03 ship_weapon_damage = 0.03 }
+# 	prerequisites = { "tech_transwarp_borg" }
+# 	component_set = "required_warp"
+# 	ai_weight = {
+# 	   weight = 1000
+# 	}
+#  }
