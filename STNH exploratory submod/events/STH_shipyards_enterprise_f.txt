@@ -2,6 +2,8 @@
 # ENTERPRISE F
 ########################
 
+namespace = STH_shipyards
+
 # ODYSSEY
 country_event = {
 	id = STH_shipyards.163
