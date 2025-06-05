@@ -1,0 +1,201 @@
+ ### Lakota-Type Heavy Weapon Refit ( Excelsior ) - Weapon value 28
+	ship_section_template = {
+	   key = "fed_hero_ship_excelsior_stern_3"
+	   ship_size = fed_hero_ship_excelsior
+	   fits_on_slot = stern
+	   entity = "fed_advanced_cruiser_excelsior_section_3_entity"
+	   icon = "GFX_ship_part_core_mid"
+	   icon_frame = 1
+	   ai_tags = { sniper carrier skirmisher }
+	   prerequisites = { tech_engineering_03516 }
+	   resources = { category = ship_sections cost = { alloys = 505 } }
+	   small_utility_slots = 0
+	   medium_utility_slots = 0
+	   large_utility_slots = 0
+	   aux_utility_slots = 0
+	   ai_weight = { factor = 110 }
+	   component_slot = {
+		  name = "LARGE_GUN_01"
+		  template = "large_turret"
+		  locatorname = "medium_gun_01"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_01"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_01"
+	   }
+	   component_slot = {
+		  name = "LARGE_GUN_02"
+		  template = "large_turret"
+		  locatorname = "medium_gun_02"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_02"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_02"
+	   }
+	   component_slot = {
+		  name = "LARGE_GUN_03"
+		  template = "large_turret"
+		  locatorname = "medium_gun_03"
+	   }
+	   component_slot = {
+		  name = "LARGE_GUN_04"
+		  template = "large_turret"
+		  locatorname = "medium_gun_04"
+	   }
+	   component_slot = {
+		  name = "LARGE_GUN_05"
+		  template = "large_turret"
+		  locatorname = "medium_gun_05"
+	   }
+	}
+   
+ ### Lakota-Type Torpedo Bay Refit ( Excelsior ) - Weapon value 28
+	ship_section_template = {
+	   key = "fed_hero_ship_excelsior_stern_4"
+	   ship_size = fed_hero_ship_excelsior
+	   fits_on_slot = stern
+	   entity = "fed_advanced_cruiser_excelsior_section_4_entity"
+	   icon = "GFX_ship_part_core_mid"
+	   icon_frame = 1
+	   ai_tags = { sniper carrier skirmisher }
+	   prerequisites = { tech_engineering_03516 }
+	   resources = { category = ship_sections cost = { alloys = 505 } }
+	   small_utility_slots = 0
+	   medium_utility_slots = 0
+	   large_utility_slots = 0
+	   aux_utility_slots = 0
+	   ai_weight = { factor = 90 }
+	   component_slot = {
+		  name = "SMALL_GUN_01"
+		  template = "small_turret"
+		  locatorname = "small_gun_01"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_01"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_01"
+	   }
+	   component_slot = {
+		  name = "SMALL_GUN_02"
+		  template = "small_turret"
+		  locatorname = "small_gun_02"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_02"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_02"
+	   }
+	   component_slot = {
+		  name = "SMALL_GUN_03"
+		  template = "small_turret"
+		  locatorname = "small_gun_03"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_03"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_03"
+	   }
+	   component_slot = {
+		  name = "SMALL_GUN_04"
+		  template = "small_turret"
+		  locatorname = "small_gun_04"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_04"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_04"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_05"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_05"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_06"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_00"
+	   }
+	}
+	
+ ### Lexington-Class Refit ( Excelsior ) - Lexington Refit
+	ship_section_template = {
+	   key = "fed_hero_ship_excelsior_stern_5"
+	   ship_size = fed_hero_ship_excelsior
+	   fits_on_slot = stern
+	   entity = "fed_advanced_cruiser_excelsior_section_5_entity"
+	   icon = "GFX_ship_part_core_mid"
+	   icon_frame = 1
+	   ai_tags = { sniper carrier skirmisher }
+	   prerequisites = { tech_engineering_03520 }
+	   resources = { category = ship_sections cost = { alloys = 960 } }
+	   small_utility_slots = 0
+	   medium_utility_slots = 0
+	   large_utility_slots = 0
+	   aux_utility_slots = 0
+	   ai_weight = { factor = 80 }
+	   component_slot = {
+		  name = "SMALL_GUN_01"
+		  template = "small_turret"
+		  locatorname = "small_gun_01"
+	   }
+	   component_slot = {
+		  name = "MEDIUM_GUN_01"
+		  template = "medium_turret"
+		  locatorname = "medium_gun_01"
+	   }
+	   component_slot = {
+		  name = "LARGE_GUN_01"
+		  template = "large_turret"
+		  locatorname = "medium_gun_01"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_01"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_01"
+	   }
+	   component_slot = {
+		  name = "STRIKE_CRAFT_01"
+		  template = "large_strike_craft"
+		  locatorname = "strike_craft_locator_01"
+		  rotation = 90
+	   }
+	   component_slot = {
+		  name = "SMALL_GUN_02"
+		  template = "small_turret"
+		  locatorname = "small_gun_02"
+	   }
+	   component_slot = {
+		  name = "MEDIUM_GUN_02"
+		  template = "medium_turret"
+		  locatorname = "medium_gun_02"
+	   }
+	   component_slot = {
+		  name = "LARGE_GUN_02"
+		  template = "large_turret"
+		  locatorname = "medium_gun_02"
+	   }
+	   component_slot = {
+		  name = "TORPEDO_02"
+		  template = "invisible_missile_turret"
+		  locatorname = "large_gun_02"
+	   }
+	}
+
+	 ### Extended Science Quarters ( Excelsior )
+	ship_section_template = {
+	   key = "fed_hero_ship_excelsior_mid_10"
+	   ship_size = fed_hero_ship_excelsior
+	   fits_on_slot = mid
+	   entity = "fed_advanced_cruiser_excelsior_entity"
+	   icon = "GFX_ship_part_core_mid"
+	   icon_frame = 1
+	   prerequisites = { tech_engineering_03516 }
+	   resources = { category = ship_sections cost = { alloys = 145 } }
+	   small_utility_slots = 1
+	   medium_utility_slots = 0
+	   large_utility_slots = 5
+	   aux_utility_slots = 1
+	   ai_weight = { factor = 150 }
+	}

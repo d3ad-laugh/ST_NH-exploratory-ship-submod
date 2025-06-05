@@ -1,0 +1,243 @@
+########################
+# ENTERPRISE F
+########################
+
+# ODYSSEY
+country_event = {
+	id = STH_shipyards.163
+	title = STH_shipyards.163.name
+	desc = STH_shipyards.163.desc
+	picture = sth_GFX_evt_utopiaPlanitia
+	is_triggered_only = yes
+	trigger = {}
+	immediate = {
+		random_owned_fleet = {
+			limit = { has_fleet_flag = "flag_ship_odyssey"  }
+			owner = { set_timed_country_flag = { flag = exc_science_NO days = 3 } }
+		}
+		random_owned_ship = {
+			limit = { has_ship_flag = hero_ship_enterpriseF }
+			owner = { set_timed_country_flag = { flag = exc_military_NO days = 3 } }
+		}
+	}
+	option = { # MILITARY - ENT
+		name = STH_military_flagship.a
+		allow = {
+			custom_tooltip = { text = "STH_shipyards.163.ody.tooltip" }
+			NOR = {
+				has_country_flag = con_military_NO # over-ride
+				has_country_flag = naval_shipyards_constructing # constructing
+				has_country_flag = enterprise_building
+				has_country_flag = enterpriseF_comissioned
+				any_owned_ship = { has_ship_flag = flag_ship_constitution } # no science ent
+				any_owned_ship = { has_ship_flag = flag_ship_excelsior } # no science ent
+				any_owned_ship = { has_ship_flag = flag_ship_ambassador } # no science ent
+				any_owned_ship = { has_ship_flag = fed_hero_ship_galaxy } # no science ent
+				any_owned_ship = { has_ship_flag = fed_hero_ship_sovereign } # no science ent
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseB } # no military B
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseC } # no military C
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseD } # no military D
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseE } # no military E
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseF } # no military F
+			}
+			owner = { 
+				resource_stockpile_compare = { resource = alloys value >= 3000 } 
+				resource_stockpile_compare = { resource = sr_crew value >= 1500 }
+				resource_stockpile_compare = { resource = sr_dilithium value >= 800 }
+				resource_stockpile_compare = { resource = sr_tallonian value >= 80 }
+				resource_stockpile_compare = { resource = sr_kemocite value >= 80 }
+				resource_stockpile_compare = { resource = sr_topaline value >= 100 }
+				resource_stockpile_compare = { resource = sr_trellium value >= 2 }   
+			}
+		}
+		country_event = { id = STH_shipyards.164 days = 450 }
+		add_resource = { alloys = -3000 sr_crew = -1500 sr_dilithium = 800 sr_tallonian = 80 sr_kemocite = 80 sr_topaline = 100 sr_trellium = 1 }
+		set_country_flag = fed_exploration_cruiser_sov_decom
+		set_country_flag = flag_ship_owned
+		set_country_flag = naval_shipyards_constructing
+		remove_country_flag = naval_shipyards_diplomacy_engaged
+		set_timed_country_flag = { flag = enterprise_building days = 455 }
+	}
+	option = { # science - ENT
+		name = STH_science_flagship.b
+		allow = {
+			custom_tooltip = { text = "STH_shipyards.163.ody.tooltip" }
+			NOR = {
+				has_country_flag = con_military_NO # over-ride
+				has_country_flag = naval_shipyards_constructing # constructing
+				has_country_flag = enterprise_building
+				has_country_flag = enterpriseF_comissioned
+				any_owned_ship = { has_ship_flag = flag_ship_constitution } # no science ent
+				any_owned_ship = { has_ship_flag = flag_ship_excelsior } # no science ent
+				any_owned_ship = { has_ship_flag = flag_ship_ambassador } # no science ent
+				any_owned_ship = { has_ship_flag = fed_hero_ship_galaxy } # no science ent
+				any_owned_ship = { has_ship_flag = fed_hero_ship_sovereign } # no science ent
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseB } # no military B
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseC } # no military C
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseD } # no military D
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseE } # no military E
+				any_owned_ship = { has_ship_flag = hero_ship_enterpriseF } # no military F
+			}
+			owner = { 
+				resource_stockpile_compare = { resource = alloys value >= 3000 } 
+				resource_stockpile_compare = { resource = sr_crew value >= 1500 }
+				resource_stockpile_compare = { resource = sr_dilithium value >= 800 }
+				resource_stockpile_compare = { resource = sr_tallonian value >= 80 }
+				resource_stockpile_compare = { resource = sr_kemocite value >= 80 }
+				resource_stockpile_compare = { resource = sr_topaline value >= 100 }
+				resource_stockpile_compare = { resource = sr_trellium value >= 2 }   
+			}
+		}
+		country_event = { id = STH_shipyards.165 days = 450 }
+		add_resource = { alloys = -3000 sr_crew = -1500 sr_dilithium = 800 sr_tallonian = 80 sr_kemocite = 80 sr_topaline = 100 sr_trellium = 1 }
+		set_country_flag = fed_exploration_cruiser_sov_decom
+		set_country_flag = flag_ship_owned
+		set_country_flag = naval_shipyards_constructing
+		remove_country_flag = naval_shipyards_diplomacy_engaged
+		set_timed_country_flag = { flag = enterprise_building days = 455 }
+	}
+	option = {
+		name = STH_naval_museum.1001.y #Back
+		hidden_effect = {
+			country_event = { id = STH_shipyards.10 scopes = { from = from } }
+			remove_country_flag = naval_shipyards_diplomacy_engaged
+		}
+	}
+}
+
+# BUILD SCIENCE ODYSSEY (ENT)
+country_event = {
+	id = STH_shipyards.165
+	title = STH_shipyards.165.name
+	desc = STH_hero_ship_design.2662.desc
+	picture = sth_GFX_evt_starfleetTNG+Era
+	is_triggered_only = yes
+	trigger = {
+		NOR = {
+			has_country_flag = fed_exploration_cruiser_sov_decom
+		}
+
+	}
+	immediate = {
+		create_fleet = {
+			settings = {}
+			name = "Enterprise_F"
+			effect = {
+				set_aggro_range_measure_from = self
+				set_owner = ROOT.OWNER
+				set_fleet_flag = flag_ship_Odyssey
+				save_event_target_as = heroship_enterpriseF
+				create_ship = { name = random random_existing_design = fed_hero_ship_odyssey graphical_culture = root effect = { set_ship_flag = preset_reg set_ship_flag = science_ship_enterprise } } 					
+				set_location = { target = event_target:utopia_planitia_planet distance = 5 angle = 100 }
+				
+			}
+		}
+		if = {
+			limit = { has_country_flag = terran_empire }
+			last_created_ship = { 
+			set_ship_flag = flag_ship_odyssey 
+			set_ship_flag = fed_hero_ship_odyssey 
+			set_ship_flag = hero_ship 
+			set_name = "ISS Enterprise NCC-1701-F" }
+			last_created_fleet = { set_fleet_flag = hero_ship  }
+		}
+		if = {
+			limit = { has_country_flag = confederacy_of_earth }
+			last_created_ship = { 
+				set_ship_flag = hero_ship_enterpriseF
+				set_ship_flag = legend_ship
+				set_name = "CSS World Razer NCC-1701-F"
+				add_modifier = { modifier = herobuff_tng2 days = -1 }
+				add_modifier = { modifier = sh_tng2_entf days = -1 }
+			}
+			last_created_fleet = { set_fleet_flag = hero_ship  }
+		}		
+		else = {
+			last_created_ship = { 
+			set_ship_flag = flag_ship_sovereign 
+			set_ship_flag = fed_hero_ship_sovereign 
+			set_ship_flag = hero_ship 
+			set_name = "USS Enterprise NCC-1701-F" }
+			last_created_fleet = { set_fleet_flag = hero_ship  }
+		}
+	}
+	option = { 
+		name = sth_understood
+		remove_country_flag = naval_shipyards_constructing
+		remove_country_flag = naval_shipyards_diplomacy_engaged
+		set_country_flag = flag_ship_owned
+		set_country_flag = enterpriseE_comissioned
+ 	}
+}
+
+# BUILD MLITARY ODYSSEY (ENT)
+country_event = {
+	id = STH_shipyards.164
+	title = STH_shipyards.164.name
+	desc = STH_shipyards.164.desc
+	picture = sth_GFX_evt_enterpriseF
+	is_triggered_only = yes
+	trigger = {
+		NOR = {
+			has_country_flag = fed_exploration_cruiser_ody_decom
+		}
+
+	}
+	immediate = {
+		create_fleet = {
+			settings = {}
+			name = "Enterprise_F"
+			effect = {
+				set_aggro_range_measure_from = self
+				set_owner = ROOT.OWNER
+				set_fleet_flag = "flag_ship_odyssey" 
+				save_event_target_as = heroship_enterpriseF
+				create_ship = { name = random random_existing_design = fed_flagship_odyssey graphical_culture = root effect = { set_ship_flag = preset_reg set_ship_flag = military_ship_enterprise } } 					
+				set_location = { target = event_target:utopia_planitia_planet distance = 5 angle = 100 }
+				
+			}
+		}
+		if = {
+			limit = { has_country_flag = terran_empire }
+			last_created_ship = { 
+				set_ship_flag = hero_ship_enterpriseF
+				set_ship_flag = legend_ship
+				set_name = "ISS Enterprise NCC-1701-F"
+				add_modifier = { modifier = herobuff_tng2 days = -1 }
+				add_modifier = { modifier = sh_tng2_entf days = -1 }
+			}
+			last_created_fleet = { set_fleet_flag = hero_ship  }
+		}
+		if = {
+			limit = { has_country_flag = confederacy_of_earth }
+			last_created_ship = { 
+				set_ship_flag = hero_ship_enterpriseF
+				set_ship_flag = legend_ship
+				set_name = "CSS World Razer NCC-1701-F"
+				add_modifier = { modifier = herobuff_tng2 days = -1 }
+				add_modifier = { modifier = sh_tng2_entf days = -1 }
+			}
+			last_created_fleet = { set_fleet_flag = hero_ship  }
+		}
+		if = {
+			limit = { NOT = { has_country_flag = terran_empire has_country_flag = confederacy_of_earth } }
+			last_created_ship = { 
+				set_ship_flag = hero_ship_enterpriseF
+				set_ship_flag = legend_ship
+				set_name = "USS Enterprise NCC-1701-F"
+				add_modifier = { modifier = herobuff_tng2 days = -1 }
+				add_modifier = { modifier = sh_tng2_entf days = -1 }
+			}
+			last_created_fleet = { set_fleet_flag = hero_ship  }
+		}
+
+	}
+	option = { 
+		name = sth_understood
+		remove_country_flag = naval_shipyards_constructing
+		remove_country_flag = naval_shipyards_diplomacy_engaged
+		set_country_flag = flag_ship_owned
+		set_country_flag = enterpriseF_comissioned
+ 	}
+}
+
